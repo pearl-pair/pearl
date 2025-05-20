@@ -1,0 +1,381 @@
+Generate exactly {N} unique query-passage pairs grounded in a user’s personal context.
+
+The passages should resemble data from a user's contacts. 
+Use DIVERSE years, ranging from 2018 to 2025. 
+
+**IMPORTANT REQUIREMENTS**:
+
+1. Queries should refer to contacts, reminders, or locations in a way that assumes the user remembers only partial or vague details. 
+GOOD:
+"Did I add the person from the robotics thing to my contacts?" → Contacts may have info on a person from an event related to "robotics".
+"Did Roomie ever give me his contact info?" → “Roomie” likely in contacts.
+"Who was the person I met at the party last year?" → Answerable from contacts and contact creation info.
+"What was the name of the waffle place I added to my contacts last week?" → Look for "waffles"-related businesses in contacts.
+"Did the guy from the car repairs place give me his number?" → Look for "car repairs"-related businesses in contacts.
+
+
+2. Only generate contact-related queries that explicitly ask about a person's contact details (such as name, email address, the date the contact was added, or relation).
+DO NOT generate queries about conversations or reminders involving the contact.
+Queries must be answerable using the information stored in the contact entry alone, not message history or past conversations.
+
+BAD:
+QUERY:
+- TXT: Did my honey remind me about the dinner reservation this Saturday?
+- CT: 2019-11-08T20:05:00
+
+PASSAGE:
+- NAME: Jessica Lee
+- RELATION: partner
+- GROUP: Close Contacts
+- EMAIL: jessica.lee@example.com
+- CT: 2016-11-07T15:10:00
+
+This is a bad example because it involves a reminder or message. This is only answerable through message history, not contact data.
+
+BAD:
+QUERY:
+- TXT: Did my mom text me about the party with my brother last Tuesday?
+- CT: 2019-10-18T16:25:00
+
+PASSAGE:
+- NAME: Elizabeth
+- RELATION: mother
+- GROUP: Family Contacts
+- EMAIL: elizabeth@example.com
+- CT: 2015-10-15T18:10:00
+
+This is a bad example because it refers to a specific past event ("the party"), and implies the need to search through messages, not contact fields.
+
+
+3. Absolutely DO NOT use any noun phrase, keyword, or core term from the query in the corresponding passage.  
+This includes variants (e.g., “hike” vs. “hiking”, “streaming service” vs. “streaming”).  
+Use indirect clues, context associations, paraphrasing, metonyms, or event names.  
+
+BAD:
+QUERY:
+- TXT: What is the name of the Italian restaurant I added to my contacts on the last day of May?
+- CT: 2021-07-01T21:29:10
+
+PASSAGE:
+- NAME: Pasta Haven
+- RELATION: frequent Italian restaurant
+- GROUP: Favorite Italian Restaurants
+- EMAIL: pastahaven@example.com
+- CT: 2021-05-31T19:11:02
+
+This is a bad example as the passage includes the phrase "Italian restaurant" word-for-word. 
+
+GOOD:
+QUERY:
+- TXT: What is the name of the Italian spot I added to my contacts on the last day of May?
+- CT: 2021-07-01T21:29:10
+
+PASSAGE:
+- NAME: Pasta Haven
+- RELATION: frequent diner
+- GROUP: Favorite Eateries
+- EMAIL: pastahaven@example.com
+- CT: 2021-05-31T19:11:02
+
+This is a good example as the passage paraphrases "Italian spot". 
+
+GOOD:
+QUERY:
+- TXT: What is the name of the horror podcast I listen to?
+- CT: 2023-11-08T15:40:00
+
+PASSAGE:
+- NAME: Spooky Tales
+- RELATION: listener
+- GROUP: Paranormal Radio Network
+- EMAIL: spookytales@paranormalnetwork.com
+- CT: 2022-10-29T10:15:00
+
+This is a good example as the passage doesn't direcly use "horror podcast". 
+
+GOOD:
+QUERY:
+- TXT: When did I add my veterinarian to my contacts?
+- CT: 2025-02-07T18:02:10
+
+PASSAGE:
+- NAME: Dr. Mills
+- RELATION: patient
+- GROUP: Tailwaggers Clinic
+- EMAIL: tailwaggersclinic@example.com
+- CT: 2023-06-17T19:11:48
+
+This is a good example as the passage doesn't directly use "veterinarian". 
+
+
+4. DO NOT REPEAT queries from previous generations.
+
+
+5. DO NOT generate query-passage pairs that create one-to-many relationships.
+Each query-passage pair must be semantically distinct and not share the same real-world event, time window, or topic with another.
+For example, if you’ve already created a query-passage pair like:
+
+QUERY:
+- TXT: What is the email address of my friend who likes programming?
+- CT: 2021-10-01T17:15:29
+
+PASSAGE:
+- NAME: Mark Jacobs
+- RELATION: college friend
+- GROUP: Computer Engineering Dept.
+- EMAIL: markjacobs@example.com
+- CT: 2019-06-15T14:23:00
+
+Then you SHOULD NOT create another pair like:
+
+QUERY:
+- TXT: What is the name of my friend who majors in software development?
+- CT: 2021-08-09T21:19:29
+
+PASSAGE:
+- NAME: Michael Shirley
+- RELATION: college friend
+- GROUP: Computer Engineering Dept.
+- EMAIL: michael@example.com
+- CT: 2019-06-21T11:20:01
+
+Because both passages could potentially answer both queries, as the queries both ask about a friend in computer engineering. 
+The goal is for every query to be UNIQUELY answerable by one—and only one—passage, with no ambiguity or overlap across the dataset.
+
+Another example: if you've already created a query-passage pair like:
+
+QUERY:
+- TXT: What is the name of the vintage clothing shop I visited during my trip to East London in September?
+- CT: 2023-11-03T14:30:00
+
+PASSAGE:
+- NAME: Beyond Retro
+- RELATION: customer
+- GROUP: Favorite Clothing Stores
+- EMAIL: beyondretro@example.com
+- CT: 2023-09-25T17:15:17
+
+Then you SHOULD NOT create another pair like:
+
+QUERY:
+- TXT: What is the contact information of the vintage shop I added to my contacts a couple of months ago?
+- CT: 2023-11-03T14:30:00
+
+PASSAGE:
+- NAME: Vintage Threads UK
+- RELATION: customer
+- GROUP: Favorite Clothing Stores
+- EMAIL: vintagethreads@example.com
+- CT: 2023-09-21T17:29:21
+
+Similarly, both passages could potentially answer both queries, as the queries both ask about a vintage shop that was added to the contacts in September 2023. This creates a one-to-many relationship.
+
+
+6. Ensure that query-passage matching is possible based SOLELY on the content of the passage.
+Queries should be answerable without relying on external assumptions, implicit context, or additional metadata.
+
+BAD:
+QUERY:
+- TXT: Who is the guy I talked to about the weekend hangout?
+- CT: 2023-11-08T14:45:00
+
+PASSAGE:
+- NAME: Lyla Goodwin
+- RELATION: colleague
+- GROUP: Tech Innovators Inc.
+- EMAIL: lyla.goodwin@techinnovators.com
+- CT: 2023-10-30T14:45:23
+
+This is a bad example because the passage does not imply anything of a "weekend hangout". 
+As a result, the query cannot be matched to the passage based on its content alone. Doing so would require assumptions or external knowledge.
+
+BAD:
+
+QUERY:
+- TXT: Who is my partner's best friend?
+- CT: 2025-07-25T14:30:02
+
+PASSAGE:
+- NAME: Amelia Roberts
+- RELATION: Best Friend
+- GROUP: Friend Contacts
+- EMAIL: amelia.roberts@gmail.com
+- CT: 2025-07-22T10:15:03
+
+This is a bad example because the query asks for the user's partner's best friend, not the user's best friend.
+
+BAD:
+QUERY:
+- TXT: What is the name of the restaurant I plan to visit with Jessie?
+- CT: 2021-09-28T12:28:38
+
+PASSAGE:
+- NAME: The Lantern
+- RELATION: customer
+- GROUP: Good Eateries
+- EMAIL: thelantern@example.com
+- CT: 2020-09-27T11:20:02
+
+This is a bad example because the passage does not imply anything about "Jessie" nor a planned event with Jessie.
+
+GOOD:
+QUERY:
+- TXT: What is the name of the restaurant that Jessie really likes?
+- CT: 2021-09-28T12:28:38
+
+PASSAGE:
+- NAME: The Lantern
+- RELATION: customer
+- GROUP: Jessie's Favorites
+- EMAIL: thelantern@example.com
+- CT: 2020-09-27T11:20:02
+
+This is a good example because the passage contains all the necessary information to directly answer the query. 
+Specifically, it is now possible to infer that "The Lantern" is one of "Jessie"'s favorite restaurants. 
+
+GOOD:
+QUERY:
+- TXT: Who did I add to my contacts for the upcoming furniture installation?
+- CT: 2024-01-20T10:20:45
+
+PASSAGE:
+- NAME: Dean
+- RELATION: Movables Inc.
+- GROUP: -
+- EMAIL: dean@movables.com
+- CT: 2024-01-18T18:15:05
+
+This is a good example because the passage contains all the necessary information to directly answer the query. 
+Specifically, it can be inferred that "Dean" is a worker from "Movables Inc." that the user is contacting for their furniture installation.
+
+GOOD:
+QUERY:
+- TXT: What is the contact information of the person who taught me how to bake brownies?
+- CT: 2022-08-18T14:45:00
+
+PASSAGE:
+- NAME: Kaia
+- RELATION: neighbor
+- GROUP: Baking Buddies
+- EMAIL: kaia@example.com
+- CT: 2021-06-15T09:30:00
+
+This is a good example because the passage contains all the necessary information to directly answer the query. 
+Specifically, it can be inferred that "Kaia" was the person who taught the user how to bake brownies as their contact group is named "Baking Buddies".
+
+
+7. Use ISO 8601 format (YYYY-MM-DDTHH:MM:SS) for all ct fields. 
+The query 'CT' (creation time) field represents when the query was created, and the passage 'CT' field represents when the contact entry was created.
+DO NOT use the year 2024 in the query 'CT' field.
+
+BAD:
+QUERY:
+- TXT: What is Clarita's email address?
+- CT: 2022-07-25T10:30:00
+
+PASSAGE:
+- NAME: Clara
+- RELATION: college friend
+- GROUP: Theatre Enthusiasts
+- EMAIL: clara@theatreenthusiasts.org
+- CT: 2022-07-29T11:00:00
+
+This is a bad example as the passage 'CT' field is a later date than the query 'CT' field.
+Queries must have been created later than corresponding passages.
+
+GOOD:
+QUERY:
+- TXT: What is Clarita's email address?
+- CT: 2022-07-25T10:30:00
+
+PASSAGE:
+- NAME: Clara
+- RELATION: college friend
+- GROUP: Theatre Enthusiasts
+- EMAIL: clara@theatreenthusiasts.org
+- CT: 2022-07-20T11:00:00
+
+This is a good example as the passage 'CT' field is an earlier date than the query 'CT' field.
+
+BAD:
+QUERY:
+- TXT: What was the name of that music producer I added to my contacts 2 months ago?
+- CT: 2025-08-13T17:02:21
+
+PASSAGE:
+- NAME: Jaden Biedma
+- RELATION: -
+- GROUP: Music Contacts
+- EMAIL: jadenbiedma@musicproduction.com
+- CT: 2025-07-28T13:45:03
+
+This is a bad example because from the perspective of the query's creation time (August 2025), the contact was added a month ago, not "2 months ago".
+Therefore, the temporal reference is inconsistent.
+
+GOOD:
+QUERY:
+- TXT: What was the name of that music producer I added to my contacts 2 months ago?
+- CT: 2025-08-13T17:02:21
+
+PASSAGE:
+- NAME: Jaden Biedma
+- RELATION: -
+- GROUP: Music Contacts
+- EMAIL: jadenbiedma@musicproduction.com
+- CT: 2025-06-28T13:45:03
+
+This is a good example because given the query's creation time is August 2025, the contact was added "2 months ago", in June 2025.
+If the query includes 'last spring/summer/etc', ensure the year in the passage's 'CT' field is one year prior. 
+If the query includes 'next spring/autumn/etc', ensure the year in the passage's 'CT' field is one year later.  
+If the query includes 'this summer/winter/etc', ensure the year in the passage's 'CT' field is the same year. 
+
+
+8. The names in the 'NAME' field must always be actual names, not nicknames. 
+BAD:
+QUERY:
+- TXT: What is the email address of my friend Nerd who works as a detective?
+- CT: 2021-11-03T16:45:00
+
+PASSAGE:
+- NAME: Nerd
+- RELATION: friend
+- GROUP: Police Dept. Contacts
+- EMAIL: connor@example.net
+- CT: 2020-07-25T17:20:00
+
+This is a bad example because "Nerd" is a nickname.
+
+GOOD:
+QUERY:
+- TXT: What is the email address of my friend Nerd who works as a detective?
+- CT: 2021-11-03T16:45:00
+
+PASSAGE:
+- NAME: Connor
+- RELATION: friend
+- GROUP: Police Dept. Contacts
+- EMAIL: connor@example.net
+- CT: 2020-07-25T17:20:00
+
+This is a good example because although the query refers to the person by their nickname, "Nerd", the 'NAME' field includes the actual name, "Connor".
+
+
+9. Reference the user profile to generate queries and passages grounded in personal context.
+Incorporate details from the user’s profile such as: occupation, hobbies, frequently visited locations, and close relationships.
+This is to ensure the queries and passages are realistic, personalized, and contextually rich.
+{persona}
+
+
+10. Use family relationship labels like 'my mother', 'my cousin', 'dad' instead of first names when referring to relatives.
+
+11. Contact passages should not include the user him/herself. 
+
+12. Avoid dull or generic names like "Book Club Manager" or "Local Cafe". Instead, use human-sounding or characterful names and titles.
+
+13. DO NOT generate queries that include part of the answer.
+BAD:
+"Who did I meet with my mom?": The answer "my mom" is included.
+"Where did I meet John? in Central Park?": The answer "Central Park" is included.
+"What time did I meet Sarah at 3 PM?": The answer "3 PM" is included.
+
+Generate new examples that meet these constraints while maintaining the same format.

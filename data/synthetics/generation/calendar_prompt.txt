@@ -1,0 +1,388 @@
+Generate exactly {N} unique query-passage pairs grounded in a user’s personal context.
+The passages should resemble data from a user's calendar events. 
+Use DIVERSE years, ranging from 2018 to 2025. 
+
+**IMPORTANT REQUIREMENTS**:
+
+1. Queries should refer to calendar events, reminders, or locations in a way that assumes the user remembers only partial or vague details.
+GOOD:
+"When did I book dinner with Jellybean at her favorite place?"  → Calendar may have info on a reservation with “Jellybean”.
+"Did I put the coffee thing that's happening with Coach in my calendar?" → Calendar may have info on an event with a person "Coach" and keyword like "coffee".
+"When did I last go to the rooftop with the usual group?" → Calendar may have info on a regular event with a group of friends.
+"When was my dinner with the OGs at the Thai spot?" → “OGs” implies a friend group, “Thai spot” is a vague location resolvable with past calendar history.
+"Did anyone ever remind me for Allison's thing on Friday?" → Searches calendar for event with user-specific name "Allison".
+
+
+2. Absolutely DO NOT use any noun phrase, keyword, or core term from the query in the corresponding passage.  
+This includes variants (e.g., “hike” vs. “hiking”, “streaming service” vs. “streaming”).  
+Use indirect clues, context associations, paraphrasing, metonyms, or event names. 
+
+BAD: 
+QUERY: 
+- TXT: Did I attend my cooking class?
+- CT: 2021-10-18T18:29:20
+
+PASSAGE:
+- TITLE: Cooking Class
+- DESC: Learning to cook chicken pot pie.
+- DATE: 2021-09-02T14:30:00
+- CT: 2024-08-01T21:30:17
+- LOCATION: Queens Culinary Academy
+- ATTENDEES: Chef Rina
+
+This is a bad example as the passage includes the phrase "cooking class" word-for-word. 
+
+GOOD:
+QUERY: 
+- TXT: Did I attend my cooking thing?
+- CT: 2021-10-18T18:29:20
+
+PASSAGE:
+- TITLE: Culinary Course
+- DESC: Learning to make chicken pot pie.
+- DATE: 2021-09-02T14:30:00
+- CT: 2024-08-01T21:30:17
+- LOCATION: Queens Culinary Academy
+- ATTENDEES: Chef Rina
+
+This is a good example as the passage paraphrases "cooking".
+
+GOOD:
+QUERY: 
+- TXT: What is the name of the amusement park I'm going to with my baby?
+- CT: 2022-09-10T11:17:15
+
+PASSAGE:
+- TITLE: Day Off at Disneyland
+- DESC: Enjoying the day off with girlfriend
+- DATE: 2022-09-20T10:30:00
+- CT: 2022-08-01T19:38:10
+- LOCATION: Disneyland, California
+- ATTENDEES: Roxy
+
+This is a good example as the passage doesn't directly use "amusement park".
+
+
+3. For a quarter of the passages, use explicit time-related expressions. For another quarter, use implicit time-related expressions. Alternate or evenly distribute them across the dataset.
+Explicit:
+“next spring / summer / fall / winter”, “2 weeks ago”, “2 years ago”, “3–4 months ago”, “10 days ago”, “the last couple of months”,
+“the last 3–4 weeks”, “from last fall to this summer”, “between last Wednesday and next Sunday”, “2–5 days ago”, “on the last day of May”, “at the end of June",
+“around this time last year”, “a couple months back”
+
+Implicit:
+"after that party last Wednesday", "before class this morning", "after school today", "after our graduation ceremony", "before walking the dogs", "before going out for dinner",
+"right after we finished that movie", "the same day we went to that mall", "the day after date night", "the morning of the big day", "the night of that one awesome party"
+
+
+4. DO NOT generate query-passage pairs that create one-to-many relationships.
+Each query-passage pair must be semantically distinct and not share the same real-world event, time window, or topic with another.
+For example, if you’ve already created a query-passage pair like:
+
+QUERY:
+- TXT: When during this month was my last training session?
+- CT: 2021-07-28T19:12:20
+
+PASSAGE:
+- TITLE: Workout with Personal Coach
+- DESC: 1 hour session with trainer Ethan
+- DATE: 2021-07-22T18:00:00
+- CT: 2021-07-05T13:30:25
+- LOCATION: Gymbox Fitness
+- ATTENDEES: Ethan
+
+Then you SHOULD NOT create another pair like:
+
+QUERY:
+- TXT: Did I work out last week?
+- CT: 2021-07-26T20:12:20
+
+PASSAGE:
+- TITLE: Training Session
+- DESC: Leg day with trainer Ethan
+- DATE: 2021-07-20T18:00:00
+- CT: 2021-07-02T17:30:25
+- LOCATION: Gymbox Fitness
+- ATTENDEES: Ethan
+
+Because both passages could potentially answer both queries, as the queries both ask about an event that occured during July.
+The goal is for every query to be UNIQUELY answerable by one—and only one—passage, with no ambiguity or overlap across the dataset.
+
+Another example: if you've already created a query-passage pair like:
+QUERY:
+- TXT: Am I visiting my mother this Christmas?
+- CT: 2018-10-19T21:48:20
+
+PASSAGE:
+- TITLE: End Of the Year Gathering
+- DESC: Catching up with family over the holidays
+- DATE: 2018-12-25T09:00:00
+- CT: 2018-11-05T10:10:25
+- LOCATION: Mom's
+- ATTENDEES: Sarah, Granny Millie, Harry
+
+Then you SHOULD NOT create another pair like:
+
+QUERY:
+- TXT: Am I spending this Christmas with the fam?
+- CT: 2022-11-20T19:48:17
+
+PASSAGE:
+- TITLE: X-Mas Celebration
+- DESC: Gathering with family members
+- DATE: 2022-12-25T09:00:00
+- CT: 2022-11-05T10:10:25
+- LOCATION: Mom's
+- ATTENDEES: Sarah, Harry
+
+Similarly, both passages could potentially answer both queries, as the queries both ask about an event occuring on Christmas. This creates a one-to-many relationship.
+
+5. Ensure that query-passage matching is possible based SOLELY on the content of the passage.
+Queries should be answerable without relying on external assumptions, implicit context, or additional metadata.
+
+BAD:
+QUERY:
+- TXT: Where am I taking my nephew fishing?
+- CT: 2025-06-25T12:00:00
+
+PASSAGE:
+- TITLE: Weekend Getaway
+- DESC: Two days of outdoor activities
+- DATE: 2025-07-15T09:00:00
+- CT: 2025-06-10T11:30:00
+- LOCATION: Lakeview Park
+- ATTENDEES: Mateo, Carlos
+
+This is a bad example because the passage does not imply anything of "fishing" or a family relationship such as a "nephew." 
+As a result, the query cannot be matched to the passage based on its content alone. Doing so would require assumptions or external knowledge.
+
+QUERY:
+- TXT: Who was at the party at the end of last month?
+- CT: 2025-02-10T11:00:30
+
+PASSAGE:
+- TITLE: Weekend Hangout
+- DESC: Celebrating Martha's Promotion
+- DATE: 2025-01-30T20:10:00
+- CT: 2025-01-04T21:23:08
+- LOCATION: Martha's
+- ATTENDEES: Martha Lewis, Layla Taylor, Ginnie Cawthon, Dave Lowell, Ross Thompson
+
+This is a good example because the passage contains all the necessary information to directly answer the query. 
+Specifically, the date, context of a party, and a full attendee list. No external inference is needed.
+
+
+6. Use ISO 8601 format (YYYY-MM-DDTHH:MM:SS) for all ct and date fields. 
+The query 'CT' (creation time) field represents when the query was created, and the passage 'CT' field represents when the calendar event was created.
+On the other hand, the passage 'DATE' field represents the actual event time. 
+DO NOT use the year 2024 in the query 'CT' field. 
+
+BAD:
+QUERY:
+- TXT: When did I attend the salsa dance thing that took place in NY?
+- CT: 2023-09-01T14:33:11
+
+PASSAGE:
+- TITLE: Dance Competition
+- DESC: Competing in the Latin Dance Championships
+- DATE: 2023-09-05T18:00:00
+- CT: 2023-09-03T10:15:23
+- LOCATION: Palace Ballroom, New York City
+- ATTENDEES: Camila Jackson, Ana Rodriguez, Diego Sanchez
+
+This is a bad example as the passage 'CT' field is a later date than the query 'CT' field.
+Queries must have been created later than corresponding passages.
+
+GOOD:
+QUERY:
+- TXT: When did I attend the salsa dance thing that took place in NY?
+- CT: 2023-09-01T14:33:11
+
+PASSAGE:
+- TITLE: Dance Competition
+- DESC: Competing in the Latin Dance Championships
+- DATE: 2023-09-05T18:00:00
+- CT: 2023-08-31T10:15:23
+- LOCATION: Palace Ballroom, New York City
+- ATTENDEES: Camila Jackson, Ana Rodriguez, Diego Sanchez
+
+This is a good example as the passage 'CT' field is an earlier date than the query 'CT' field.
+
+BAD:
+QUERY:
+- TXT: What was the thing that Izzy invited me to last summer?
+- CT: 2023-11-25T09:15:00
+
+PASSAGE:
+- TITLE: Conference Invitation
+- DESC: Invitation to the annual Environmental Studies Symposium
+- DATE: 2023-06-15T14:30:00
+- CT: 2023-06-10T09:20:45
+- LOCATION: Convention Center
+- ATTENDEES: Isabella
+
+This is a bad example because from the perspective of the query's creation time (late November 2023), the referenced event occurred this summer, not "last summer." 
+Therefore, the temporal reference is inconsistent.
+
+GOOD:
+QUERY:
+- TXT: What was the thing that Izzy invited me to last summer?
+- CT: 2023-11-25T09:15:00
+
+PASSAGE:
+- TITLE: Conference Invitation
+- DESC: Invitation to the annual Environmental Studies Symposium
+- DATE: 2022-06-15T14:30:00
+- CT: 2022-06-10T09:20:45
+- LOCATION: Convention Center
+- ATTENDEES: Isabella
+
+This is a good example because given the query's creation time is November 2023, the event took place during "last summer", June 2022. 
+If the query includes 'last spring/summer/etc', ensure the year in the passage's 'DATE' field is one year prior. 
+If the query includes 'next spring/autumn/etc', ensure the year in the passage's 'DATE' field is one year later.  
+If the query includes 'this summer/winter/etc', ensure the year in the passage's 'DATE' field is the same year. 
+
+BAD:
+QUERY:
+- TXT: Who did I meet for my collaborative project last week?
+- CT: 2025-09-25T14:15:00
+
+PASSAGE:
+- TITLE: Creative Workshop
+- DESC: Working on a multimedia project with sound ecologists and visual artists.
+- DATE: 2025-09-15T10:30:00
+- CT: 2025-09-02T16:45:00
+- LOCATION: The Echo Chamber Studio
+- ATTENDEES: Elsa, Sam
+
+This is a bad example because given the query's creation time is September 25th, 2025, "last week" refers to September 15th to 21st. The calendar event date is September 15th, 2025, which is not "last week". 
+If the query includes 'last week', ensure the passage's 'DATE' field is one week before.
+If the query includes 'next week', ensure the passage's 'DATE' field is one week later.
+If the query includes 'this week', ensure the passage's 'DATE' field is the same week. 
+
+BAD:
+QUERY:
+- TXT: What event am I attending with Mateo next Saturday?
+- CT: 2023-12-18T14:30:00
+
+PASSAGE:
+- TITLE: Chess Tournament
+- DESC: Participating in a chess tournament with a teenager
+- DATE: 2023-12-23T14:00:00
+- CT: 2023-12-16T10:15:00
+- LOCATION: City Chess Hall
+- ATTENDEES: Mateo
+
+This is a bad example because given the query's creation time is December 18th, 2023, "next Saturday" refers to December 30th, 2023. December 23rd, 2023 corresponds to "this Saturday". 
+If the query includes 'last' + weekday, ensure the passage's 'DATE' field is a day in the previous week.
+If the query includes 'next' + weekday', ensure the passage's 'DATE' field is a day in the next week.
+If the query includes 'this' + weekday, ensure the passage's 'DATE' field is a day in the same week. 
+
+
+7. DO NOT generate queries that contain verbs like "mention," "talk about," "remind," "text," "tell," "say," or other communication-related actions.
+Queries with such words must be answered with message-type passages, not calendar events.
+
+BAD:
+QUERY:
+- TXT: Did Maeve mention attending a film night before going to the park this week?
+- CT: 2021-11-08T17:45:00
+
+PASSAGE:
+- TITLE: Outdoor Under-the-Stars Screening
+- DESC: A fun movie night with marshmallow roast to follow
+- DATE: 2021-11-12T20:00:00
+- CT: 2021-11-07T11:25:35
+- LOCATION: Big Leaf Open-Air Theatre
+- ATTENDEES: Maeve
+
+This is a bad example because the query uses the word "mention", which suggests it should be answered with a message-type passage (someone talking about an event), not a calendar event.
+
+
+8. DO NOT mismatch the 'ATTENDEES' field or entity references. If the query mentions a specific person, the passage's relevant entity must match.
+
+BAD:
+QUERY:
+- TXT: Will I join Aidan for shopping tomorrow?
+- CT: 2022-10-11T11:05:00
+
+PASSAGE:
+- TITLE: Retail Therapy Excursion
+- DESC: Casual clothing store browse
+- DATE: 2022-10-12T11:00:00
+- CT: 2022-10-08T12:30:00
+- LOCATION: Local Department Store
+- ATTENDEES: Nour
+
+This is a bad example because the query mentions "Aidan", but the 'ATTENDEES' field contains an unrelated name, "Nour". 
+
+
+9. Only generate calendar events in the present or future tense. Do not use past-tense phrasing like "Joined", "Met", "Spent a day", etc. 
+Instead, use present-continuous or future-oriented expressions such as "Join", "Meet", "Spend time", or "Plan to". Events should be written as upcoming or ongoing.
+BAD:
+QUERY:
+- TXT: Who did I have lunch with at the park?
+- CT: 2025-12-10T14:55:08
+
+PASSAGE:
+- TITLE: Picnic Lunch
+- DESC: Spent a relaxing afternoon with friends
+- DATE: 2025-11-25T12:00:00
+- CT: 2025-11-26T12:00:00
+- LOCATION: Central Park, New York City
+- ATTENDEES: Sophia Martinez
+
+This is a bad example as the passage 'DESC' field uses the past-tense verb "Spent". 
+
+
+10. The names in the 'ATTENDEES' field must always be actual names, not nicknames. 
+BAD:
+QUERY:
+- TXT: Am I meeting Nacho for a philosophical discussion next weekend?
+- CT: 2019-12-10T14:30:00
+
+PASSAGE:
+- TITLE: Mindful Musings
+- DESC: Delving into existential questions and life philosophy
+- DATE: 2019-12-15T18:00:00
+- CT: 2019-12-12T11:00:00
+- LOCATION: The Thinking Spot
+- ATTENDEES: Nacho
+
+This is a bad example because "Nacho" is a nickname and is in the 'ATTENDEES' field.
+
+GOOD:
+QUERY:
+- TXT: Am I meeting Nacho for a philosophical discussion next weekend?
+- CT: 2021-12-10T14:30:00
+
+PASSAGE:
+- TITLE: Mindful Musings
+- DESC: Delving into existential questions and life philosophy
+- DATE: 2021-12-15T18:00:00
+- CT: 2021-12-12T11:00:00
+- LOCATION: The Thinking Spot
+- ATTENDEES: Ignacio
+
+This is a good example because although the query refers to the person by their nickname, "Nacho", the 'attendees' field includes the actual name, "Ignacio".
+
+
+11. Reference the user profile to generate queries and passages grounded in personal context.
+Incorporate details from the user’s profile such as: occupation, hobbies, frequently visited locations, and close relationships.
+This is to ensure the queries and passages are realistic, personalized, and contextually rich.
+{persona}
+
+
+12. In at least half of the query-passage pairs, use the nicknames specified in the user profile.
+
+13. Use family relationship labels like 'my mother', 'my cousin', 'dad' instead of first names when referring to relatives.
+
+14. DO NOT include the name of the user in the 'ATTENDEES' field. Also, only include first names in the 'ATTENDEES' field. DO NOT include last names.
+
+15. Avoid dull or generic names like "Book Club Manager" or "Local Cafe". Instead, use human-sounding or characterful names and titles.
+
+16. DO NOT generate queries that include part of the answer.
+BAD:
+"Who did I meet with my mom?": The answer "my mom" is included.
+"Where did I meet John? in Central Park?": The answer "Central Park" is included.
+"What time did I meet Sarah at 3 PM?": The answer "3 PM" is included.
+
+Generate new examples that meet these constraints while maintaining the same format.

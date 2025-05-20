@@ -1,0 +1,447 @@
+Generate exactly {N} unique query-passage pairs grounded in a user’s personal context.
+The passages should resemble data from a user's messages. 
+Use DIVERSE years, ranging from 2018 to 2025.
+
+
+**IMPORTANT REQUIREMENTS**:
+
+1. Queries should refer to messages, reminders, or locations in a way that assumes the user remembers only partial or vague details. 
+GOOD:
+"What time am I seeing Firefly before the concert?" → Messages may have info on a text entry with “Firefly” (contact nickname) and event reference ("concert"). 
+"Did I tell Roomie I’d be home for dinner tonight?" → “Roomie” likely in messages; requires checking message content and date.
+"What time did I say I’d call Sunshine about the papers?" → Answerable from message content with time references.
+"Did Dude ever remind me to send the forms by this Thursday?" → Look for outbound messages to "Dude" with reminder content.
+"Did I talk to Jazzy about the birthday plan last night?" → Could be answered from message timestamps.
+
+
+2. Absolutely DO NOT use any noun phrase, keyword, or core term from the query in the corresponding passage.  
+This includes variants (e.g., “hike” vs. “hiking”, “streaming service” vs. “streaming”).  
+Use indirect clues, context associations, paraphrasing, metonyms, or event names.  
+
+BAD:
+QUERY:
+- TXT: Where did my friends and I go to after the concert?
+- CT: 2025-11-03T19:15:20
+
+PASSAGE:
+- FROM: Sophie
+- RELATION: bandmate
+- GROUP: The White Socks
+- BODY: That dinner at The Velvet Lounge after the concert was amazing!
+- CT: 2025-11-01T22:45:12
+
+This is a bad example as the passage includes the phrase "after the concert" word-for-word. 
+
+GOOD:
+QUERY:
+- TXT: Where did my friends and I go to after the concert?
+- CT: 2025-11-03T19:15:20
+
+PASSAGE:
+- FROM: Sophie
+- RELATION: bandmate
+- GROUP: The White Socks
+- BODY: That post-performance dinner at The Velvet Lounge was amazing!
+- CT: 2025-11-01T22:45:12
+
+This is a good example as the passage paraphrases "after the concert".
+
+GOOD:
+QUERY:
+- TXT: Where did I book for the book club thing?
+- CT: 2021-09-10T17:52:15
+
+PASSAGE:
+- FROM: Georgia Public Library
+- RELATION: -
+- GROUP: Literature Contacts
+- BODY: Your reservation for 'Literature Discussion Session' in Meeting Room B on the 17th at 7 PM has been confirmed.
+- CT: 2021-09-05T16:30:00
+
+This is a good example as the passage paraphrases "book club".
+
+
+3. For a quarter of the passages, use explicit time-related expressions. For another quarter, use implicit time-related expressions. Alternate or evenly distribute them across the dataset.
+Explicit:
+“next spring / summer / fall / winter”, “2 weeks ago”, “2 years ago”, “3–4 months ago”, “10 days ago”, “the last couple of months”,
+“the last 3–4 weeks”, “from last fall to this summer”, “between last Wednesday and next Sunday”, “2–5 days ago”, “on the last day of May”, “at the end of June",
+“around this time last year”, “a couple months back”
+
+Implicit:
+"after that party last Wednesday", "before class this morning", "after school today", "after our graduation ceremony", "before walking the dogs", "before going out for dinner",
+"right after we finished that movie", "the same day we went to that mall", "the day after date night", "the morning of the big day", "the night of that one awesome party"
+
+
+4. DO NOT REPEAT queries from previous generations.
+
+
+5. DO NOT generate query-passage pairs that create one-to-many relationships.
+Each query-passage pair must be semantically distinct and not share the same real-world event, time window, or topic with another.
+For example, if you’ve already created a query-passage pair like:
+
+QUERY:
+- TXT: Who did I text about my gaming skills last week?
+- CT: 2023-07-17T14:35:15
+
+PASSAGE:
+- FROM: Gerard
+- RELATION: gaming buddy
+- GROUP: League Discord Server
+- BODY: Your aim is improving, but we need to work on your reflex speed.
+- CT: 2023-07-10T19:45:30
+
+Then you SHOULD NOT create another pair like:
+
+QUERY:
+- TXT: What did bro tell me about my aim recently?
+- CT: 2023-07-12T14:35:15
+
+PASSAGE:
+- FROM: Gerard
+- RELATION: gaming buddy
+- GROUP: League Discord Server
+- BODY: Have you been practicing? Your aim is so much better!
+- CT: 2023-07-11T19:45:30
+
+Because both passages could potentially answer both queries, as the queries both ask about a conversation about gaming that occurred mid-July.
+The goal is for every query to be UNIQUELY answerable by one—and only one—passage, with no ambiguity or overlap across the dataset.
+
+Another example: if you've already created a query-passage pair like:
+
+QUERY:
+- TXT: Did Sweetie tell me to buy things for the trip this winter?
+- CT: 2021-10-01T19:13:01
+
+PASSAGE:
+- FROM: Rose
+- RELATION: girlfriend
+- GROUP: Close Contacts
+- BODY: We're done with booking our tickets! Let's go shopping for warm clothes because it'll be cold in December.
+- CT: 2021-09-17T16:59:13
+
+Then you SHOULD NOT create another pair like:
+
+QUERY:
+- TXT: Where am I planning to travel to this winter?
+- CT: 2021-11-28T20:14:04
+
+PASSAGE:
+- FROM: Barbara
+- RELATION: mother
+- GROUP: Family Contacts
+- BODY: Do you and Rose need help packing for your trip to Toronto next month?
+- CT: 2021-11-11T20:02:17
+
+Similarly, both passages could potentially answer both queries, as the queries both ask about a trip during December of 2021. This creates a one-to-many relationship.
+
+
+6. Ensure that query-passage matching is possible based SOLELY on the content of the passage.
+Queries should be answerable without relying on external assumptions, implicit context, or additional metadata.
+
+BAD:
+QUERY:
+- TXT: Who was the person I had brunch with?
+- CT: 2025-05-25T16:45:04
+
+PASSAGE:
+- FROM: Rosanne
+- RELATION: friend
+- GROUP: Ethics Discussion Group
+- BODY: We covered some fascinating points on AI ethics. Can't wait for our next chat!
+- CT: 2025-05-21T10:30:01
+
+This is a bad example because the passage does not imply anything about "brunch".
+As a result, the query cannot be matched to the passage based on its content alone. Doing so would require assumptions or external knowledge.
+
+GOOD:
+QUERY:
+- TXT: Did Doc tell me when our next thing is?
+- CT: 2022-11-15T09:25:34
+
+PASSAGE:
+- FROM: Dr. Sarah Chen
+- RELATION: therapist
+- GROUP: Health Contacts
+- BODY: Our next session is scheduled for November 20th at 4 PM.
+- CT: 2022-11-05T10:15:00
+
+This is a good example because the passage contains all the necessary information to directly answer the query. 
+Specifically, the date and context of an appointment. No external inference is needed.
+
+
+7. Use ISO 8601 format (YYYY-MM-DDTHH:MM:SS) for all ct fields. 
+The query 'CT' (creation time) field represents when the query was created, and the passage 'CT' field represents when the message was sent.
+DO NOT use the year 2024 in the query 'CT' field. 
+
+BAD:
+QUERY:
+- TXT: Where did I contact to get help with my car repairs?
+- CT: 2023-07-15T21:18:34
+
+PASSAGE:
+- FROM: Mechanics R Us
+- RELATION: customer
+- GROUP: -
+- BODY: Thanks for contacting Mechanics R Us. We will visit you on the 17th to check your van's engine.
+- CT: 2023-07-18T11:45:23
+
+This is a bad example as the passage 'CT' field is a later date than the query 'CT' field.
+Queries must have been created later than corresponding passages.
+
+GOOD:
+QUERY:
+- TXT: Where did I contact to get help with my car repairs?
+- CT: 2023-07-15T21:18:34
+
+PASSAGE:
+- FROM: Mechanics R Us
+- RELATION: customer
+- GROUP: -
+- BODY: Thanks for contacting Mechanics R Us. We will visit you on the 17th to check your van's engine.
+- CT: 2023-07-13T11:45:23
+
+This is a good example as the passage 'CT' field is an earlier date than the query 'CT' field.
+
+BAD:
+QUERY:
+- TXT: What was the name of the place where I had my first yoga thing last spring?
+- CT: 2025-09-25T16:23:45
+
+PASSAGE:
+- FROM: Lotus Garden Yoga
+- RELATION: customer
+- GROUP: Health Contacts
+- BODY: Your first lesson is on April 26th at 7 PM.
+- CT: 2025-04-24T15:45:30
+
+This is a bad example because from the perspective of the query's creation time (late September 2025), the referenced event occurred this spring, not "last spring." 
+Therefore, the temporal reference is inconsistent.
+
+GOOD:
+QUERY:
+- TXT: What was the name of the place where I had my first yoga thing last spring?
+- CT: 2025-09-25T16:23:45
+
+PASSAGE:
+- FROM: Lotus Garden Yoga
+- RELATION: customer
+- GROUP: Health Contacts
+- BODY: Your first lesson is on April 26th at 7 PM.
+- CT: 2024-04-24T15:45:30
+
+This is a good example because given the query's creation time is September 2025, the event took place during "last spring", April 2024. 
+If the query includes 'last spring/summer/etc', ensure the year in the passage's 'CT' field is one year prior. 
+If the query includes 'next spring/autumn/etc', ensure the year in the passage's 'CT' field is one year later.
+If the query includes 'this summer/winter/etc', ensure the year in the passage's 'CT' field is the same year.   
+
+BAD:
+QUERY:
+- TXT: Who was the person that I gave my number to at the music festival in July?
+- CT: 2025-08-10T18:23:00
+
+PASSAGE:
+- FROM: Melody Makers Collective
+- RELATION: festival organizer
+- GROUP: Music Enthusiasts
+- BODY: It was great to see you last month at the Summer Solstice Festival!
+- CT: 2025-07-20T14:15:00
+
+This is a bad example because given the passage's creation time is July 2025, "last month" refers to June 2025. The query is asking about July 2025, not June. 
+
+GOOD:
+QUERY:
+- TXT: Who was the person that I gave my number to at the music festival in July?
+- CT: 2025-08-10T18:23:00
+
+PASSAGE:
+- FROM: Melody Makers Collective
+- RELATION: festival organizer
+- GROUP: Music Enthusiasts
+- BODY: It was great to see you this month at the Summer Solstice Festival!
+- CT: 2025-07-20T14:15:00
+
+This is a good example because given the passage's creation time is July 2025, "this month" refers to July 2025, and the query is asking about July 2025. 
+
+BAD:
+QUERY:
+- TXT: What is the name of the place I'm visiting with Kev next month?
+- CT: 2024-11-05T14:10:00
+
+PASSAGE:
+- FROM: Kevin
+- RELATION: colleague
+- GROUP: Emergency Services Network
+- BODY: Planning a get-together at the Firehouse Social next month, let's catch up!
+- CT: 2024-10-25T12:00:00
+
+This is a bad example because given the passage's creation time is October 2024, "next month" in the 'BODY' field refers to November 2024. 
+However, the query, which was created in November 2024, is asking about "next month", which is December 2024. 
+Therefore, the temporal reference is inconsistent.
+
+GOOD:
+QUERY:
+- TXT: What is the name of the place I'm visiting with Kev this month?
+- CT: 2024-11-05T14:10:00
+
+PASSAGE:
+- FROM: Kevin
+- RELATION: colleague
+- GROUP: Emergency Services Network
+- BODY: Planning a get-together at the Firehouse Social next month, let's catch up!
+- CT: 2024-10-25T12:00:00
+
+This is a good example as the query is asking about "this month", which is November 2024. 
+
+BAD:
+QUERY:
+- TXT: What is the name of the bookstore I'm visiting this evening?
+- CT: 2023-10-15T18:45:00
+
+PASSAGE:
+- FROM: Bookworms' Den
+- RELATION: customer
+- GROUP: Literary Circle
+- BODY: Your reserved copy of 'The Forgotten Archive' is ready for pick-up this evening.
+- CT: 2023-10-13T16:30:00
+
+This is a bad example because given the query's creation time is October 15th, "this evening" refers to the evening of October 15th. The passage is referring to the evening of October 13th, not the 15th.
+
+
+8. Messages should not refer to the sender by name. 
+
+BAD:
+PASSAGE:
+- FROM: Jacob
+- RELATION: friend
+- GROUP: Ranger Contacts
+- BODY: Checked in with Jacob at the Woodland Watch Station.
+- CT: 2022-10-29T15:20:00
+
+This is a bad example because the message is from Jacob, but the 'BODY' field refers to him in the third person. 
+The sender should not refer to themselves by name; it should instead say something like “We checked in at the Woodland Watch Station.”
+
+
+9. If the message sender is a business or facility, it should be sending formal messages like event notifications, reminders, or appointment details.
+Do NOT write messages where a business or facility talks about personal or social interactions (e.g., “hung out,” “caught up,” “chatted,” "enjoyed", etc.).
+
+BAD:
+QUERY:
+- TXT: Who is the person I met at the local coffee shop?
+- CT: 2025-10-15T14:45:00
+
+PASSAGE:
+- FROM: Beanstalk Brewery
+- RELATION: coffee enthusiast
+- GROUP: Coffee Lovers
+- BODY: Enjoyed catching up with a fellow brew aficionado.
+- CT: 2025-09-18T15:30:00
+
+This is a bad example because "Beanstalk Brewery" is a coffee shop, but the message 'BODY' field implies that the business had a personal interaction with the user.
+
+GOOD:
+QUERY:
+- TXT: Did I receive a message about my cafe coupons?
+- CT: 2025-10-15T14:45:00
+
+PASSAGE:
+- FROM: Beanstalk Brewery
+- RELATION: customer
+- GROUP: Coffee Places
+- BODY: This is a reminder that your latte coupon is expected to expire by the end of the year.
+- CT: 2025-09-18T15:30:00
+
+This is a good example because the coffee shop is sending the user a reminder.
+
+BAD:
+QUERY:
+- TXT: Where am I visiting with my best friend at the end of October?
+- CT: 2021-10-15T18:45:00
+
+PASSAGE:
+- FROM: Whispering Pines Retreat
+- RELATION: best friend
+- GROUP: Close Contacts
+- BODY: The getaway at Whispering Pines Retreat is on the 30th, can't wait to explore nature together!
+- CT: 2021-10-05T12:00:00
+
+This is a bad example because "Whispering Pines Retreat" can't be a "best friend". 
+
+GOOD:
+QUERY:
+- TXT: Where am I visiting with my best friend at the end of October?
+- CT: 2021-10-15T18:45:00
+
+PASSAGE:
+- FROM: Charlie
+- RELATION: best friend
+- GROUP: Close Contacts
+- BODY: The getaway at Whispering Pines Retreat is on the 30th, can't wait to explore nature together!
+- CT: 2021-10-05T12:00:00
+
+This is a good example because "Charlie" is a person and therefore can be a "best friend". 
+
+BAD:
+QUERY:
+- TXT: What was the name of the park where I hiked with my dog Coco last weekend?
+- CT: 2022-04-10T14:30:00
+
+PASSAGE:
+- FROM: Coco
+- RELATION: dog
+- GROUP: Pet Care
+- BODY: We explored the Green Meadows Park last weekend.
+- CT: 2022-04-08T09:15:00
+
+This is a bad example because "Coco" is a dog and therefore can't send messages. 
+
+
+10. The names in the 'FROM' field must always be actual names, not nicknames. 
+
+BAD:
+QUERY:
+- TXT: Did I receive a message about the anniversary dinner with Pumpkin?
+- CT: 2023-12-19T12:15:00
+
+PASSAGE:
+- FROM: Pumpkin
+- RELATION: husband
+- GROUP: Close Contacts
+- BODY: Looking forward to our romantic meal on December 22nd.
+- CT: 2023-12-03T11:00:00
+
+This is a bad example because "Pumpkin" in the 'FROM' field is a nickname.
+
+GOOD:
+QUERY:
+- TXT: Did I receive a message about the anniversary dinner with Pumpkin?
+- CT: 2023-12-19T12:15:00
+
+PASSAGE:
+- FROM: Martin
+- RELATION: husband
+- GROUP: Close Contacts
+- BODY: Looking forward to our romantic meal on December 22nd.
+- CT: 2023-12-03T11:00:00
+
+This is a good example because although the query refers to the person by their nickname, "Pumpkin", the 'FROM' field inclues the actual name, "Martin".
+
+
+11. Reference the user profile to generate queries and passages grounded in personal context.
+Incorporate details from the user’s profile such as: occupation, hobbies, frequently visited locations, and close relationships.
+This is to ensure the queries and passages are realistic, personalized, and contextually rich.
+{persona}
+
+12. In at least half of the query-passage pairs, use the nicknames specified in the user profile.
+
+13. Use family relationship labels like 'my mother', 'my cousin', 'dad' instead of first names when referring to relatives in queries.
+
+14. Avoid dull or generic names like "Book Club Manager" or "Local Cafe". Instead, use human-sounding or characterful names and titles.
+
+15. DO NOT generate queries that include part of the answer.
+BAD:
+"Who did I meet with my mom?": The answer "my mom" is included.
+"Where did I meet John? in Central Park?": The answer "Central Park" is included.
+"What time did I meet Sarah at 3 PM?": The answer "3 PM" is included.
+
+
+Generate new examples that meet these constraints while maintaining the same format.
