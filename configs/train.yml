@@ -1,0 +1,40 @@
+Basic:
+  task: ['PEARL']
+  model_name: ['google-t5/t5-base']
+  zero_shot_test: [ 1 ]
+  unique_mapping: [ 1 ]
+  learning_rate: [0.0005]
+  max_length: [64]
+  dataloader_num_workers: [16]
+  report_to: ['none']
+  save_total_limit: [2]
+  load_best_model_at_end: [1]
+  dataloader_drop_last: [0]
+  remove_prompt: [1]
+  per_device_train_batch_size: [16]
+  per_device_eval_batch_size: [8]
+  gradient_accumulation_steps: [8]
+  evaluation_strategy: ['steps']
+  save_strategy: ['steps']
+  logging_steps: [50]
+  eval_steps: [50]
+  save_steps: [50]
+  warmup_steps: [50]
+  max_steps: [25000]
+  metric_for_best_model: ['Hits@1']
+  greater_is_better: [1]
+  train_file: ['../data/synthetics/syn_50k_train_perl_updated']
+  qpa_file: ['../data/synthetics/syn_50k_seen_masked_swap_augmented.json_updated']
+  use_annotation: [ 1 ]
+  use_tim_mask: [ 1 ]
+  lambda_1: [ 1.0 ]  # Weight for EMR loss (lambda_1)
+  cl_weight: [ 1.0 ]  # Weight for PCL loss (lambda_2)
+  delta: [ 0.005 ]  # Max cap for per-entity token mass
+  gamma: [ 0.5 ]  # Weight for entity-structure
+  use_qpa: [ 1 ]  # Use Query-Passage Augmentation
+  run_name: [ 'PERL-QPA-KL1.0-d0.005-CL1.0-r0.5-lr0.0005' ]
+  continue_checkpoint_dir: [ 0 ]
+  restrict_train_tokens: [ 0 ]
+  # FOR TESTING
+  is_test: [ 0 ]
+  test_model_dir: ['None']

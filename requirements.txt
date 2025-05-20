@@ -1,0 +1,6 @@
+torch==1.13.0
+transformers==4.42.3
+tokenizers==0.19.1
+wandb
+datasets==1.18.0
+sentencepiece==0.1.96

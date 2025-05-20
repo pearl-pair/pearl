@@ -1,0 +1,6365 @@
+[
+  {
+    "query": {
+      "txt": "Did I have a session with my dad to fix the pipes last week?",
+      "ct": "2023-11-20T19:00:00"
+    },
+    "passage": {
+      "title": "Home Improvement Project",
+      "desc": "Working on plumbing repairs with Pa",
+      "date": "2023-11-17T14:30:00",
+      "ct": "2023-10-27T11:00:00",
+      "location": "Home",
+      "attendees": [
+        "Juan Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was I attending a tai chi class with Elena this evening?",
+      "ct": "2023-05-20T18:00:00"
+    },
+    "passage": {
+      "title": "Evening Tai Chi",
+      "desc": "Practicing tai chi with friends",
+      "date": "2023-05-20T18:00:00",
+      "ct": "2023-05-18T15:00:00",
+      "location": "Tai Chi Garden",
+      "attendees": [
+        "Elena Martinez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Am I planning to visit the park with Champ this weekend?",
+      "ct": "2023-12-15T14:00:00"
+    },
+    "passage": {
+      "title": "Weekend Outing",
+      "desc": "Spending time outdoors with Champ",
+      "date": "2023-12-17T10:00:00",
+      "ct": "2023-12-10T12:00:00",
+      "location": "Greenwood Park",
+      "attendees": [
+        "Adrian Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I go to the farmers market this morning?",
+      "ct": "2023-03-15T10:00:00"
+    },
+    "passage": {
+      "title": "Fresh Produce Day",
+      "desc": "Shopping for organic vegetables and fruits",
+      "date": "2023-03-15T09:00:00",
+      "ct": "2023-03-10T11:00:00",
+      "location": "Los Angeles Farmers Market",
+      "attendees": []
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I receive a message from my dad about his plumbing project this weekend?",
+      "ct": "2024-07-28T16:30:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Family Contacts",
+      "body": "Need some help with a tricky pipe installation this weekend.",
+      "ct": "2024-07-26T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a gathering at Elena's house last weekend?",
+      "ct": "2023-10-15T11:45:00"
+    },
+    "passage": {
+      "title": "Evening Get-Together",
+      "desc": "Relaxing evening with friends at Elenita's place",
+      "date": "2023-10-08T18:00:00",
+      "ct": "2023-10-05T14:00:00",
+      "location": "Elena's House",
+      "attendees": [
+        "Emilia Velazquez",
+        "Luz Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I chat with Claudia about our next community service event?",
+      "ct": "2022-11-20T18:25:00"
+    },
+    "passage": {
+      "from": "Claudia",
+      "relation": "co-worker",
+      "group": "Community Center Team",
+      "body": "Discussed plans for the food drive on November 25th.",
+      "ct": "2022-11-18T15:10:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I get a message from my mother about her retirement plans?",
+      "ct": "2022-04-10T13:20:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "Thinking about moving to a smaller home in the countryside.",
+      "ct": "2022-04-08T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the person who helped me set up my wine-making equipment?",
+      "ct": "2022-09-05T11:10:00"
+    },
+    "passage": {
+      "name": "Olivia",
+      "relation": "wine-making consultant",
+      "group": "Enthusiast Wine Makers",
+      "email": "olivia@winemaker.org",
+      "ct": "2022-08-25T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I hear from Luz about her new project?",
+      "ct": "2022-02-10T09:15:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "Got some exciting updates on the curriculum development initiative.",
+      "ct": "2022-02-08T11:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I meet with Rosalia to fix my laptop?",
+      "ct": "2023-02-10T15:15:00"
+    },
+    "passage": {
+      "title": "Tech Troubleshooting",
+      "desc": "Assisting with computer issues at her workplace",
+      "date": "2023-02-05T14:00:00",
+      "ct": "2023-02-01T10:30:00",
+      "location": "IT Solutions Office",
+      "attendees": [
+        "Rosalia Gonzalez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Elenita mention about our next volunteer gig?",
+      "ct": "2023-08-20T11:15:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Social Workers' Circle",
+      "body": "The next community outreach event is set for August 25th.",
+      "ct": "2023-08-18T10:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Am I attending a workshop with Luz this autumn?",
+      "ct": "2024-09-10T16:25:00"
+    },
+    "passage": {
+      "title": "Educational Forum",
+      "desc": "Discussing innovative teaching methods with colleagues",
+      "date": "2024-09-25T09:00:00",
+      "ct": "2024-09-01T10:15:00",
+      "location": "Academic Innovations Conference Center",
+      "attendees": [
+        "Luz Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who mentioned the book club meeting next month?",
+      "ct": "2025-01-10T12:45:00"
+    },
+    "passage": {
+      "from": "Georgia Public Library",
+      "relation": "library",
+      "group": "Literature Contacts",
+      "body": "Your next book discussion is scheduled for February 15th.",
+      "ct": "2025-01-08T11:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Rosalia mention about the tech conference this summer?",
+      "ct": "2023-06-15T12:30:00"
+    },
+    "passage": {
+      "from": "Tech Innovators Hub",
+      "relation": "network",
+      "group": "IT Professionals",
+      "body": "Registration for the Summer Tech Expo opens on June 20th.",
+      "ct": "2023-06-12T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I have a session with Dr. Rodriguez a couple of months ago?",
+      "ct": "2023-06-15T13:30:00"
+    },
+    "passage": {
+      "title": "Therapeutic Consultation",
+      "desc": "Exploring coping strategies with a therapist",
+      "date": "2023-04-15T14:00:00",
+      "ct": "2023-04-10T11:00:00",
+      "location": "Wellness Counseling Clinic",
+      "attendees": [
+        "Dr. Rodriguez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the person who gave me advice on making traditional dishes last fall?",
+      "ct": "2025-01-15T12:45:00"
+    },
+    "passage": {
+      "name": "Maria",
+      "relation": "chef",
+      "group": "Culinary Connections",
+      "email": "maria@culinaryconnections.com",
+      "ct": "2024-09-25T14:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was I attending a wine tasting event last spring?",
+      "ct": "2023-09-25T12:00:00"
+    },
+    "passage": {
+      "title": "Vintage Tasting",
+      "desc": "Sampling various wines from different regions",
+      "date": "2022-05-15T17:00:00",
+      "ct": "2022-05-10T13:00:00",
+      "location": "Vineyard Estate",
+      "attendees": [
+        "Emilia Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I have a picnic with my mother this afternoon?",
+      "ct": "2023-08-25T13:00:00"
+    },
+    "passage": {
+      "title": "Outdoor Lunch",
+      "desc": "Enjoying a meal outside with Sofia",
+      "date": "2023-08-25T13:00:00",
+      "ct": "2023-08-20T10:00:00",
+      "location": "Sunset Park",
+      "attendees": [
+        "Sofia Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the person who taught me tai chi to my contacts a couple of months back?",
+      "ct": "2024-03-15T16:20:00"
+    },
+    "passage": {
+      "name": "Ming",
+      "relation": "tai chi instructor",
+      "group": "Wellness Contacts",
+      "email": "ming@example.com",
+      "ct": "2024-01-18T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I send a message to my mother about her visit last week?",
+      "ct": "2021-07-25T18:20:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "Looking forward to our weekend together at the beach house.",
+      "ct": "2021-07-12T14:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the email address of the person who helped me with my home improvement project last summer?",
+      "ct": "2023-08-01T12:30:00"
+    },
+    "passage": {
+      "name": "Carlos",
+      "relation": "plumber",
+      "group": "Home Improvement Experts",
+      "email": "carlosplumbing@example.com",
+      "ct": "2022-06-20T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was I attending a yoga session with my sister this morning?",
+      "ct": "2023-04-20T08:00:00"
+    },
+    "passage": {
+      "title": "Morning Stretch",
+      "desc": "Starting the day with a yoga session",
+      "date": "2023-04-20T06:00:00",
+      "ct": "2023-03-24T14:00:00",
+      "location": "Yoga Sanctuary",
+      "attendees": [
+        "Luz Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I receive a message from my sister about her vacation plans last month?",
+      "ct": "2023-05-15T11:30:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "Heading to the mountains for a week-long hiking trip.",
+      "ct": "2023-04-07T14:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Am I joining the Social Workers' Circle meeting next month?",
+      "ct": "2024-10-10T17:45:00"
+    },
+    "passage": {
+      "title": "Monthly Roundtable Discussion",
+      "desc": "Sharing success stories and challenges in social work",
+      "date": "2024-11-05T10:00:00",
+      "ct": "2024-10-05T12:00:00",
+      "location": "Social Services Building",
+      "attendees": [
+        "Emilia Velazquez",
+        "Claudia Martinez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Adrian mention about his psychology thesis last summer?",
+      "ct": "2024-09-25T15:30:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Family Contacts",
+      "body": "Made significant progress on my thesis this summer.",
+      "ct": "2024-09-20T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who reminded me about the knitting workshop this weekend?",
+      "ct": "2023-10-20T16:15:00"
+    },
+    "passage": {
+      "from": "Knit & Natter",
+      "relation": "workshop",
+      "group": "Craft Collectives",
+      "body": "The autumn knitting retreat is on October 22nd.",
+      "ct": "2023-10-18T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan to visit the lake with Champ this summer?",
+      "ct": "2023-07-25T14:15:00"
+    },
+    "passage": {
+      "title": "Family Retreat",
+      "desc": "Spending quality time by the lake with Adrian",
+      "date": "2022-07-20T10:00:00",
+      "ct": "2022-07-10T09:00:00",
+      "location": "Crystal Lake",
+      "attendees": [
+        "Adrian Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was it that told me about the family reunion last spring?",
+      "ct": "2025-06-15T14:20:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Family Contacts",
+      "body": "The family reunion is planned for June 20th.",
+      "ct": "2025-06-10T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Dr. Rodriguez mention about my next therapy session last week?",
+      "ct": "2024-10-25T17:45:00"
+    },
+    "passage": {
+      "from": "Dr. Rodriguez",
+      "relation": "therapist",
+      "group": "Health Contacts",
+      "body": "Your next session is on October 30th at 4 PM.",
+      "ct": "2024-10-14T13:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I talk to Luz about her new teaching position last week?",
+      "ct": "2022-08-20T17:15:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "Just got hired for the new teaching role starting in September.",
+      "ct": "2022-08-11T15:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who is the person I added to my contacts after discussing winemaking techniques with them last week?",
+      "ct": "2024-02-05T10:00:00"
+    },
+    "passage": {
+      "name": "Henry",
+      "relation": "winemaker",
+      "group": "Vineyard Ventures",
+      "email": "henry@vineyardventures.com",
+      "ct": "2024-02-03T16:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the person who helped me with my knitting project to my contacts 2 weeks ago?",
+      "ct": "2024-07-20T18:15:00"
+    },
+    "passage": {
+      "name": "Sophie",
+      "relation": "knitting mentor",
+      "group": "Crafty Creations",
+      "email": "sophie@example.net",
+      "ct": "2024-07-10T10:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who is the person I added to my contacts after meeting at the yoga studio last month?",
+      "ct": "2023-10-05T15:30:00"
+    },
+    "passage": {
+      "name": "Emma",
+      "relation": "yoga instructor",
+      "group": "Yoga Community",
+      "email": "emma@yogacommunity.org",
+      "ct": "2023-09-20T11:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I talk to Champ about his studies?",
+      "ct": "2022-05-15T14:30:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Family Contacts",
+      "body": "Just wrapped up a call discussing my progress in the psychology program.",
+      "ct": "2022-05-10T16:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the email address of the person who recommended a good book to me last year?",
+      "ct": "2023-04-10T09:30:00"
+    },
+    "passage": {
+      "name": "Lily",
+      "relation": "book lover",
+      "group": "Literary Friends",
+      "email": "lily@literaryfriends.com",
+      "ct": "2022-04-05T15:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I get a reminder from Dr. Rodriguez about my therapy appointment last month?",
+      "ct": "2025-04-10T15:45:00"
+    },
+    "passage": {
+      "from": "Dr. Rodriguez",
+      "relation": "therapist",
+      "group": "Health Contacts",
+      "body": "Your next session is scheduled for April 15th.",
+      "ct": "2025-03-06T13:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When was the last time I attended a community center event?",
+      "ct": "2022-11-20T09:00:00"
+    },
+    "passage": {
+      "title": "Support Group Meeting",
+      "desc": "Engaging with fellow social workers in a group setting",
+      "date": "2022-10-15T19:30:00",
+      "ct": "2022-10-10T15:00:00",
+      "location": "Community Services Hub",
+      "attendees": [
+        "Claudia Martinez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When am I supposed to meet my son for his psychology studies?",
+      "ct": "2022-03-20T16:25:00"
+    },
+    "passage": {
+      "title": "Study Session",
+      "desc": "Discussing psychology topics with Adrian",
+      "date": "2022-03-25T18:00:00",
+      "ct": "2022-03-15T13:30:00",
+      "location": "Library",
+      "attendees": [
+        "Adrian Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the email of the person I met at the farmers' market last fall?",
+      "ct": "2023-11-10T17:00:00"
+    },
+    "passage": {
+      "name": "David Kim",
+      "relation": "farmer",
+      "group": "Fresh Produce",
+      "email": "davidkim@localharvest.com",
+      "ct": "2022-11-05T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the knitting club I joined last year?",
+      "ct": "2023-12-05T11:00:00"
+    },
+    "passage": {
+      "title": "Knit Together",
+      "desc": "Monthly gathering for knitting enthusiasts",
+      "date": "2022-11-15T19:00:00",
+      "ct": "2022-11-10T14:45:00",
+      "location": "Crafty Corner",
+      "attendees": [
+        "Maria"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I'm supposed to visit with Champ next weekend?",
+      "ct": "2025-03-05T14:20:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Close Contacts",
+      "body": "We're heading to the Artisan's Market this coming Saturday.",
+      "ct": "2025-03-05T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the winery I visited with my best friend last spring?",
+      "ct": "2025-09-10T14:45:00"
+    },
+    "passage": {
+      "title": "Vineyard Tour",
+      "desc": "Exploring a vineyard and tasting wines",
+      "date": "2024-05-15T14:00:00",
+      "ct": "2024-05-10T10:00:00",
+      "location": "Sunset Vineyards",
+      "attendees": [
+        "Elena Garcia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last go to the yoga studio with my sister?",
+      "ct": "2021-11-05T10:15:00"
+    },
+    "passage": {
+      "title": "Relaxation Day",
+      "desc": "Spending a day practicing yoga and meditation",
+      "date": "2021-10-30T09:00:00",
+      "ct": "2021-10-25T11:00:00",
+      "location": "Namaste Yoga Studio",
+      "attendees": [
+        "Luz Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last talk to Elena about our project?",
+      "ct": "2024-07-25T19:30:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Social Work Circle",
+      "body": "Let's finalize the proposal for the workshop next week.",
+      "ct": "2024-07-20T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I tell Mom about the family outing this weekend?",
+      "ct": "2023-11-11T18:00:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "We're planning a family picnic at the lake this Saturday.",
+      "ct": "2023-11-10T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I talk to about the farmers' market last week?",
+      "ct": "2024-10-15T17:30:00"
+    },
+    "passage": {
+      "from": "Farmers' Market Association",
+      "relation": "member",
+      "group": "Fresh Produce Enthusiasts",
+      "body": "The market is open on Saturdays from 8 AM to 2 PM.",
+      "ct": "2024-10-10T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I text about the stone collection last month?",
+      "ct": "2025-04-10T15:30:00"
+    },
+    "passage": {
+      "from": "Rock Collectors' Guild",
+      "relation": "member",
+      "group": "Mineral Enthusiasts",
+      "body": "The annual rock show is coming up on April 25th.",
+      "ct": "2025-03-25T11:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to go to the lake with my son?",
+      "ct": "2022-06-15T16:45:00"
+    },
+    "passage": {
+      "title": "Lake Adventure",
+      "desc": "Spending a day at the lake with Champ",
+      "date": "2022-06-20T10:00:00",
+      "ct": "2022-06-10T13:00:00",
+      "location": "Crystal Lake",
+      "attendees": [
+        "Adrian Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Rosalia ever remind me about the tech meetup this Friday?",
+      "ct": "2023-08-18T12:30:00"
+    },
+    "passage": {
+      "from": "Rosalia",
+      "relation": "neighbor",
+      "group": "IT Enthusiasts",
+      "body": "Remember the tech meetup at the Digital Hub this Friday at 6 PM.",
+      "ct": "2023-08-15T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to meet my dad for a family dinner?",
+      "ct": "2022-09-15T18:45:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Family Contacts",
+      "body": "Let's meet at La Mesa for dinner this Saturday at 7 PM.",
+      "ct": "2022-09-10T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What time did I say I'd meet with Coach for a coffee?",
+      "ct": "2022-08-25T15:45:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Close Contacts",
+      "body": "We're meeting at the Espresso Stop for coffee at 4 PM on August 28th.",
+      "ct": "2022-08-20T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I plan to attend with my sister last week?",
+      "ct": "2023-10-10T14:15:00"
+    },
+    "passage": {
+      "title": "Art Exhibition",
+      "desc": "Visiting an art exhibition with Lulu",
+      "date": "2023-10-03T14:00:00",
+      "ct": "2023-09-29T16:30:00",
+      "location": "Museum of Contemporary Art",
+      "attendees": [
+        "Luz Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my sister Lulu remind me about the school event last week?",
+      "ct": "2023-05-20T17:15:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "Don't forget the parent-teacher meeting at Lincoln School this Friday.",
+      "ct": "2023-05-09T13:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event is happening this summer that Elena mentioned?",
+      "ct": "2023-07-20T18:45:00"
+    },
+    "passage": {
+      "title": "Community Picnic",
+      "desc": "Annual picnic for the neighborhood",
+      "date": "2023-08-05T16:00:00",
+      "ct": "2023-07-15T14:30:00",
+      "location": "Central Park",
+      "attendees": [
+        "Elena Garcia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to meet my neighbor Rosalia for a tech session?",
+      "ct": "2023-08-10T15:45:00"
+    },
+    "passage": {
+      "title": "Tech Talk",
+      "desc": "Discussing the latest tech trends with Rosalia",
+      "date": "2023-08-15T18:00:00",
+      "ct": "2023-08-05T13:15:00",
+      "location": "Community Center",
+      "attendees": [
+        "Rosalia Martinez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I added to my contacts after the yoga retreat last year?",
+      "ct": "2024-10-15T10:00:00"
+    },
+    "passage": {
+      "name": "Aisha Johnson",
+      "relation": "yoga instructor",
+      "group": "Zen Retreat",
+      "email": "aisha.johnson@zenretreat.com",
+      "ct": "2023-10-10T09:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to meet Claudia for a project at the community center?",
+      "ct": "2024-07-20T17:30:00"
+    },
+    "passage": {
+      "title": "Collaborative Project",
+      "desc": "Working on a social service initiative with Claudia",
+      "date": "2024-07-25T14:00:00",
+      "ct": "2024-07-15T15:00:00",
+      "location": "Community Center",
+      "attendees": [
+        "Claudia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What time did Claudia mention our team meeting this week?",
+      "ct": "2022-02-20T10:15:00"
+    },
+    "passage": {
+      "from": "Claudia",
+      "relation": "co-worker",
+      "group": "Social Service Team",
+      "body": "Our team meeting is set for February 24th at 10 AM.",
+      "ct": "2022-02-18T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to visit the park with my mother?",
+      "ct": "2021-05-15T11:45:00"
+    },
+    "passage": {
+      "title": "Nature Walk",
+      "desc": "Taking a walk in the park with my mother",
+      "date": "2021-05-20T10:00:00",
+      "ct": "2021-05-10T13:30:00",
+      "location": "Greenwood Park",
+      "attendees": [
+        "Sofia Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the person I met at the community center last year?",
+      "ct": "2023-02-15T14:30:00"
+    },
+    "passage": {
+      "name": "Miguel Lopez",
+      "relation": "volunteer",
+      "group": "Community Services",
+      "email": "mlopez@communityservices.org",
+      "ct": "2022-02-10T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my mother remind me about the family gathering this winter?",
+      "ct": "2024-12-15T19:00:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "The family gathering at Aunt Maria's is on December 22nd.",
+      "ct": "2024-12-10T13:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to meet my son for a movie night?",
+      "ct": "2023-07-15T20:30:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Close Contacts",
+      "body": "We're watching 'The Matrix' at the Starlight Theater this Saturday.",
+      "ct": "2023-07-10T18:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to visit the farmers' market with my mother?",
+      "ct": "2024-05-25T17:30:00"
+    },
+    "passage": {
+      "title": "Market Day",
+      "desc": "Shopping for fresh produce with my mother",
+      "date": "2024-06-01T10:00:00",
+      "ct": "2024-05-20T12:00:00",
+      "location": "Farmers' Market",
+      "attendees": [
+        "Sofia Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to meet Elenita for a coffee?",
+      "ct": "2022-06-25T17:30:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Close Contacts",
+      "body": "Let's meet at Beanery Brew for coffee this Sunday at 2 PM.",
+      "ct": "2022-06-20T15:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to meet my cousin for a movie?",
+      "ct": "2023-03-15T19:30:00"
+    },
+    "passage": {
+      "from": "Maria",
+      "relation": "cousin",
+      "group": "Family Contacts",
+      "body": "We're meeting at the Cinema House for the film premiere on March 20th.",
+      "ct": "2023-03-10T16:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I chat with about the community garden last summer?",
+      "ct": "2025-09-15T16:45:00"
+    },
+    "passage": {
+      "from": "Community Garden Club",
+      "relation": "member",
+      "group": "Green Thumb Society",
+      "body": "The harvest festival at the community garden is scheduled for September 25th.",
+      "ct": "2024-09-20T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I have that lunch with my dad?",
+      "ct": "2022-03-15T14:30:00"
+    },
+    "passage": {
+      "title": "Father-Daughter Catch-Up",
+      "desc": "Discussing family plans over a hearty meal.",
+      "date": "2022-03-10T13:00:00",
+      "ct": "2022-03-08T12:00:00",
+      "location": "The Grub Hub",
+      "attendees": [
+        "Juan Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I visit the local library with my best friend?",
+      "ct": "2022-02-25T13:45:00"
+    },
+    "passage": {
+      "title": "Library Visit",
+      "desc": "Exploring new books and discussing reading recommendations.",
+      "date": "2022-02-20T15:00:00",
+      "ct": "2022-02-18T11:00:00",
+      "location": "Los Angeles Public Library",
+      "attendees": [
+        "Elena Martinez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place where I met my sister for a movie?",
+      "ct": "2023-07-18T16:45:00"
+    },
+    "passage": {
+      "title": "Sibling Movie Night",
+      "desc": "Enjoying a film together at a cozy cinema.",
+      "date": "2023-07-15T18:00:00",
+      "ct": "2023-07-10T14:30:00",
+      "location": "Silver Screen Cinema",
+      "attendees": [
+        "Luz Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What time did I mention meeting the stone collector for coffee this week?",
+      "ct": "2022-12-10T15:45:00"
+    },
+    "passage": {
+      "from": "Rock & Roll Stones",
+      "relation": "collector",
+      "group": "Mineral Enthusiasts",
+      "body": "Our coffee meetup is on December 12th at 3 PM.",
+      "ct": "2022-12-08T17:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I text about the farmers' market visit this weekend?",
+      "ct": "2022-06-18T10:00:00"
+    },
+    "passage": {
+      "from": "Rosalia",
+      "relation": "neighbor",
+      "group": "Local Gatherings",
+      "body": "Let's meet at the farmers' market this Saturday at 9 AM.",
+      "ct": "2022-06-15T16:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the yoga studio I visited with Rosalia?",
+      "ct": "2022-09-25T17:15:00"
+    },
+    "passage": {
+      "title": "Yoga Session",
+      "desc": "A serene session focusing on mindfulness and relaxation.",
+      "date": "2022-09-20T10:00:00",
+      "ct": "2022-09-18T15:00:00",
+      "location": "Om Harmony Studio",
+      "attendees": [
+        "Rosalia Garcia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the park where I spent time with Champ last weekend?",
+      "ct": "2025-02-10T11:30:00"
+    },
+    "passage": {
+      "title": "Weekend Picnic",
+      "desc": "Relaxing outdoors with family and enjoying nature.",
+      "date": "2025-02-09T14:00:00",
+      "ct": "2025-01-22T10:00:00",
+      "location": "Sunset Park",
+      "attendees": [
+        "Adrian Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place where I had that cooking class last summer?",
+      "ct": "2025-09-15T15:30:00"
+    },
+    "passage": {
+      "title": "Summer Cooking Class",
+      "desc": "Mastering traditional recipes in a fun environment.",
+      "date": "2024-08-20T16:00:00",
+      "ct": "2024-08-15T12:00:00",
+      "location": "Flavors of the World Kitchen",
+      "attendees": [
+        "Emilia Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I text about the winemaking workshop this summer?",
+      "ct": "2023-08-05T14:15:00"
+    },
+    "passage": {
+      "from": "Vineyard Vistas",
+      "relation": "workshop organizer",
+      "group": "Wine Enthusiasts",
+      "body": "The winemaking workshop starts on August 15th at 10 AM.",
+      "ct": "2023-08-01T15:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I send a message to Dr. Rodriguez about the upcoming session?",
+      "ct": "2023-09-25T11:30:00"
+    },
+    "passage": {
+      "from": "Dr. Rodriguez",
+      "relation": "therapist",
+      "group": "Health Contacts",
+      "body": "Our next session is on September 30th at 2 PM.",
+      "ct": "2023-09-20T14:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan a trip to the lake with my mom a couple months back?",
+      "ct": "2022-11-20T19:15:00"
+    },
+    "passage": {
+      "title": "Mother-Daughter Lake Day",
+      "desc": "A refreshing day spent at the lakeside.",
+      "date": "2022-11-15T10:00:00",
+      "ct": "2022-11-10T09:00:00",
+      "location": "Crystal Lake",
+      "attendees": [
+        "Sofia Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place where I had that tai chi session with Lulu?",
+      "ct": "2024-07-12T16:30:00"
+    },
+    "passage": {
+      "title": "Tai Chi Practice",
+      "desc": "Engaging in a peaceful morning routine.",
+      "date": "2024-07-08T09:00:00",
+      "ct": "2024-07-06T10:00:00",
+      "location": "Lotus Zen Garden",
+      "attendees": [
+        "Luz Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I go to the farmers' market with Claudia?",
+      "ct": "2023-12-10T10:45:00"
+    },
+    "passage": {
+      "title": "Farmers' Market Day",
+      "desc": "Shopping for fresh produce and crafts.",
+      "date": "2023-12-05T11:00:00",
+      "ct": "2023-12-03T09:00:00",
+      "location": "Los Angeles Farmers' Market",
+      "attendees": [
+        "Claudia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I mention the plans for the family picnic next month?",
+      "ct": "2023-06-20T12:00:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "The family picnic is on July 15th at noon.",
+      "ct": "2023-06-15T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place where I attended the wine tasting with my sister?",
+      "ct": "2023-08-18T17:00:00"
+    },
+    "passage": {
+      "title": "Wine Tasting Event",
+      "desc": "Sampling different wines and learning about winemaking.",
+      "date": "2023-08-10T18:00:00",
+      "ct": "2023-08-08T14:00:00",
+      "location": "Vineyard Vineyards",
+      "attendees": [
+        "Luz Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I text Claudia about the community center project?",
+      "ct": "2024-03-15T14:00:00"
+    },
+    "passage": {
+      "from": "Claudia",
+      "relation": "co-worker",
+      "group": "Community Projects",
+      "body": "The project meeting is on March 20th at 9 AM.",
+      "ct": "2024-03-10T11:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I meet my son for a mental health discussion?",
+      "ct": "2023-05-25T14:45:00"
+    },
+    "passage": {
+      "title": "Mental Health Chat",
+      "desc": "Talking about stress management and wellness.",
+      "date": "2023-05-20T15:00:00",
+      "ct": "2023-05-18T12:00:00",
+      "location": "The Wellness Room",
+      "attendees": [
+        "Adrian Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place where I attended the family services workshop last month?",
+      "ct": "2024-06-15T14:30:00"
+    },
+    "passage": {
+      "title": "Family Services Workshop",
+      "desc": "Interactive session on enhancing family bonds.",
+      "date": "2024-05-25T13:00:00",
+      "ct": "2024-05-20T11:00:00",
+      "location": "Family Connections Center",
+      "attendees": [
+        "Emilia Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last visit the community center with Elena?",
+      "ct": "2024-09-25T10:15:00"
+    },
+    "passage": {
+      "title": "Community Center Visit",
+      "desc": "Attending a workshop on community engagement.",
+      "date": "2024-09-20T10:00:00",
+      "ct": "2024-09-18T15:30:00",
+      "location": "Community Outreach Center",
+      "attendees": [
+        "Elena Martinez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I join the knitting club meeting?",
+      "ct": "2025-01-20T12:15:00"
+    },
+    "passage": {
+      "title": "Knitting Club",
+      "desc": "Weekly gathering to share patterns and tips.",
+      "date": "2025-01-15T14:00:00",
+      "ct": "2025-01-13T10:00:00",
+      "location": "Crafty Creations Studio",
+      "attendees": [
+        "Emilia Velazquez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the yoga instructor I added to my contacts after my first class?",
+      "ct": "2025-03-15T18:00:00"
+    },
+    "passage": {
+      "name": "Yoga Guru",
+      "relation": "yoga instructor",
+      "group": "Fitness Contacts",
+      "email": "yogaguru@example.com",
+      "ct": "2024-03-07T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Elena remind me about our therapy session 2 years ago?",
+      "ct": "2025-06-25T12:00:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Support Circle",
+      "body": "Just wanted to confirm our session is scheduled for June 30th at 4 PM.",
+      "ct": "2023-06-20T16:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I attend with Luz at the beginning of this year?",
+      "ct": "2025-02-10T11:00:30"
+    },
+    "passage": {
+      "title": "New Year's Resolution Meetup",
+      "desc": "Setting goals and sharing ideas for the new year.",
+      "date": "2025-01-05T10:00:00",
+      "ct": "2024-12-25T14:30:08",
+      "location": "Community Center",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the organization I volunteered with during the last couple of months?",
+      "ct": "2025-03-10T12:00:00"
+    },
+    "passage": {
+      "title": "Monthly Volunteer Day",
+      "desc": "Assisting at the Food Bank with my mother and friends.",
+      "date": "2024-11-15T16:00:00",
+      "ct": "2024-11-05T13:45:00",
+      "location": "Food Bank",
+      "attendees": [
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I meet my son for lunch downtown last month?",
+      "ct": "2023-11-25T14:12:00"
+    },
+    "passage": {
+      "title": "Mid-Month Catch-Up",
+      "desc": "Meeting Champ at the Corner Café to discuss his studies and plans.",
+      "date": "2023-10-25T12:30:00",
+      "ct": "2023-10-20T14:00:00",
+      "location": "Corner Café",
+      "attendees": [
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I meet for a family dinner this summer?",
+      "ct": "2023-08-25T14:30:00"
+    },
+    "passage": {
+      "title": "Summer Family Dinner",
+      "desc": "Gathering with family members for a casual meal.",
+      "date": "2023-08-10T18:00:00",
+      "ct": "2023-07-30T15:45:00",
+      "location": "Home",
+      "attendees": [
+        "Juan",
+        "Sofia",
+        "Adrian",
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I meet for my knitting session 2 weeks ago?",
+      "ct": "2023-09-25T12:15:00"
+    },
+    "passage": {
+      "from": "Laura",
+      "relation": "knitting circle member",
+      "group": "Crafters Corner",
+      "body": "Remember, our next gathering is on October 1st at the Community Center.",
+      "ct": "2023-09-10T15:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Dad mention about the family reunion this weekend?",
+      "ct": "2023-09-08T14:45:00"
+    },
+    "passage": {
+      "from": "Carlos",
+      "relation": "brother",
+      "group": "Family Chat",
+      "body": "Just got confirmation from Aunt Maria about the reunion at her place this Saturday.",
+      "ct": "2023-09-08T10:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was at the family dinner after the soccer game last Saturday?",
+      "ct": "2023-10-15T18:45:00"
+    },
+    "passage": {
+      "from": "Carlos",
+      "relation": "brother",
+      "group": "Family Chat",
+      "body": "Great game, right? We should do this more often.",
+      "ct": "2023-10-14T20:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I added to my contacts last week that makes the best tacos?",
+      "ct": "2022-09-20T16:30:00"
+    },
+    "passage": {
+      "name": "Taco Haven",
+      "relation": "favorite taco spot",
+      "group": "Foodie Finds",
+      "email": "tacohaven@example.com",
+      "ct": "2022-09-19T14:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I attend with Elena around this time last year?",
+      "ct": "2024-09-15T18:45:00"
+    },
+    "passage": {
+      "title": "Annual Community Fair",
+      "desc": "Volunteering at the fair with Elenita to support local initiatives.",
+      "date": "2023-09-10T14:00:00",
+      "ct": "2023-08-25T16:30:00",
+      "location": "Community Center",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I meet for a coffee at the end of last year?",
+      "ct": "2024-12-10T18:45:00"
+    },
+    "passage": {
+      "title": "Holiday Coffee Chat",
+      "desc": "Relaxing with Elena over coffee and discussing holiday plans.",
+      "date": "2023-12-30T15:00:00",
+      "ct": "2023-12-25T16:45:00",
+      "location": "Java Joint",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I meet for knitting at the end of last month?",
+      "ct": "2025-02-10T11:00:30"
+    },
+    "passage": {
+      "title": "Knitting Circle",
+      "desc": "Joining a group to craft and socialize.",
+      "date": "2025-01-30T14:00:00",
+      "ct": "2025-01-25T10:23:08",
+      "location": "Crafters' Co-op",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did I discuss with my sister Lulu about her new job last week?",
+      "ct": "2023-12-05T11:10:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Family Chat",
+      "body": "Just started my new position at the school district, so excited!",
+      "ct": "2023-11-29T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was I supposed to meet for tai chi practice 2 weeks ago?",
+      "ct": "2022-08-20T10:30:00"
+    },
+    "passage": {
+      "title": "Weekly Tai Chi Session",
+      "desc": "Joining a group for morning tai chi at the local park.",
+      "date": "2022-08-11T09:00:00",
+      "ct": "2022-07-16T14:15:00",
+      "location": "Sunset Park",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the person from the knitting circle to my contacts last month?",
+      "ct": "2024-09-20T16:30:00"
+    },
+    "passage": {
+      "name": "Knitter",
+      "relation": "knitting instructor",
+      "group": "Craft Circle",
+      "email": "knitter@example.com",
+      "ct": "2024-08-12T14:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I visit the winery with my sister last spring?",
+      "ct": "2025-07-25T16:15:00"
+    },
+    "passage": {
+      "title": "Spring Vineyard Tour",
+      "desc": "Exploring the vineyards with Lulu and tasting the latest wines.",
+      "date": "2024-04-20T14:30:00",
+      "ct": "2024-04-10T10:15:00",
+      "location": "Vineyard View Winery",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Claudia remind me about the social service project last month?",
+      "ct": "2023-11-15T09:20:00"
+    },
+    "passage": {
+      "from": "Claudia",
+      "relation": "co-worker",
+      "group": "Community Outreach",
+      "body": "The project kickoff is on November 22nd at 3 PM.",
+      "ct": "2023-10-25T13:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I attend with Claudia this weekend?",
+      "ct": "2023-04-15T19:30:00"
+    },
+    "passage": {
+      "title": "Community Art Exhibition",
+      "desc": "Supporting local artists at the gallery opening.",
+      "date": "2023-04-15T18:00:00",
+      "ct": "2023-04-09T15:45:00",
+      "location": "Artisan Gallery",
+      "attendees": [
+        "Claudia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the club I attended with Elena 2 years ago?",
+      "ct": "2024-09-15T18:45:00"
+    },
+    "passage": {
+      "title": "Social Workers' Circle",
+      "desc": "Discussing case management strategies with colleagues.",
+      "date": "2022-09-10T19:00:00",
+      "ct": "2022-08-25T16:30:00",
+      "location": "Community Center",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I text my son Champ about his college applications last month?",
+      "ct": "2023-10-15T18:45:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "College Prep",
+      "body": "Got the acceptance letter from UCLA, can't believe it!",
+      "ct": "2023-09-20T12:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I went to for my winemaking class last spring?",
+      "ct": "2025-09-25T16:23:45"
+    },
+    "passage": {
+      "from": "Vineyard Vistas",
+      "relation": "customer",
+      "group": "Wine Enthusiasts",
+      "body": "Your first lesson is on April 26th at 7 PM.",
+      "ct": "2024-04-24T15:45:30"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my mother mention about her retirement plans last summer?",
+      "ct": "2023-12-05T11:10:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Chat",
+      "body": "Thinking of joining a senior fitness class.",
+      "ct": "2023-06-20T16:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the workshop I attended with Luz 3–4 months ago?",
+      "ct": "2025-03-10T12:00:00"
+    },
+    "passage": {
+      "title": "Skill Development Seminar",
+      "desc": "Enhancing professional skills with colleagues.",
+      "date": "2024-11-15T09:00:00",
+      "ct": "2024-11-05T14:15:00",
+      "location": "Learning Hub",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I send a message about the yoga retreat next month?",
+      "ct": "2024-11-05T14:10:00"
+    },
+    "passage": {
+      "from": "Yoga Sanctuary",
+      "relation": "customer",
+      "group": "Wellness Contacts",
+      "body": "Your registration for the November retreat is confirmed.",
+      "ct": "2024-10-25T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was supposed to join me for a knitting workshop last week?",
+      "ct": "2023-10-20T13:00:00"
+    },
+    "passage": {
+      "title": "Knitting Workshop",
+      "desc": "Learning new knitting techniques with the Craft Collective",
+      "date": "2023-10-13T16:00:00",
+      "ct": "2023-10-08T11:15:00",
+      "location": "Crafty Corner",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to meet with Elena for a writing session last month?",
+      "ct": "2023-10-28T14:30:00"
+    },
+    "passage": {
+      "title": "Writing Workshop",
+      "desc": "Discussing story ideas and creative writing techniques",
+      "date": "2023-09-16T16:00:00",
+      "ct": "2023-08-25T11:15:00",
+      "location": "Creative Writers' Hub",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my sister ever give me her contact info?",
+      "ct": "2023-05-20T12:05:00"
+    },
+    "passage": {
+      "name": "Luz",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "email": "luz@example.com",
+      "ct": "2020-05-15T13:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I mention the wine-making supplies to Rosalia last week?",
+      "ct": "2023-06-10T17:45:00"
+    },
+    "passage": {
+      "from": "Rosalia",
+      "relation": "neighbor",
+      "group": "Tech Lovers",
+      "body": "Got your order for the wine-making supplies. They should arrive by June 15th.",
+      "ct": "2023-05-31T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was I supposed to meet at the park last Saturday?",
+      "ct": "2023-06-18T16:15:00"
+    },
+    "passage": {
+      "title": "Park Picnic",
+      "desc": "Bringing a picnic basket for a leisurely afternoon",
+      "date": "2023-06-17T14:00:00",
+      "ct": "2023-06-15T10:30:00",
+      "location": "Central Park",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I add to my calendar 2 years ago?",
+      "ct": "2025-04-20T17:20:00"
+    },
+    "passage": {
+      "title": "Family Reunion",
+      "desc": "Gathering with extended family for a weekend celebration",
+      "date": "2023-04-22T14:00:00",
+      "ct": "2023-04-15T10:45:00",
+      "location": "Grandparents' Home",
+      "attendees": [
+        "Sofia",
+        "Juan",
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I schedule a visit to the local winery with Claudia this weekend?",
+      "ct": "2023-12-08T10:15:00"
+    },
+    "passage": {
+      "title": "Wine Tasting",
+      "desc": "Touring the vineyard and tasting wines",
+      "date": "2023-12-10T14:00:00",
+      "ct": "2023-12-05T12:45:00",
+      "location": "Vineyard Vista",
+      "attendees": [
+        "Claudia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I mentioned in the message about the hiking trip last spring?",
+      "ct": "2025-06-20T10:15:00"
+    },
+    "passage": {
+      "from": "Nature Trails Collective",
+      "relation": "member",
+      "group": "Trail Blazers",
+      "body": "Your registration for the spring hike at Silver Peak is confirmed for April 15th.",
+      "ct": "2024-04-12T09:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I plan to meet at the local farmers' market this weekend?",
+      "ct": "2023-11-10T14:15:00"
+    },
+    "passage": {
+      "title": "Farmers' Market Meetup",
+      "desc": "Sampling fresh produce and chatting with friends",
+      "date": "2023-11-12T10:00:00",
+      "ct": "2023-11-08T12:30:00",
+      "location": "Sunshine Farmers' Market",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I messaged about the knitting supplies last year?",
+      "ct": "2025-04-10T10:00:00"
+    },
+    "passage": {
+      "from": "Crafty Creations Club",
+      "relation": "member",
+      "group": "Handicrafters",
+      "body": "Your order for the knitting supplies is on its way. Expected delivery by April 20th.",
+      "ct": "2024-04-05T09:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I mention the camping trip with my dad?",
+      "ct": "2022-05-20T14:30:00"
+    },
+    "passage": {
+      "from": "Outdoor Adventures Club",
+      "relation": "member",
+      "group": "Adventure Seekers",
+      "body": "Your gear rental for the upcoming camping trip is confirmed for May 25th.",
+      "ct": "2022-05-18T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the restaurant my mom suggested for our dinner next week?",
+      "ct": "2022-08-10T14:15:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "Let's try La Bella Vista for our family dinner on the 15th.",
+      "ct": "2022-08-08T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to meet with my mother at the yoga studio?",
+      "ct": "2023-07-25T12:45:00"
+    },
+    "passage": {
+      "title": "Yoga Session",
+      "desc": "Relaxing session at the Serenity Yoga Studio",
+      "date": "2023-07-30T10:00:00",
+      "ct": "2023-07-20T14:15:00",
+      "location": "Serenity Yoga Studio",
+      "attendees": [
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I text about the family picnic last weekend?",
+      "ct": "2023-04-15T11:30:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "The family picnic is set for this Sunday at the park.",
+      "ct": "2023-04-08T15:10:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I mention in the message about the community center's food drive last month?",
+      "ct": "2023-02-15T10:15:00"
+    },
+    "passage": {
+      "from": "Community Center",
+      "relation": "volunteer",
+      "group": "Social Services",
+      "body": "The food drive is this Saturday. Volunteers are needed.",
+      "ct": "2023-01-10T09:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I mention in the message about the cooking class last week?",
+      "ct": "2022-12-10T17:00:00"
+    },
+    "passage": {
+      "from": "Culinary Academy",
+      "relation": "student",
+      "group": "Foodie Friends",
+      "body": "Your registration for the holiday cooking class is confirmed for December 15th.",
+      "ct": "2022-12-04T15:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I organize a family gathering this summer?",
+      "ct": "2023-08-10T18:30:00"
+    },
+    "passage": {
+      "title": "Summer Reunion",
+      "desc": "Celebrating family traditions at the lake",
+      "date": "2023-08-25T12:00:00",
+      "ct": "2023-08-05T15:15:00",
+      "location": "Lakeview Park",
+      "attendees": [
+        "Sofia",
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to visit the botanical garden with my sister?",
+      "ct": "2023-03-15T16:45:00"
+    },
+    "passage": {
+      "title": "Botanical Garden Visit",
+      "desc": "Exploring the diverse plant exhibits at the Greenleaf Gardens",
+      "date": "2023-03-20T10:00:00",
+      "ct": "2023-03-10T14:23:00",
+      "location": "Greenleaf Gardens",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When was my dinner with the OGs at the Thai spot this month?",
+      "ct": "2025-02-10T11:00:30"
+    },
+    "passage": {
+      "title": "Spicy Night Out",
+      "desc": "Enjoying a spicy feast with long-time friends.",
+      "date": "2025-02-15T20:00:00",
+      "ct": "2025-02-04T13:23:08",
+      "location": "Saffron Spice House",
+      "attendees": [
+        "Maria",
+        "Carlos",
+        "Luis"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to visit my dad for Father's Day?",
+      "ct": "2023-05-15T18:29:20"
+    },
+    "passage": {
+      "title": "Father's Day Visit",
+      "desc": "Spending quality time with Dad and sharing a home-cooked meal.",
+      "date": "2023-06-18T12:00:00",
+      "ct": "2023-05-10T10:15:23",
+      "location": "Home",
+      "attendees": [
+        "Juan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was I supposed to meet Rosalia for a tech talk this week?",
+      "ct": "2024-09-12T11:45:00"
+    },
+    "passage": {
+      "title": "Tech Talk Tuesday",
+      "desc": "Exploring the latest trends in technology with a colleague.",
+      "date": "2024-09-09T14:00:00",
+      "ct": "2024-08-29T16:30:00",
+      "location": "Coffee Bean & Tea Leaf",
+      "attendees": [
+        "Rosalia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was I supposed to meet Elena at the park this weekend?",
+      "ct": "2024-10-15T14:30:00"
+    },
+    "passage": {
+      "title": "Nature Walk",
+      "desc": "Taking a peaceful walk through the park with Elenita.",
+      "date": "2024-10-20T10:00:00",
+      "ct": "2024-10-10T12:30:00",
+      "location": "Central Park",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I meet my therapist Dr. Rodriguez for a session next spring?",
+      "ct": "2023-11-25T09:15:00"
+    },
+    "passage": {
+      "title": "Therapeutic Check-In",
+      "desc": "Discussing mental health and coping strategies with a professional.",
+      "date": "2024-04-15T15:00:00",
+      "ct": "2023-11-10T09:15:00",
+      "location": "Wellness Center",
+      "attendees": [
+        "Dr. Rodriguez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who messaged me about the pottery class I signed up for last summer?",
+      "ct": "2025-10-15T16:45:00"
+    },
+    "passage": {
+      "from": "Clay Creations Studio",
+      "relation": "customer",
+      "group": "Artistic Pursuits",
+      "body": "Your enrollment in the beginner pottery course starts this October.",
+      "ct": "2024-08-15T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Elena mention about the volunteer work she's doing this weekend?",
+      "ct": "2022-06-05T14:30:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Social Workers' Circle",
+      "body": "I'm heading to the community center this Saturday for a food drive.",
+      "ct": "2022-06-05T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I have that wine tasting thing with Claudia last summer?",
+      "ct": "2025-06-25T12:00:00"
+    },
+    "passage": {
+      "title": "Wine Tasting Adventure",
+      "desc": "Sampling various wines and learning about winemaking techniques.",
+      "date": "2024-08-15T18:00:00",
+      "ct": "2024-08-10T17:30:25",
+      "location": "Vineyard Vista",
+      "attendees": [
+        "Claudia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Rosalia mention about her new tech gadget last week?",
+      "ct": "2025-02-15T18:30:00"
+    },
+    "passage": {
+      "from": "Rosalia",
+      "relation": "neighbor",
+      "group": "Tech Enthusiasts",
+      "body": "Just got the latest model of the Galaxy Note, it's amazing!",
+      "ct": "2025-02-04T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Champ mention about his classes last week?",
+      "ct": "2023-09-25T14:45:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Family Contacts",
+      "body": "Just got my midterm results back. Psychology 101 is really challenging but rewarding!",
+      "ct": "2023-09-18T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I book a trip to the lake with my family last fall?",
+      "ct": "2023-02-10T11:00:30"
+    },
+    "passage": {
+      "title": "Family Retreat",
+      "desc": "Relaxing by the lake and enjoying nature with loved ones.",
+      "date": "2022-11-15T09:00:00",
+      "ct": "2022-11-05T10:10:25",
+      "location": "Lakeview Resort",
+      "attendees": [
+        "Juan",
+        "Sofia",
+        "Adrian",
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my mother mention about her book club last week?",
+      "ct": "2022-03-20T19:45:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Literature Lovers",
+      "body": "Next month, we're reading 'The Silent Patient.'",
+      "ct": "2022-03-13T16:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I add to my contacts for the family reunion this fall?",
+      "ct": "2023-09-20T19:00:00"
+    },
+    "passage": {
+      "name": "Isabella",
+      "relation": "aunt",
+      "group": "Family Reunion",
+      "email": "isabella.reunion@example.com",
+      "ct": "2023-09-15T18:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Pa suggest about the kitchen renovation two weeks ago?",
+      "ct": "2024-08-12T18:30:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Family Contacts",
+      "body": "Consider installing those energy-efficient windows I told you about.",
+      "ct": "2024-07-30T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Elenita remind me about our meeting last month?",
+      "ct": "2025-05-20T10:15:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Social Workers' Circle",
+      "body": "Don't forget our meeting next Tuesday to discuss the new case files.",
+      "ct": "2025-04-25T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I plan with my mother around this time last year?",
+      "ct": "2024-06-10T14:15:00"
+    },
+    "passage": {
+      "title": "Mother-Daughter Day",
+      "desc": "A day filled with laughter and bonding over shared interests.",
+      "date": "2023-06-15T14:00:00",
+      "ct": "2023-05-20T16:45:00",
+      "location": "Artisanal Bakery",
+      "attendees": [
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Claudia send me a reminder about our meeting last week?",
+      "ct": "2024-11-10T14:45:00"
+    },
+    "passage": {
+      "from": "Claudia",
+      "relation": "co-worker",
+      "group": "Community Services Team",
+      "body": "Our team meeting is scheduled for tomorrow at 10 AM.",
+      "ct": "2024-10-28T12:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Lulu tell me about her latest project a couple months back?",
+      "ct": "2023-07-15T11:30:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "I've been working on a new curriculum for the elementary students.",
+      "ct": "2023-05-20T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Am I meeting Luz for our regular book club this Thursday?",
+      "ct": "2023-03-10T14:33:11"
+    },
+    "passage": {
+      "title": "Literary Circle Meetup",
+      "desc": "Discussing the latest novel with fellow book enthusiasts.",
+      "date": "2023-03-16T19:30:00",
+      "ct": "2023-03-05T10:15:23",
+      "location": "Quiet Reads Bookstore",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who is the contact for the community center's family services event this winter?",
+      "ct": "2025-01-10T13:45:00"
+    },
+    "passage": {
+      "name": "Jasmine",
+      "relation": "event coordinator",
+      "group": "Community Connections",
+      "email": "jasmine.community@example.com",
+      "ct": "2024-12-25T11:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the person I added to my contacts during my last trip to the farmers' market?",
+      "ct": "2023-08-05T11:15:00"
+    },
+    "passage": {
+      "name": "Sofia",
+      "relation": "market vendor",
+      "group": "Fresh Finds",
+      "email": "sofiamarket@example.com",
+      "ct": "2023-08-01T09:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I join a knitting circle at the local library two weeks ago?",
+      "ct": "2022-07-25T18:30:00"
+    },
+    "passage": {
+      "title": "Knit and Chat",
+      "desc": "Learning new stitches and sharing stories with fellow knitters.",
+      "date": "2022-07-11T10:30:00",
+      "ct": "2022-07-08T14:15:23",
+      "location": "Main Library",
+      "attendees": [
+        "Laura",
+        "Anna"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the person I met at the community garden planting day last month?",
+      "ct": "2023-11-05T19:20:00"
+    },
+    "passage": {
+      "name": "Benjamin",
+      "relation": "gardening enthusiast",
+      "group": "Green Thumb Club",
+      "email": "benjaminplants@example.com",
+      "ct": "2023-10-05T17:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the knitting circle I joined last summer?",
+      "ct": "2024-09-15T19:30:00"
+    },
+    "passage": {
+      "title": "Knitters' Guild Meeting",
+      "desc": "Creating and sharing patterns and techniques",
+      "date": "2023-07-15T10:00:00",
+      "ct": "2023-07-01T14:45:00",
+      "location": "Crafters' Corner",
+      "attendees": [
+        "Maria"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did I discuss with Paabout the plumbing project last summer?",
+      "ct": "2023-08-15T16:45:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Family Contacts",
+      "body": "The plumbing project at home is coming along nicely. Need to finish the bathroom fixtures.",
+      "ct": "2023-08-05T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the contact of the person who helped me set up my home theater system last year?",
+      "ct": "2023-07-20T17:00:00"
+    },
+    "passage": {
+      "name": "Jackson",
+      "relation": "tech expert",
+      "group": "Home Entertainment",
+      "email": "jacksonaudio@example.com",
+      "ct": "2022-07-10T15:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan the wine tasting with Rosalia?",
+      "ct": "2025-06-25T12:00:00"
+    },
+    "passage": {
+      "title": "Wine Tasting Event",
+      "desc": "Sampling different varieties and learning about winemaking",
+      "date": "2025-06-20T17:00:00",
+      "ct": "2025-06-15T11:30:00",
+      "location": "Vineyard Estates",
+      "attendees": [
+        "Rosalia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan the outing with my mother for this weekend?",
+      "ct": "2023-12-05T18:30:00"
+    },
+    "passage": {
+      "title": "Mother-Daughter Date",
+      "desc": "Shopping and lunch at the local mall",
+      "date": "2023-12-09T15:00:00",
+      "ct": "2023-12-01T17:15:00",
+      "location": "Westside Mall",
+      "attendees": [
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I arrange a get-together with Lulu last month?",
+      "ct": "2023-10-05T14:30:00"
+    },
+    "passage": {
+      "title": "Sibling Reunion",
+      "desc": "Sharing family stories and enjoying homemade meals",
+      "date": "2023-09-15T18:00:00",
+      "ct": "2023-09-01T11:00:00",
+      "location": "Velazquez Family Home",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I text my mother about the surprise picnic this afternoon?",
+      "ct": "2021-06-15T16:45:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "The picnic is at the lake this afternoon. Pack some snacks!",
+      "ct": "2021-06-10T17:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I receive a message about the farmers' market event this weekend?",
+      "ct": "2025-05-22T16:45:00"
+    },
+    "passage": {
+      "from": "Farmers' Market Organizer",
+      "relation": "organizer",
+      "group": "Local Markets",
+      "body": "The market is open this Saturday from 9 AM to 3 PM. Come enjoy fresh produce!",
+      "ct": "2025-05-20T10:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I talk to Elena about the wine tasting last week?",
+      "ct": "2025-09-20T14:15:00"
+    },
+    "passage": {
+      "from": "Elenita",
+      "relation": "best friend",
+      "group": "Social Worker Circle",
+      "body": "The wine tasting event is this Saturday. Let's compare notes on our favorites!",
+      "ct": "2025-09-10T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the park I visited with Champ last weekend?",
+      "ct": "2023-11-28T14:15:00"
+    },
+    "passage": {
+      "title": "Outdoor Exploration",
+      "desc": "Walking and playing in the park",
+      "date": "2023-11-26T10:00:00",
+      "ct": "2023-10-27T12:45:00",
+      "location": "Greenhaven Park",
+      "attendees": [
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I attend the family dinner with Dad?",
+      "ct": "2023-12-10T17:45:00"
+    },
+    "passage": {
+      "title": "Holiday Dinner",
+      "desc": "Celebrating the season with family and sharing meals",
+      "date": "2023-12-25T18:00:00",
+      "ct": "2023-12-01T10:30:00",
+      "location": "Velazquez Family Home",
+      "attendees": [
+        "Juan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I add to my contacts for the tai chi workshop last summer?",
+      "ct": "2024-08-15T16:45:00"
+    },
+    "passage": {
+      "name": "Grace",
+      "relation": "tai chi instructor",
+      "group": "Fitness Classes",
+      "email": "gracetai@example.com",
+      "ct": "2023-07-20T12:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan the outing with Pa?",
+      "ct": "2023-04-15T16:45:00"
+    },
+    "passage": {
+      "title": "Father-Daughter Adventure Day",
+      "desc": "Exploring nature trails and having a picnic",
+      "date": "2023-04-10T09:00:00",
+      "ct": "2023-04-05T12:30:00",
+      "location": "Echo Valley Park",
+      "attendees": [
+        "Juan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I spend time at the yoga studio with Honey?",
+      "ct": "2023-03-25T16:45:00"
+    },
+    "passage": {
+      "title": "Yoga Practice",
+      "desc": "Enhancing mindfulness and physical well-being",
+      "date": "2023-03-20T09:30:00",
+      "ct": "2023-03-15T11:00:00",
+      "location": "Om Peace Yoga Studio",
+      "attendees": [
+        "Martin"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who mentioned the yoga retreat I'm planning for next spring?",
+      "ct": "2024-12-10T14:30:00"
+    },
+    "passage": {
+      "from": "Yoga Retreat Coordinator",
+      "relation": "coordinator",
+      "group": "Wellness Retreats",
+      "body": "The retreat in April offers sessions focusing on mindfulness and meditation.",
+      "ct": "2024-11-25T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did I arrange with Rosalia regarding the tech meetup this week?",
+      "ct": "2024-08-10T18:23:00"
+    },
+    "passage": {
+      "from": "Rosalia",
+      "relation": "neighbor",
+      "group": "Tech Enthusiasts",
+      "body": "The meetup is this Wednesday. Let's dive into the latest trends.",
+      "ct": "2024-08-08T10:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I'm visiting with Champ this weekend?",
+      "ct": "2024-11-05T14:10:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Close Contacts",
+      "body": "The art exhibit at the Modern Gallery opens tomorrow. Can't wait to see it!",
+      "ct": "2024-11-03T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I book a trip with Mom for next spring?",
+      "ct": "2024-10-01T17:15:00"
+    },
+    "passage": {
+      "title": "Spring Break Adventure",
+      "desc": "Exploring the cultural heritage of Mexico",
+      "date": "2025-04-01T08:00:00",
+      "ct": "2024-09-25T10:45:00",
+      "location": "Mexico City",
+      "attendees": [
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did I plan with Luz about the educational conference this winter?",
+      "ct": "2022-10-25T15:30:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Education Administration",
+      "body": "The conference in December will feature workshops on innovative teaching methods.",
+      "ct": "2022-10-20T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I organize with Claudia this week?",
+      "ct": "2023-11-22T13:30:00"
+    },
+    "passage": {
+      "title": "Client Support Workshop",
+      "desc": "Developing strategies to enhance client engagement",
+      "date": "2023-11-21T14:00:00",
+      "ct": "2023-11-17T16:45:00",
+      "location": "Community Center Training Room",
+      "attendees": [
+        "Claudia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place where I went with Champ to celebrate his graduation last summer?",
+      "ct": "2024-12-10T16:45:00"
+    },
+    "passage": {
+      "title": "Graduation Party",
+      "desc": "Celebrating Adrian's graduation at the Sunset Terrace",
+      "date": "2023-08-15T17:00:00",
+      "ct": "2023-08-10T16:00:00",
+      "location": "Sunset Terrace, Santa Monica",
+      "attendees": [
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I get a message about the winemaking workshop this weekend?",
+      "ct": "2024-10-11T16:45:00"
+    },
+    "passage": {
+      "from": "Vino Visions",
+      "relation": "instructor",
+      "group": "Wine Making Workshops",
+      "body": "Your spot at the winemaking workshop is confirmed for this Saturday.",
+      "ct": "2024-10-10T15:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a message about the stone collecting trip next month?",
+      "ct": "2024-08-10T15:45:00"
+    },
+    "passage": {
+      "from": "Rock Hounds",
+      "relation": "club member",
+      "group": "Hobbyist Clubs",
+      "body": "The stone collecting trip is confirmed for September 15th.",
+      "ct": "2024-08-05T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I hear from the community center about my volunteering slot?",
+      "ct": "2022-03-15T14:45:00"
+    },
+    "passage": {
+      "from": "Community Outreach",
+      "relation": "volunteer coordinator",
+      "group": "Volunteer Opportunities",
+      "body": "Your volunteer shift at the community center is scheduled for March 20th.",
+      "ct": "2022-03-10T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place where I met my dad for lunch last weekend?",
+      "ct": "2023-10-16T14:45:00"
+    },
+    "passage": {
+      "title": "Sunday Brunch",
+      "desc": "Relaxing meal with family at the Rustic Grille",
+      "date": "2023-10-14T12:30:00",
+      "ct": "2023-10-10T11:20:00",
+      "location": "Rustic Grille, downtown LA",
+      "attendees": [
+        "Juan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan to meet my sister at the yoga studio this weekend?",
+      "ct": "2023-04-15T18:00:00"
+    },
+    "passage": {
+      "title": "Yoga Session",
+      "desc": "Weekly yoga class at the Lotus Studio",
+      "date": "2023-04-16T10:00:00",
+      "ct": "2023-04-10T14:00:00",
+      "location": "Lotus Studio, West LA",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Honey tell me about the surprise dinner last week?",
+      "ct": "2023-08-20T19:25:00"
+    },
+    "passage": {
+      "from": "Martin",
+      "relation": "partner",
+      "group": "Close Contacts",
+      "body": "Everything is set for the surprise dinner at the Olive Grove Restaurant on the 12th.",
+      "ct": "2023-08-10T16:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a message about the family dinner last weekend?",
+      "ct": "2023-09-10T12:45:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "The family dinner went well. It was great catching up!",
+      "ct": "2023-09-03T11:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place where I went with Elena to celebrate her promotion last year?",
+      "ct": "2023-12-15T20:20:00"
+    },
+    "passage": {
+      "title": "Promotion Dinner",
+      "desc": "Celebrating Elena's promotion at the Harbor View Restaurant",
+      "date": "2022-12-10T19:00:00",
+      "ct": "2022-12-05T18:00:00",
+      "location": "Harbor View Restaurant, Marina del Rey",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Champ tell me about his college plans last month?",
+      "ct": "2023-10-25T16:45:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Family Contacts",
+      "body": "I just got accepted into the psychology program. Can't wait to start!",
+      "ct": "2023-09-13T13:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I talked to about my hobby last year?",
+      "ct": "2024-09-25T14:30:00"
+    },
+    "passage": {
+      "from": "Crafty Creations",
+      "relation": "mentor",
+      "group": "Knitting Club",
+      "body": "Your knitting workshop starts next month. Looking forward to seeing you!",
+      "ct": "2023-09-20T11:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I met at the park and added to my contacts last summer?",
+      "ct": "2025-09-10T10:45:00"
+    },
+    "passage": {
+      "name": "Aria",
+      "relation": "nature enthusiast",
+      "group": "Green Spaces Society",
+      "email": "aria@greenspacesociety.org",
+      "ct": "2024-07-15T12:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I get a message about the family vacation this winter?",
+      "ct": "2022-12-10T18:30:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Family Contacts",
+      "body": "The family vacation to Aspen is confirmed for December 20th.",
+      "ct": "2022-12-05T17:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I mention to Dad about my plans for the weekend?",
+      "ct": "2023-05-15T12:45:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Family Contacts",
+      "body": "I heard you're planning a weekend away. Hope you have a great time!",
+      "ct": "2023-05-10T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the person from the stone-collecting club to my contacts this winter?",
+      "ct": "2024-03-05T14:15:00"
+    },
+    "passage": {
+      "name": "Carter",
+      "relation": "collector",
+      "group": "Rocky Stones Collectors",
+      "email": "carter@rockystonescollectors.com",
+      "ct": "2024-02-09T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I get a message about the community picnic this summer?",
+      "ct": "2023-06-15T18:30:00"
+    },
+    "passage": {
+      "from": "Community Outreach",
+      "relation": "event coordinator",
+      "group": "Community Events",
+      "body": "The community picnic is scheduled for July 4th. Hope to see you there!",
+      "ct": "2023-06-10T17:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a message about the wine tasting next month?",
+      "ct": "2025-06-10T17:30:00"
+    },
+    "passage": {
+      "from": "Vino Visions",
+      "relation": "customer",
+      "group": "Wine Lovers",
+      "body": "Your reservation for the Grand Wine Tasting Event is confirmed for July 15th.",
+      "ct": "2025-06-05T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I attended with Elena this winter?",
+      "ct": "2024-02-10T18:15:00"
+    },
+    "passage": {
+      "title": "Winter Wellness Retreat",
+      "desc": "Focusing on self-care and relaxation",
+      "date": "2024-01-15T17:00:00",
+      "ct": "2024-01-10T15:30:00",
+      "location": "Mountain Spa Resort",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the place where I learned knitting?",
+      "ct": "2023-09-12T17:45:00"
+    },
+    "passage": {
+      "name": "Crafty Hands Studio",
+      "relation": "student",
+      "group": "Handicraft Classes",
+      "email": "craftyhandsstudio@example.com",
+      "ct": "2022-09-05T10:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I attended with Elena a couple of months back?",
+      "ct": "2023-09-15T18:30:00"
+    },
+    "passage": {
+      "title": "Artisan Market Day",
+      "desc": "Exploring handmade crafts and local art",
+      "date": "2023-07-15T14:00:00",
+      "ct": "2023-07-10T12:00:00",
+      "location": "Craftsmen's Village",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I remind Pa about the plumbing tools he lent me?",
+      "ct": "2023-04-15T17:30:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Family Contacts",
+      "body": "Got your message. The wrenches are in the garage, under the sink.",
+      "ct": "2023-04-10T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I go to the park with my son last weekend?",
+      "ct": "2024-03-15T15:20:00"
+    },
+    "passage": {
+      "title": "Nature Walk",
+      "desc": "Spending time outdoors and enjoying the scenery",
+      "date": "2024-03-09T14:00:00",
+      "ct": "2024-03-05T13:15:00",
+      "location": "Central Park",
+      "attendees": [
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I attended with Claudia last month?",
+      "ct": "2023-12-10T11:45:00"
+    },
+    "passage": {
+      "title": "Community Service Day",
+      "desc": "Volunteering at the local shelter",
+      "date": "2023-11-15T13:00:00",
+      "ct": "2023-11-10T10:30:00",
+      "location": "Sunshine Shelter",
+      "attendees": [
+        "Claudia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I go to the knitting circle with my mother this autumn?",
+      "ct": "2023-11-20T16:45:00"
+    },
+    "passage": {
+      "title": "Knitting Circle Meetup",
+      "desc": "Sharing knitting patterns and projects",
+      "date": "2023-10-15T10:00:00",
+      "ct": "2023-10-10T09:30:00",
+      "location": "Community Center",
+      "attendees": [
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I go to the botanical garden with Champ?",
+      "ct": "2023-04-10T16:45:00"
+    },
+    "passage": {
+      "title": "Botanical Exploration",
+      "desc": "Enjoying nature and learning about plants",
+      "date": "2023-03-25T10:00:00",
+      "ct": "2023-03-18T14:30:00",
+      "location": "Los Angeles Botanical Gardens",
+      "attendees": [
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place where I had lunch with Elena last month?",
+      "ct": "2025-01-15T12:00:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Social Worker Circle",
+      "body": "Our lunch at The Cozy Corner was delightful. We discussed our latest case files.",
+      "ct": "2024-12-25T13:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the therapist who helped me with anxiety issues?",
+      "ct": "2023-06-05T08:45:00"
+    },
+    "passage": {
+      "name": "Dr. Rodriguez",
+      "relation": "therapist",
+      "group": "Healthcare Providers",
+      "email": "drrodriguez@example.com",
+      "ct": "2023-05-30T11:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I go to the lake with my family last weekend?",
+      "ct": "2023-09-15T18:30:00"
+    },
+    "passage": {
+      "title": "Family Lake Day",
+      "desc": "Relaxing and having fun at the lake",
+      "date": "2023-09-09T10:00:00",
+      "ct": "2023-09-05T09:45:00",
+      "location": "Crystal Lake",
+      "attendees": [
+        "Juan",
+        "Sofia",
+        "Adrian",
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I mention to Elena about my plans for next weekend?",
+      "ct": "2023-07-10T10:45:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Social Worker Circle",
+      "body": "Sounds like you're looking forward to your weekend getaway.",
+      "ct": "2023-07-05T11:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the restaurant I went to with my mother two years ago?",
+      "ct": "2025-03-10T17:45:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "Remember our dinner at La Bella Vista? It was delicious.",
+      "ct": "2023-03-05T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who is the person I met at the yoga studio last spring?",
+      "ct": "2025-05-25T14:45:00"
+    },
+    "passage": {
+      "name": "Elena",
+      "relation": "social worker",
+      "group": "Yoga Community",
+      "email": "elenita@example.com",
+      "ct": "2024-05-15T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I visited with my son last spring?",
+      "ct": "2025-09-20T15:00:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Family Contacts",
+      "body": "Our hike at Green Valley Park was refreshing.",
+      "ct": "2024-04-15T16:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I add to my contacts for the stone collecting workshop 3 months ago?",
+      "ct": "2023-07-25T13:45:00"
+    },
+    "passage": {
+      "name": "Marvin",
+      "relation": "stone collector",
+      "group": "Rock Collectors Guild",
+      "email": "marvin.stones@example.com",
+      "ct": "2023-04-18T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I go to the farmers' market with my sister last week?",
+      "ct": "2023-08-20T11:00:00"
+    },
+    "passage": {
+      "title": "Farmers' Market",
+      "desc": "Pick up fresh produce with Luz.",
+      "date": "2023-08-08T10:30:00",
+      "ct": "2023-07-21T13:15:00",
+      "location": "Farmers' Market",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I mention to Rosalia that I'd help her with a tech issue?",
+      "ct": "2023-11-15T18:00:00"
+    },
+    "passage": {
+      "from": "Rosalia",
+      "relation": "neighbor",
+      "group": "Tech Support",
+      "body": "Sure, I can come over this weekend to help you out.",
+      "ct": "2023-11-13T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I met at the park after the movie last month?",
+      "ct": "2024-10-14T17:30:00"
+    },
+    "passage": {
+      "name": "Claudia",
+      "relation": "co-worker",
+      "group": "Community Service Team",
+      "email": "claudia.community@example.com",
+      "ct": "2024-09-20T16:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I discuss my short story writing with Elena last month?",
+      "ct": "2023-06-05T19:15:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Writing Buddies",
+      "body": "I loved reading your latest short story. Keep it up!",
+      "ct": "2023-05-25T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I mention to Juan that I'd help him fix the kitchen sink?",
+      "ct": "2023-07-10T19:00:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Plumbing Projects",
+      "body": "Great! We can start on it this weekend.",
+      "ct": "2023-07-08T11:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I schedule a get-together with my best friend this summer?",
+      "ct": "2023-06-15T12:45:00"
+    },
+    "passage": {
+      "title": "Summer Meet-Up",
+      "desc": "Catch up with Lulu at the local café.",
+      "date": "2023-07-15T10:30:00",
+      "ct": "2023-06-10T13:20:00",
+      "location": "Sunny Side Café",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I meet my dad for a father-daughter bonding activity?",
+      "ct": "2021-03-25T14:30:00"
+    },
+    "passage": {
+      "title": "Father-Daughter Day Out",
+      "desc": "Spend quality time with Dad at the botanical gardens.",
+      "date": "2021-03-18T15:00:00",
+      "ct": "2021-03-10T11:45:00",
+      "location": "Botanical Gardens",
+      "attendees": [
+        "Juan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I have a meeting with Claudia last week?",
+      "ct": "2023-10-05T11:20:00"
+    },
+    "passage": {
+      "title": "Case Management",
+      "desc": "Collaborate with coworker on upcoming project.",
+      "date": "2023-09-28T15:00:00",
+      "ct": "2023-09-25T13:45:00",
+      "location": "Community Center",
+      "attendees": [
+        "Claudia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I mention to Rosalia that I wanted to learn more about computers?",
+      "ct": "2024-07-15T14:30:00"
+    },
+    "passage": {
+      "from": "Rosalia",
+      "relation": "neighbor",
+      "group": "Tech Enthusiasts",
+      "body": "I can show you some basics. How about this Saturday?",
+      "ct": "2024-07-10T17:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I mention to Elena that I'd help her with a tough case?",
+      "ct": "2022-05-15T17:45:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Case Management",
+      "body": "Thank you for offering your help. We can discuss it tomorrow.",
+      "ct": "2022-05-13T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I arrange a picnic with Champ this weekend?",
+      "ct": "2023-09-23T18:10:00"
+    },
+    "passage": {
+      "title": "Weekend Picnic",
+      "desc": "Relaxing afternoon with Adrian at the park.",
+      "date": "2023-09-24T14:00:00",
+      "ct": "2023-09-15T10:30:00",
+      "location": "Sunset Park",
+      "attendees": [
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I mention to Adrian that I'd help him with his psychology homework?",
+      "ct": "2023-08-25T15:45:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Study Sessions",
+      "body": "Thanks, I really appreciate it. We can start tomorrow.",
+      "ct": "2023-08-23T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I talk to Adrian about the mental health workshop he attended last week?",
+      "ct": "2023-04-20T17:00:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Mental Health Discussions",
+      "body": "I learned a lot from the workshop. It was really helpful.",
+      "ct": "2023-04-15T12:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan to volunteer at the community center next month?",
+      "ct": "2023-11-10T15:45:00"
+    },
+    "passage": {
+      "title": "Volunteer Day",
+      "desc": "Help out at the community center.",
+      "date": "2023-12-01T10:00:00",
+      "ct": "2023-10-25T14:30:00",
+      "location": "Community Center",
+      "attendees": [
+        "Emilia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I mention to Dad that I'd help him with the plumbing this weekend?",
+      "ct": "2023-11-04T16:30:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Home Improvement",
+      "body": "Looking forward to working on the bathroom pipes this Saturday. Should be fun!",
+      "ct": "2023-11-03T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I have a session with my therapist last month?",
+      "ct": "2023-12-05T10:15:00"
+    },
+    "passage": {
+      "title": "Therapy Appointment",
+      "desc": "Regular session with Dr. Rodriguez.",
+      "date": "2023-11-25T15:00:00",
+      "ct": "2023-11-20T14:45:00",
+      "location": "Therapy Office",
+      "attendees": [
+        "Dr. Rodriguez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I'm meeting my mother for lunch this week?",
+      "ct": "2023-09-18T13:00:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "Looking forward to our lunch at The Gourmet Nook on September 22nd.",
+      "ct": "2023-09-18T11:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did i discuss with elena about the support group meeting taking place next month?",
+      "ct": "2024-09-09T16:30:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Support Network",
+      "body": "Next meeting is on October 5th, let's prepare some case studies for discussion.",
+      "ct": "2024-09-01T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Rosalia suggest about the tech trends we discussed last month?",
+      "ct": "2024-08-10T14:30:00"
+    },
+    "passage": {
+      "from": "Rosalia",
+      "relation": "neighbor",
+      "group": "Tech Enthusiasts",
+      "body": "Exploring new software solutions for our small business, interested in your thoughts.",
+      "ct": "2024-07-25T12:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did I discuss with Luz about the family gathering last week?",
+      "ct": "2024-05-15T19:00:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "The family gathering is set for May 20th, let's plan the menu.",
+      "ct": "2024-05-10T18:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I have a meeting with Luz this week?",
+      "ct": "2024-11-18T16:00:00"
+    },
+    "passage": {
+      "title": "Education Strategy Meeting",
+      "desc": "Discussing new curriculum ideas",
+      "date": "2024-11-20T14:00:00",
+      "ct": "2024-10-26T12:00:00",
+      "location": "School Board Office",
+      "attendees": [
+        "Lulu"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did I discuss with Claudia about the new community initiative last month?",
+      "ct": "2022-08-15T10:00:00"
+    },
+    "passage": {
+      "from": "Claudia",
+      "relation": "co-worker",
+      "group": "Social Workers' Circle",
+      "body": "Reviewed the proposal for the new community initiative, excited about the potential impact.",
+      "ct": "2022-07-16T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Lulu mention about the school project last week?",
+      "ct": "2022-02-15T17:30:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "The project presentation is on February 20th, need to finalize the slides.",
+      "ct": "2022-02-10T15:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was I supposed to join Champ for his finals this week?",
+      "ct": "2022-05-20T18:30:00"
+    },
+    "passage": {
+      "title": "Psychology Exam",
+      "desc": "Finals week for Adrian",
+      "date": "2022-05-18T14:00:00",
+      "ct": "2022-05-15T12:00:00",
+      "location": "University Campus",
+      "attendees": [
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did I talk to Elena about our next social work meeting this week?",
+      "ct": "2025-01-20T13:00:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Support Network",
+      "body": "Next meeting is on January 25th, let's review the case files.",
+      "ct": "2024-12-27T13:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Am I meeting my best friend for a hike next Saturday?",
+      "ct": "2023-10-15T09:30:00"
+    },
+    "passage": {
+      "title": "Nature Exploration",
+      "desc": "Exploring the trails and enjoying the scenery",
+      "date": "2023-10-21T09:00:00",
+      "ct": "2023-10-10T10:15:00",
+      "location": "Greenwood Hills",
+      "attendees": [
+        "Elenita"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a winemaking event last fall?",
+      "ct": "2024-12-10T14:15:00"
+    },
+    "passage": {
+      "title": "Vineyard Visit",
+      "desc": "Touring the vineyards and learning about wine production",
+      "date": "2023-10-15T10:00:00",
+      "ct": "2023-10-05T11:00:00",
+      "location": "Sunset Vineyards",
+      "attendees": [
+        "Carlos"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan a family dinner last month?",
+      "ct": "2025-02-05T19:00:00"
+    },
+    "passage": {
+      "title": "Family Reunion",
+      "desc": "Gathering for a traditional meal",
+      "date": "2025-01-12T18:30:00",
+      "ct": "2024-12-25T11:00:00",
+      "location": "Home",
+      "attendees": [
+        "Sofia",
+        "Juan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Am I joining the knitting circle at the library tomorrow?",
+      "ct": "2024-07-15T10:15:00"
+    },
+    "passage": {
+      "title": "Knit and Chat",
+      "desc": "Meeting to learn new stitches and share patterns",
+      "date": "2024-07-16T10:00:00",
+      "ct": "2024-07-10T13:30:00",
+      "location": "Library Community Room",
+      "attendees": [
+        "Emily"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Elenita say about our plans for the weekend last night?",
+      "ct": "2023-07-15T20:00:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Close Contacts",
+      "body": "Let's plan a picnic at the lake this Saturday, perfect weather forecasted.",
+      "ct": "2023-07-14T21:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did I talk to Pa about the gardening project last month?",
+      "ct": "2023-03-15T16:00:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Family Contacts",
+      "body": "Discussed the garden expansion plans, need to purchase new plants soon.",
+      "ct": "2023-02-15T15:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I confirm plans with my sister for the summer retreat?",
+      "ct": "2024-07-10T09:30:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "Summer retreat confirmed for July 15th, excited to spend quality time together.",
+      "ct": "2024-07-05T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a family gathering at Mom's last week?",
+      "ct": "2024-10-25T18:00:00"
+    },
+    "passage": {
+      "title": "Family Dinner",
+      "desc": "Preparing a traditional feast",
+      "date": "2024-10-19T18:00:00",
+      "ct": "2024-10-15T12:00:00",
+      "location": "Mom's House",
+      "attendees": [
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the person from the story writing workshop to my contacts between last Wednesday and next Sunday?",
+      "ct": "2024-05-15T17:30:00"
+    },
+    "passage": {
+      "name": "James Anderson",
+      "relation": "writing mentor",
+      "group": "Creative Writers' Circle",
+      "email": "james.anderson@writerscircle.org",
+      "ct": "2024-05-10T11:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Dr. Rodriguez recommend for my next therapy session?",
+      "ct": "2023-12-05T11:00:00"
+    },
+    "passage": {
+      "from": "Dr. Rodriguez",
+      "relation": "therapist",
+      "group": "Health Contacts",
+      "body": "Next session is on December 10th, focusing on mindfulness techniques.",
+      "ct": "2023-11-30T09:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a special occasion last summer I planned with Elena?",
+      "ct": "2023-08-15T10:45:00"
+    },
+    "passage": {
+      "title": "Summer Solstice Celebration",
+      "desc": "A night of stargazing and storytelling",
+      "date": "2022-06-21T20:00:00",
+      "ct": "2022-06-10T16:30:00",
+      "location": "Starlight Park",
+      "attendees": [
+        "Elenita"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the person from the yoga studio to my contacts after that party last Wednesday?",
+      "ct": "2025-02-05T19:15:00"
+    },
+    "passage": {
+      "name": "Ryan Lee",
+      "relation": "yoga instructor",
+      "group": "Yoga Enthusiasts",
+      "email": "ryan.lee@yogastudio.com",
+      "ct": "2024-11-29T17:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did I talk to Champ about his psychology thesis last week?",
+      "ct": "2025-06-25T18:00:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Family Contacts",
+      "body": "Just reviewed the draft of my thesis, got some valuable feedback from my advisor.",
+      "ct": "2025-06-18T17:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who is the person I added to my contacts after the charity event this summer?",
+      "ct": "2023-08-20T17:30:00"
+    },
+    "passage": {
+      "name": "Samantha",
+      "relation": "charity volunteer",
+      "group": "Community Helpers",
+      "email": "samantha@communityhelpers.org",
+      "ct": "2023-08-15T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event am I attending with Champ next Saturday?",
+      "ct": "2023-11-18T19:00:00"
+    },
+    "passage": {
+      "title": "Psychology Conference",
+      "desc": "Attending sessions on mental health and therapy",
+      "date": "2023-11-25T09:00:00",
+      "ct": "2023-11-15T12:30:00",
+      "location": "Mind Matters Institute",
+      "attendees": [
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I plan to meet at the yoga studio before our hike last week?",
+      "ct": "2024-06-15T17:30:00"
+    },
+    "passage": {
+      "title": "Yoga Class",
+      "desc": "Starting the day with a calming session",
+      "date": "2024-06-08T08:00:00",
+      "ct": "2024-06-06T11:00:00",
+      "location": "Yoga Sanctuary",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was I supposed to meet for knitting at the community center two weeks ago?",
+      "ct": "2024-05-20T12:00:00"
+    },
+    "passage": {
+      "title": "Knitting Circle",
+      "desc": "Creating new patterns and sharing ideas",
+      "date": "2024-05-06T14:00:00",
+      "ct": "2024-05-02T10:30:00",
+      "location": "Community Center",
+      "attendees": [
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I book dinner with Elena at her favorite spot?",
+      "ct": "2022-05-15T19:30:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Foodie Friends",
+      "body": "Let's meet at La Cucina for a nice meal this Saturday.",
+      "ct": "2022-05-10T18:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the contact for the person who helped me with my gardening tips last spring?",
+      "ct": "2025-04-25T11:15:00"
+    },
+    "passage": {
+      "name": "Harold",
+      "relation": "gardening mentor",
+      "group": "Green Thumb Society",
+      "email": "harold@greenthumbsociety.org",
+      "ct": "2024-05-10T10:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the lake I planned to visit with Champ a couple months back?",
+      "ct": "2023-05-15T19:30:00"
+    },
+    "passage": {
+      "title": "Nature Escape",
+      "desc": "Spending a day by the water",
+      "date": "2023-03-15T09:00:00",
+      "ct": "2023-03-10T10:00:00",
+      "location": "Crystal Lake",
+      "attendees": [
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the retreat I booked with Honey for next spring?",
+      "ct": "2022-10-01T10:15:00"
+    },
+    "passage": {
+      "title": "Spring Breakaway",
+      "desc": "Relaxing and reconnecting with nature",
+      "date": "2023-04-15T09:00:00",
+      "ct": "2022-09-25T14:30:00",
+      "location": "Mountain Oasis",
+      "attendees": [
+        "Martin"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Juan mention about our home improvement plans last week?",
+      "ct": "2023-08-15T16:45:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Home Renovation",
+      "body": "We need to schedule the plumber for the kitchen sink replacement.",
+      "ct": "2023-08-10T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Luz mention about the new teaching strategy last week?",
+      "ct": "2023-11-08T14:45:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Education Strategies",
+      "body": "We should implement group projects to enhance collaboration among students.",
+      "ct": "2023-11-04T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Luz remind me about the new teaching resource last month?",
+      "ct": "2023-11-08T14:45:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Education Resources",
+      "body": "I found a fantastic app for interactive learning. We should try it out in class.",
+      "ct": "2023-10-13T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I plan to meet for a movie night at home last week?",
+      "ct": "2024-04-12T20:00:00"
+    },
+    "passage": {
+      "title": "Movie Night",
+      "desc": "Watching the latest thriller release",
+      "date": "2024-04-07T18:30:00",
+      "ct": "2024-04-05T14:45:00",
+      "location": "Home",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I attended the yoga retreat with my sister last year?",
+      "ct": "2023-12-05T19:20:00"
+    },
+    "passage": {
+      "title": "Yoga Retreat",
+      "desc": "Weekend of relaxation and meditation",
+      "date": "2022-11-15T09:00:00",
+      "ct": "2022-11-05T14:30:00",
+      "location": "Mountain Retreat Center",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my mother mention the holiday plans for next winter?",
+      "ct": "2025-08-15T12:10:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "We're thinking of heading to the mountains for Christmas.",
+      "ct": "2025-07-20T11:25:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I put the family game night with my dad in my calendar?",
+      "ct": "2023-06-15T20:30:00"
+    },
+    "passage": {
+      "title": "Game Night",
+      "desc": "Family game night with board games",
+      "date": "2023-06-20T18:00:00",
+      "ct": "2023-06-10T17:45:00",
+      "location": "Home",
+      "attendees": [
+        "Juan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I schedule a wine tasting with my best friend last week?",
+      "ct": "2025-02-20T16:15:00"
+    },
+    "passage": {
+      "title": "Wine Tasting Event",
+      "desc": "Enjoying a selection of fine wines",
+      "date": "2025-02-15T17:00:00",
+      "ct": "2025-02-05T18:45:00",
+      "location": "Vineyard Vista",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the community center I volunteered at last month?",
+      "ct": "2024-01-15T17:00:00"
+    },
+    "passage": {
+      "title": "Volunteer Day",
+      "desc": "Helping out at the local community center",
+      "date": "2023-12-15T09:00:00",
+      "ct": "2023-12-05T15:30:00",
+      "location": "Harbor Community Center",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my honey remind me about the knitting circle happening next month?",
+      "ct": "2023-09-22T14:15:00"
+    },
+    "passage": {
+      "from": "Martin",
+      "relation": "partner",
+      "group": "Crafters' Circle",
+      "body": "The next knitting circle is on the 15th of October.",
+      "ct": "2023-09-13T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the person who helped me with the plumbing issue to my contacts 2 years ago?",
+      "ct": "2025-02-20T14:45:00"
+    },
+    "passage": {
+      "name": "Daniel",
+      "relation": "plumber",
+      "group": "Handyman Contacts",
+      "email": "daniel@example.com",
+      "ct": "2023-02-18T11:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I go to the park with Champ?",
+      "ct": "2022-09-25T14:30:00"
+    },
+    "passage": {
+      "title": "Nature Walk",
+      "desc": "Relaxing walk in the park",
+      "date": "2022-09-20T15:00:00",
+      "ct": "2022-09-15T17:20:00",
+      "location": "Central Park, Los Angeles",
+      "attendees": [
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my cousin say about the camping trip last fall?",
+      "ct": "2024-01-10T17:45:00"
+    },
+    "passage": {
+      "from": "Isabella",
+      "relation": "cousin",
+      "group": "Family Contacts",
+      "body": "We had a great time hiking and stargazing at the campsite.",
+      "ct": "2023-10-25T13:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Elenita suggest a new strategy for our next case this week?",
+      "ct": "2022-08-05T13:10:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Social Workers' Circle",
+      "body": "Let's try a new approach focusing on group therapy sessions.",
+      "ct": "2022-08-03T10:25:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Elenita discuss the upcoming volunteer event last spring?",
+      "ct": "2024-11-05T14:10:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Social Workers' Circle",
+      "body": "We're organizing a food drive for the community this March.",
+      "ct": "2024-02-15T10:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Pa give me tips on plumbing repairs a couple of weeks ago?",
+      "ct": "2023-07-25T10:05:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Family Contacts",
+      "body": "Remember to flush the pipes regularly to prevent blockages.",
+      "ct": "2023-07-10T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place where I had my last knitting circle?",
+      "ct": "2023-03-15T18:45:00"
+    },
+    "passage": {
+      "title": "Crafty Connections",
+      "desc": "Weekly gathering for knitting enthusiasts",
+      "date": "2023-03-10T19:00:00",
+      "ct": "2023-02-28T14:30:00",
+      "location": "Community Center, Los Angeles",
+      "attendees": [
+        "Lily",
+        "Mira"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a reminder about the wine-making workshop next spring?",
+      "ct": "2025-02-15T18:20:00"
+    },
+    "passage": {
+      "from": "Community Center",
+      "relation": "organizational entity",
+      "group": "Workshops",
+      "body": "The Spring Wine-Making Workshop registration opens next month.",
+      "ct": "2024-12-20T15:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Champ mention about his college plans last week?",
+      "ct": "2023-05-15T17:25:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Family Contacts",
+      "body": "I'm looking into internships this summer to gain experience in psychology.",
+      "ct": "2023-05-11T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Dr. Rodriguez advise me on stress management a few days ago?",
+      "ct": "2023-12-08T09:15:00"
+    },
+    "passage": {
+      "from": "Dr. Rodriguez",
+      "relation": "therapist",
+      "group": "Health Contacts",
+      "body": "Try incorporating mindfulness exercises into your daily routine.",
+      "ct": "2023-12-04T11:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I visited with my mother a couple months ago?",
+      "ct": "2024-05-15T10:25:00"
+    },
+    "passage": {
+      "title": "Mother-Daughter Day Out",
+      "desc": "Shopping and lunch date",
+      "date": "2024-03-20T14:00:00",
+      "ct": "2024-03-10T16:15:00",
+      "location": "Fashion Square Mall",
+      "attendees": [
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was at the family dinner last week?",
+      "ct": "2023-12-05T19:20:00"
+    },
+    "passage": {
+      "title": "Sunday Supper",
+      "desc": "Family gathering for a delicious meal",
+      "date": "2023-11-28T18:00:00",
+      "ct": "2023-10-30T14:45:00",
+      "location": "Home",
+      "attendees": [
+        "Juan",
+        "Sofia",
+        "Adrian",
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my son talk about his psychology studies last month?",
+      "ct": "2023-10-05T10:25:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Family Contacts",
+      "body": "I'm exploring research opportunities in child psychology.",
+      "ct": "2023-09-20T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place where I had my last family barbecue?",
+      "ct": "2023-08-10T19:45:00"
+    },
+    "passage": {
+      "title": "Summer BBQ",
+      "desc": "Family gathering for a barbecue",
+      "date": "2023-07-25T18:00:00",
+      "ct": "2023-07-15T15:30:00",
+      "location": "Grill Masters Park",
+      "attendees": [
+        "Juan",
+        "Sofia",
+        "Adrian",
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my sister say about her new project last week?",
+      "ct": "2023-06-20T15:45:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Education Admin",
+      "body": "I'm launching a literacy program for underprivileged kids.",
+      "ct": "2023-06-15T13:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who is the person I met at the book fair last spring?",
+      "ct": "2024-09-12T09:10:00"
+    },
+    "passage": {
+      "name": "Megan",
+      "relation": "author",
+      "group": "Literary Friends",
+      "email": "megan@example.com",
+      "ct": "2023-05-22T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I inform my sister about the farmers' market trip next weekend?",
+      "ct": "2023-09-02T12:15:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "Can't wait to meet at the Farmers Market on Saturday at 9 AM.",
+      "ct": "2023-08-18T12:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the contact information of the person who helped me with my winemaking hobby?",
+      "ct": "2024-09-15T13:20:00"
+    },
+    "passage": {
+      "name": "Robert",
+      "relation": "winemaker",
+      "group": "Vineyard Enthusiasts",
+      "email": "robert.vineyard@gmail.com",
+      "ct": "2024-09-05T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I mention to my mother about the family gathering this weekend?",
+      "ct": "2023-10-13T12:30:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "The family gathering is on Saturday at 1 PM.",
+      "ct": "2023-10-13T10:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I arrange a meeting with Dr. Rodriguez for my follow-up?",
+      "ct": "2022-06-20T10:10:00"
+    },
+    "passage": {
+      "from": "Dr. Rodriguez",
+      "relation": "therapist",
+      "group": "Health Contacts",
+      "body": "Your appointment is scheduled for June 25th at 3 PM.",
+      "ct": "2022-06-15T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I confirm with Luz about the teaching resource sharing session last week?",
+      "ct": "2024-05-20T14:25:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Education Admin",
+      "body": "The resource sharing session is on Thursday at 10 AM.",
+      "ct": "2024-05-15T11:10:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I mention to Claudia about the client meeting this week?",
+      "ct": "2024-03-10T13:30:00"
+    },
+    "passage": {
+      "from": "Claudia",
+      "relation": "co-worker",
+      "group": "Community Center Team",
+      "body": "The client meeting is scheduled for March 15th at 10 AM.",
+      "ct": "2024-03-08T11:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I promise to meet my best friend at the yoga studio?",
+      "ct": "2022-11-15T11:20:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Social Worker Circle",
+      "body": "See you at the Lotus Yoga Studio at 6 PM for our session.",
+      "ct": "2022-11-10T17:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was I meeting at the botanical gardens two weeks ago?",
+      "ct": "2023-08-20T17:45:00"
+    },
+    "passage": {
+      "title": "Botanical Garden Visit",
+      "desc": "Exploring the flora and fauna with friends.",
+      "date": "2023-08-05T10:00:00",
+      "ct": "2023-08-01T14:15:00",
+      "location": "Botanical Gardens",
+      "attendees": [
+        "Sophia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I told my mother I'd meet her after the film?",
+      "ct": "2025-02-15T17:30:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "After the movie, let's meet at the nearby café at 7 PM.",
+      "ct": "2025-02-10T16:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I meet at the art gallery last summer?",
+      "ct": "2023-09-01T18:45:00"
+    },
+    "passage": {
+      "title": "Art Exhibition",
+      "desc": "Attending an exhibition of contemporary art.",
+      "date": "2022-07-15T14:00:00",
+      "ct": "2022-07-10T10:30:00",
+      "location": "Gallery of Modern Art",
+      "attendees": [
+        "Olivia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I attended a knitting workshop with my mother last fall?",
+      "ct": "2023-11-25T18:00:00"
+    },
+    "passage": {
+      "title": "Knitting Workshop",
+      "desc": "Learning new knitting techniques with mom.",
+      "date": "2022-10-15T14:00:00",
+      "ct": "2022-10-10T10:30:00",
+      "location": "Crafty Creations Studio",
+      "attendees": [
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the thing I planned with Elena last spring?",
+      "ct": "2025-05-25T16:45:04"
+    },
+    "passage": {
+      "title": "Spring Social Gathering",
+      "desc": "Organizing a community event with Elena.",
+      "date": "2024-05-15T18:00:00",
+      "ct": "2024-05-05T14:23:08",
+      "location": "Community Center",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a reminder about my wine-making session last week?",
+      "ct": "2023-07-20T14:23:45"
+    },
+    "passage": {
+      "from": "Wine Enthusiasts Club",
+      "relation": "member",
+      "group": "Wine Making Circle",
+      "body": "Reminder: Our next wine-making session is scheduled for July 15th at 3 PM.",
+      "ct": "2023-07-10T16:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my dad remind me about the plumbing project we're working on this summer?",
+      "ct": "2023-05-15T11:30:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Family Contacts",
+      "body": "We should start the renovation this summer. Let's finalize the plans soon.",
+      "ct": "2023-05-10T09:25:45"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the restaurant my dad recommended to me?",
+      "ct": "2022-05-15T17:45:00"
+    },
+    "passage": {
+      "name": "Elisa",
+      "relation": "family friend",
+      "group": "Favorite Eateries",
+      "email": "elisarestaurant@example.com",
+      "ct": "2022-05-10T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I mention to Luz about the education summit this autumn?",
+      "ct": "2022-09-18T17:30:15"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "Are you coming to the education summit this fall? It should be insightful.",
+      "ct": "2022-09-10T15:10:45"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I mention to Champ that I'd help him study for finals this weekend?",
+      "ct": "2022-12-05T17:45:20"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Family Contacts",
+      "body": "I've got everything set up for our study sessions this weekend. Let's ace those exams!",
+      "ct": "2022-12-03T14:15:30"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the thing I planned with my father last summer?",
+      "ct": "2023-11-25T09:15:00"
+    },
+    "passage": {
+      "title": "Summer Home Improvement Project",
+      "desc": "Working on home improvement projects with Pa.",
+      "date": "2022-07-15T14:30:00",
+      "ct": "2022-07-10T12:00:00",
+      "location": "Home",
+      "attendees": [
+        "Juan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was at the picnic with my mom last week?",
+      "ct": "2022-11-20T19:48:17"
+    },
+    "passage": {
+      "title": "Sunday Picnic",
+      "desc": "Relaxing afternoon with Sofia and family.",
+      "date": "2022-11-13T12:00:00",
+      "ct": "2022-11-05T10:10:25",
+      "location": "Sofia's House",
+      "attendees": [
+        "Sofia",
+        "Juan",
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the person who gave me advice about winemaking last summer?",
+      "ct": "2025-09-10T14:40:00"
+    },
+    "passage": {
+      "name": "Vincent",
+      "relation": "wine expert",
+      "group": "Vintners Circle",
+      "email": "vincentwine@example.com",
+      "ct": "2024-08-25T17:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a reminder about my family picnic last summer?",
+      "ct": "2023-09-25T16:45:04"
+    },
+    "passage": {
+      "from": "Community Center",
+      "relation": "organizer",
+      "group": "Family Events",
+      "body": "Annual family picnic is scheduled for June 15th at the local park.",
+      "ct": "2023-06-10T10:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I attended with Luz a couple months ago?",
+      "ct": "2023-05-20T11:25:00"
+    },
+    "passage": {
+      "title": "Educational Workshop",
+      "desc": "Attending a workshop with Luz to brainstorm new initiatives.",
+      "date": "2023-03-15T14:00:00",
+      "ct": "2023-03-10T12:30:00",
+      "location": "Education Administration Office",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I participate in a family project with Champ this week?",
+      "ct": "2023-04-15T11:00:00"
+    },
+    "passage": {
+      "title": "Home Improvement Day",
+      "desc": "Working on a new project around the house",
+      "date": "2023-04-12T14:00:00",
+      "ct": "2023-04-08T10:30:00",
+      "location": "Emilia's House",
+      "attendees": [
+        "Adrian",
+        "Juan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a family dinner with Elenita at her favorite restaurant last week?",
+      "ct": "2023-09-25T19:30:00"
+    },
+    "passage": {
+      "title": "Evening Feast",
+      "desc": "Enjoying a delicious meal together",
+      "date": "2023-09-22T19:00:00",
+      "ct": "2023-09-18T15:00:00",
+      "location": "Gourmet Grotto",
+      "attendees": [
+        "Elena",
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a family outing with Pa at the lake last weekend?",
+      "ct": "2025-07-10T14:30:00"
+    },
+    "passage": {
+      "title": "Outdoor Adventure",
+      "desc": "Spending quality time together exploring nature",
+      "date": "2025-07-05T10:00:00",
+      "ct": "2025-07-01T12:00:00",
+      "location": "Lakeview Park",
+      "attendees": [
+        "Juan",
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I have a knitting get-together with Elenita last month?",
+      "ct": "2023-02-15T11:45:00"
+    },
+    "passage": {
+      "title": "Crafty Friends Day",
+      "desc": "Meeting up with friends to create and chat",
+      "date": "2023-01-15T14:00:00",
+      "ct": "2023-01-10T09:00:00",
+      "location": "The Yarnery",
+      "attendees": [
+        "Elena",
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did the yoga studio mention about the retreat this winter?",
+      "ct": "2025-01-05T14:45:00"
+    },
+    "passage": {
+      "from": "Lotus Garden Yoga",
+      "relation": "yoga instructor",
+      "group": "Wellness Retreat",
+      "body": "The winter retreat is planned for January 20th at the serene mountain lodge.",
+      "ct": "2024-12-20T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a gathering with the neighbors last spring?",
+      "ct": "2019-09-20T10:15:00"
+    },
+    "passage": {
+      "title": "Neighborhood Potluck",
+      "desc": "Enjoying homemade dishes and community bonding",
+      "date": "2019-03-25T17:00:00",
+      "ct": "2019-03-20T14:00:00",
+      "location": "Community Park",
+      "attendees": [
+        "Rosalia",
+        "Juan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What event am I attending with Elena next Tuesday?",
+      "ct": "2023-08-22T14:30:00"
+    },
+    "passage": {
+      "title": "Wellness Retreat",
+      "desc": "Engaging in relaxation and self-care activities",
+      "date": "2023-08-29T10:00:00",
+      "ct": "2023-08-13T14:30:00",
+      "location": "Healing Haven Spa",
+      "attendees": [
+        "Elena",
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a winemaking workshop with Luz two springs ago?",
+      "ct": "2023-07-25T10:10:00"
+    },
+    "passage": {
+      "title": "Vineyard Visit",
+      "desc": "Exploring the art of wine making with friends",
+      "date": "2022-03-20T15:00:00",
+      "ct": "2022-03-15T09:30:00",
+      "location": "Bottle Bliss Winery",
+      "attendees": [
+        "Luz",
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the person I added to my contacts for the hiking trip last summer?",
+      "ct": "2023-07-15T18:30:00"
+    },
+    "passage": {
+      "name": "Luisa",
+      "relation": "hiking companion",
+      "group": "Trailblazers",
+      "email": "luisa.hiker@example.com",
+      "ct": "2022-07-22T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my son Champ mention about his psychology studies last week?",
+      "ct": "2023-10-15T18:45:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Academic Contacts",
+      "body": "I've got a presentation coming up next month on mental health strategies.",
+      "ct": "2023-10-08T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I have a strategy session with Claudia last week?",
+      "ct": "2025-06-25T12:00:00"
+    },
+    "passage": {
+      "title": "Collaborative Planning",
+      "desc": "Discussing upcoming social service projects",
+      "date": "2025-06-18T14:00:00",
+      "ct": "2025-06-15T11:30:00",
+      "location": "Community Center Office",
+      "attendees": [
+        "Claudia",
+        "Dr. Rodriguez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Elena suggest about the new initiative last spring?",
+      "ct": "2025-09-25T16:23:45"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Social Work Circle",
+      "body": "We should consider expanding our outreach program starting next year.",
+      "ct": "2024-04-24T15:45:30"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I join a social service training with Claudia last month?",
+      "ct": "2020-11-20T18:00:00"
+    },
+    "passage": {
+      "title": "Skill Enhancement Seminar",
+      "desc": "Learning new techniques for social work",
+      "date": "2024-10-15T14:00:00",
+      "ct": "2020-10-22T18:00:00",
+      "location": "Community Center Training Room",
+      "attendees": [
+        "Claudia",
+        "Dr. Rodriguez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I join a writers' circle at the library this week?",
+      "ct": "2023-03-08T09:45:00"
+    },
+    "passage": {
+      "title": "Literary Luncheon",
+      "desc": "Discussing short story writing and sharing ideas",
+      "date": "2023-03-06T13:00:00",
+      "ct": "2023-03-03T10:15:00",
+      "location": "City Library Writers' Room",
+      "attendees": [
+        "Elena",
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When will I see Champ at the community center next weekend?",
+      "ct": "2025-05-20T17:30:00"
+    },
+    "passage": {
+      "title": "Family Services Workshop",
+      "desc": "Discussing strategies for family support",
+      "date": "2025-06-01T10:00:00",
+      "ct": "2025-05-03T14:00:00",
+      "location": "Community Center",
+      "attendees": [
+        "Adrian",
+        "Juan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to visit my sister for her graduation?",
+      "ct": "2025-05-20T16:45:00"
+    },
+    "passage": {
+      "title": "Graduation Ceremony",
+      "desc": "Celebrating Luz's academic achievements",
+      "date": "2025-05-27T14:00:00",
+      "ct": "2025-05-15T12:30:00",
+      "location": "University Hall",
+      "attendees": [
+        "Luz",
+        "Adrian",
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did I plan to do with Rosalia after our tech meeting yesterday?",
+      "ct": "2025-08-10T18:23:00"
+    },
+    "passage": {
+      "from": "Rosalia",
+      "relation": "neighbor",
+      "group": "Tech Enthusiasts",
+      "body": "After the meeting, let's grab coffee and brainstorm some ideas.",
+      "ct": "2025-08-09T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Dad remind me about for this weekend?",
+      "ct": "2023-11-05T10:30:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Family Updates",
+      "body": "Don't forget the plumbing supplies for our weekend project.",
+      "ct": "2023-11-01T17:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I went to with Luz a couple of months back?",
+      "ct": "2023-08-15T16:45:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Sibling Adventures",
+      "body": "Remember our fun day at the Artisan Market? Such a lovely time!",
+      "ct": "2023-06-15T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event is Honey joining me for this weekend?",
+      "ct": "2023-09-25T10:15:00"
+    },
+    "passage": {
+      "title": "Craft Market Weekend",
+      "desc": "Exploring handmade crafts and local artisans",
+      "date": "2023-09-30T14:00:00",
+      "ct": "2023-09-20T17:45:00",
+      "location": "Artisan Village",
+      "attendees": [
+        "Martin",
+        "Emilia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Mom remind me about for this evening?",
+      "ct": "2021-10-05T19:45:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Reminders",
+      "body": "Don't forget to bring the soup recipe to the potluck tonight.",
+      "ct": "2021-10-04T17:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the email of the person who shared their gardening tips with me at the farmers' market last spring?",
+      "ct": "2025-06-15T16:30:00"
+    },
+    "passage": {
+      "name": "Gina Green",
+      "relation": "gardener",
+      "group": "Green Thumb Society",
+      "email": "ginagreen@greenthumb.org",
+      "ct": "2024-05-15T13:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I schedule a family dinner with Champ?",
+      "ct": "2023-07-20T19:45:00"
+    },
+    "passage": {
+      "title": "Family Gathering",
+      "desc": "Weekly family dinner at the local bistro",
+      "date": "2023-07-22T19:30:00",
+      "ct": "2023-07-15T14:25:00",
+      "location": "La Dolce Vita",
+      "attendees": [
+        "Adrian",
+        "Elena",
+        "Rosalia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What event is my son attending with his friends next week?",
+      "ct": "2023-12-15T18:00:00"
+    },
+    "passage": {
+      "title": "Psychology Study Group",
+      "desc": "Weekly meeting for students to discuss research topics",
+      "date": "2023-12-21T17:00:00",
+      "ct": "2023-12-10T15:45:00",
+      "location": "Campus Library",
+      "attendees": [
+        "Adrian",
+        "Jake",
+        "Sophia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did I plan to do with Elena about our volunteer work this summer?",
+      "ct": "2025-07-10T15:45:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Community Service",
+      "body": "Let's coordinate our schedules for the summer volunteering at the shelter.",
+      "ct": "2025-06-25T11:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the email of the person who gave me Tai Chi tips last week?",
+      "ct": "2025-05-20T18:15:00"
+    },
+    "passage": {
+      "name": "Li Wei",
+      "relation": "instructor",
+      "group": "Tai Chi Community",
+      "email": "liwei@taichiworld.com",
+      "ct": "2025-05-13T10:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did the person who helped me with my short story editing add me to their contacts last week?",
+      "ct": "2018-09-25T15:45:00"
+    },
+    "passage": {
+      "name": "Laura Smith",
+      "relation": "editor",
+      "group": "Writers' Circle",
+      "email": "laurasmith@writerscircle.org",
+      "ct": "2018-09-01T15:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the person who recommended the winemaking course I attended last fall?",
+      "ct": "2023-10-10T14:15:00"
+    },
+    "passage": {
+      "name": "Chris Baker",
+      "relation": "wine enthusiast",
+      "group": "Vineyard Vanguards",
+      "email": "chrisbaker@vineyards.org",
+      "ct": "2022-09-20T18:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last chat with Elenita about our case management strategies?",
+      "ct": "2022-07-10T18:23:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Social Work Circle",
+      "body": "Let's review the case files together next week.",
+      "ct": "2022-06-28T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I went to with my mother for her birthday this year?",
+      "ct": "2025-03-10T19:20:00"
+    },
+    "passage": {
+      "title": "Birthday Celebration",
+      "desc": "Celebrating Sofia's birthday at the Coastal Bliss Restaurant.",
+      "date": "2025-03-01T18:30:00",
+      "ct": "2025-02-20T16:45:00",
+      "location": "Coastal Bliss Restaurant, Los Angeles",
+      "attendees": [
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I go to the lake with my son last summer?",
+      "ct": "2025-11-15T16:30:00"
+    },
+    "passage": {
+      "title": "Summer Lake Day",
+      "desc": "Spending a day at the lake with Adrian for some fun in the sun.",
+      "date": "2024-08-15T10:00:00",
+      "ct": "2024-08-05T14:15:00",
+      "location": "Crystal Lake, Los Angeles",
+      "attendees": [
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I schedule a meeting with my sister for next week?",
+      "ct": "2023-03-25T11:05:00"
+    },
+    "passage": {
+      "title": "Sibling Catch-Up",
+      "desc": "Meeting up with Luz at the Community Café.",
+      "date": "2023-04-01T12:00:00",
+      "ct": "2023-03-20T15:10:00",
+      "location": "Community Café, Los Angeles",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add my dad's plumbing buddy to my contacts?",
+      "ct": "2022-07-18T16:45:00"
+    },
+    "passage": {
+      "title": "Home Improvement Meetup",
+      "desc": "Joining a gathering of home improvement enthusiasts at the DIY Depot.",
+      "date": "2022-07-25T14:00:00",
+      "ct": "2022-07-15T18:30:00",
+      "location": "DIY Depot, Los Angeles",
+      "attendees": [
+        "Jerry"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I went to for the knitting circle last year?",
+      "ct": "2025-05-20T17:15:00"
+    },
+    "passage": {
+      "title": "Knitting Circle",
+      "desc": "Monthly gathering for knitting enthusiasts at the Wooly Wonders Studio.",
+      "date": "2024-05-15T16:00:00",
+      "ct": "2024-05-05T17:30:00",
+      "location": "Wooly Wonders Studio, Los Angeles",
+      "attendees": [
+        "Jane"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Dr. Rodriguez send a reminder about my therapy appointment this week?",
+      "ct": "2023-11-10T18:25:00"
+    },
+    "passage": {
+      "from": "Dr. Rodriguez",
+      "relation": "therapist",
+      "group": "Health Contacts",
+      "body": "Don't forget your session this Friday at 4 PM.",
+      "ct": "2023-11-09T16:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Luz remind me about the family picnic a couple of months back?",
+      "ct": "2023-07-25T17:30:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "Let's plan a picnic for the coming weekend.",
+      "ct": "2023-05-20T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who is the person I added to my contacts after the family reunion this summer?",
+      "ct": "2025-09-15T17:00:00"
+    },
+    "passage": {
+      "name": "Maria",
+      "relation": "cousin",
+      "group": "Family Reunion Attendees",
+      "email": "maria.reunion@example.com",
+      "ct": "2022-08-20T13:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I meet for knitting at the park last summer?",
+      "ct": "2023-11-20T15:00:00"
+    },
+    "passage": {
+      "title": "Knitting Circle",
+      "desc": "Monthly gathering with fellow knitters at the local park",
+      "date": "2022-07-15T16:00:00",
+      "ct": "2022-07-10T13:45:00",
+      "location": "Sunset Park",
+      "attendees": [
+        "Maria",
+        "Sophia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I send a message to about the wine-making class last weekend?",
+      "ct": "2023-09-15T18:30:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Social Workers' Circle",
+      "body": "I reminded you about the wine-making class at the Vineyard Studio on Saturday.",
+      "ct": "2023-09-10T17:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I told Dad I'd meet him for lunch this weekend?",
+      "ct": "2023-09-09T12:30:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Family Contacts",
+      "body": "I'll see you at the Green Olive Café for lunch on Saturday.",
+      "ct": "2023-08-27T12:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I attended the cooking class last month?",
+      "ct": "2023-12-05T18:15:00"
+    },
+    "passage": {
+      "title": "Cooking Class",
+      "desc": "Taking a traditional dish cooking class at Casa de Comidas",
+      "date": "2023-11-18T17:00:00",
+      "ct": "2023-11-13T13:45:00",
+      "location": "Casa de Comidas",
+      "attendees": [
+        "Emilia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the park I visited with my mother last summer?",
+      "ct": "2023-11-28T19:00:00"
+    },
+    "passage": {
+      "title": "Mother-Daughter Picnic",
+      "desc": "Enjoying a picnic at the botanical gardens with Sofia",
+      "date": "2022-07-10T10:00:00",
+      "ct": "2022-07-05T14:00:00",
+      "location": "Botanical Gardens",
+      "attendees": [
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did the person from the yoga retreat give me their contact details?",
+      "ct": "2022-03-10T13:45:00"
+    },
+    "passage": {
+      "name": "Asha",
+      "relation": "yoga instructor",
+      "group": "Wellness Retreats",
+      "email": "asha@yogaretreat.com",
+      "ct": "2022-03-05T12:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I text Champ about the psychology conference he's attending next month?",
+      "ct": "2023-11-15T14:45:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Family Contacts",
+      "body": "I mentioned the psychology conference at the University of Southern California in December.",
+      "ct": "2023-11-05T13:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What time did I tell Champ I'd be home for dinner last night?",
+      "ct": "2023-07-15T20:45:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Family Contacts",
+      "body": "You said you'd be home for dinner at 7 PM.",
+      "ct": "2023-07-14T19:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Claudia inform me about the new client project last autumn?",
+      "ct": "2023-12-15T14:25:00"
+    },
+    "passage": {
+      "from": "Claudia",
+      "relation": "co-worker",
+      "group": "Community Service Team",
+      "body": "We're starting a new project with the Smith Family Foundation in October.",
+      "ct": "2023-10-05T13:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was I supposed to meet Luz at the library a couple of months ago?",
+      "ct": "2023-12-10T16:45:00"
+    },
+    "passage": {
+      "title": "Study Break",
+      "desc": "Spending time with Lulu at the city library for some quiet study time",
+      "date": "2023-10-25T14:00:00",
+      "ct": "2023-10-07T11:30:00",
+      "location": "City Library",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the contact information of the person who helped me with my garden?",
+      "ct": "2023-08-25T19:05:00"
+    },
+    "passage": {
+      "name": "Ben",
+      "relation": "gardening expert",
+      "group": "Green Thumb Helpers",
+      "email": "ben@gardenhelp.com",
+      "ct": "2023-08-20T18:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What time did I tell Luz I'd help her with the new school project last month?",
+      "ct": "2023-08-15T14:45:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "You said you'd join me at the library at 3 PM tomorrow to work on the presentation.",
+      "ct": "2023-07-25T13:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I was supposed to meet my dad for lunch last week?",
+      "ct": "2023-09-15T12:30:00"
+    },
+    "passage": {
+      "title": "Father-Daughter Luncheon",
+      "desc": "Meeting up with Pa for a casual lunch at The Rustic Spoon",
+      "date": "2023-09-07T12:30:00",
+      "ct": "2023-09-05T14:45:00",
+      "location": "The Rustic Spoon",
+      "attendees": [
+        "Juan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I tell about the pottery workshop at the art studio next spring?",
+      "ct": "2020-10-15T16:30:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "I mentioned the pottery workshop at the Artisan's Nest for next April.",
+      "ct": "2020-10-10T15:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the organization I joined 2 years ago?",
+      "ct": "2023-12-01T19:30:00"
+    },
+    "passage": {
+      "title": "New Member Orientation",
+      "desc": "First meeting with The Social Workers' Circle",
+      "date": "2021-12-05T18:00:00",
+      "ct": "2021-11-20T14:30:00",
+      "location": "Community Center",
+      "attendees": [
+        "Claudia",
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I add to my contacts for the upcoming furniture installation?",
+      "ct": "2020-01-20T10:20:45"
+    },
+    "passage": {
+      "name": "Dean",
+      "relation": "Movables Inc.",
+      "group": "-",
+      "email": "dean@movables.com",
+      "ct": "2020-01-18T18:15:05"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the winery I visited with Elena two years ago?",
+      "ct": "2021-11-20T17:30:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Social Worker Circle",
+      "body": "Our visit to Vineyard Bliss two years ago was unforgettable.",
+      "ct": "2019-11-18T16:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I have with my son at the park this weekend?",
+      "ct": "2025-03-10T19:15:00"
+    },
+    "passage": {
+      "title": "Mother-Son Playtime",
+      "desc": "Spending quality time outdoors",
+      "date": "2025-03-16T16:00:00",
+      "ct": "2025-02-15T18:20:00",
+      "location": "Central Park",
+      "attendees": [
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan a visit to the art gallery with my dad last month?",
+      "ct": "2023-05-20T15:45:00"
+    },
+    "passage": {
+      "title": "Art Gallery Tour",
+      "desc": "Exploring contemporary art exhibits with a family member",
+      "date": "2023-04-15T14:00:00",
+      "ct": "2023-04-05T11:30:00",
+      "location": "Gallery of Modern Art",
+      "attendees": [
+        "Juan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was I supposed to meet the therapist at the community center for the support group?",
+      "ct": "2021-11-05T17:10:00"
+    },
+    "passage": {
+      "title": "Therapy Session",
+      "desc": "Weekly meeting for emotional support and therapy",
+      "date": "2021-11-01T14:30:00",
+      "ct": "2021-10-25T18:20:00",
+      "location": "Community Wellness Hub",
+      "attendees": [
+        "Dr. Rodriguez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the tai chi studio I joined last year?",
+      "ct": "2023-11-05T13:25:00"
+    },
+    "passage": {
+      "from": "Tai Chi Oasis",
+      "relation": "student",
+      "group": "Health Clubs",
+      "body": "Welcome to Tai Chi Oasis! Here's your membership card.",
+      "ct": "2022-11-03T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan a visit to the winery with my best friend next autumn?",
+      "ct": "2023-02-15T14:20:00"
+    },
+    "passage": {
+      "title": "Wine Tasting Adventure",
+      "desc": "Exploring vineyards and sampling fine wines",
+      "date": "2023-10-20T15:00:00",
+      "ct": "2023-02-10T16:45:00",
+      "location": "Vineyard Bliss",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last go to the lake with my niece?",
+      "ct": "2020-08-20T11:30:00"
+    },
+    "passage": {
+      "title": "Summer Lake Day",
+      "desc": "Relaxing by the lake with family",
+      "date": "2020-08-10T10:00:00",
+      "ct": "2020-08-05T14:45:00",
+      "location": "Crystal Lake",
+      "attendees": [
+        "Sophie"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was I supposed to meet the writer at the community center for the book club?",
+      "ct": "2022-09-15T18:25:00"
+    },
+    "passage": {
+      "title": "Literary Circle Gathering",
+      "desc": "Monthly meeting for book enthusiasts",
+      "date": "2022-09-10T19:30:00",
+      "ct": "2022-08-25T17:10:00",
+      "location": "Sunset Community Center",
+      "attendees": [
+        "Linda"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the person who taught me how to knit?",
+      "ct": "2022-08-18T14:45:00"
+    },
+    "passage": {
+      "name": "Kaia",
+      "relation": "neighbor",
+      "group": "Baking Buddies",
+      "email": "kaia@example.com",
+      "ct": "2021-06-15T09:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the place where I got my first massage?",
+      "ct": "2025-07-20T10:15:00"
+    },
+    "passage": {
+      "name": "Serenity Spa",
+      "relation": "client",
+      "group": "Relaxation Retreats",
+      "email": "serenityspa@example.com",
+      "ct": "2024-07-28T13:45:03"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan a visit to the museum with my cousin last month?",
+      "ct": "2023-07-15T10:45:00"
+    },
+    "passage": {
+      "title": "Museum Visit",
+      "desc": "Exploring historical artifacts and exhibitions",
+      "date": "2023-06-25T13:00:00",
+      "ct": "2023-06-15T17:20:00",
+      "location": "Historical Museum",
+      "attendees": [
+        "Maria"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I attend the workshop at the community center with my mother last week?",
+      "ct": "2020-10-25T17:45:00"
+    },
+    "passage": {
+      "title": "Parenting Workshop",
+      "desc": "Discussion on effective parenting strategies",
+      "date": "2024-10-17T14:30:00",
+      "ct": "2020-10-17T17:45:00",
+      "location": "Community Center",
+      "attendees": [
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan a visit to the zoo with my son this spring?",
+      "ct": "2018-05-15T14:45:00"
+    },
+    "passage": {
+      "title": "Zoo Trip",
+      "desc": "Exploring wildlife and learning about animals",
+      "date": "2018-05-10T11:00:00",
+      "ct": "2018-05-05T16:15:00",
+      "location": "Wildlife Zoo",
+      "attendees": [
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I visited with Champ for our study break?",
+      "ct": "2022-09-25T18:30:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Family Contacts",
+      "body": "Just got back from our chill session at The Quiet Corner. Great spot for some peace and quiet.",
+      "ct": "2022-09-20T16:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was I supposed to meet the co-worker at the community center for the social event?",
+      "ct": "2022-03-20T16:30:00"
+    },
+    "passage": {
+      "title": "Social Event",
+      "desc": "Networking and socializing with colleagues",
+      "date": "2022-03-15T19:00:00",
+      "ct": "2022-03-10T14:20:00",
+      "location": "Community Center",
+      "attendees": [
+        "Claudia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Champ tell me about his psychology thesis?",
+      "ct": "2023-03-15T17:00:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Academic Pursuits",
+      "body": "My thesis focuses on the impact of mindfulness on mental health.",
+      "ct": "2023-03-13T15:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the thing that Lulu invited me to last summer?",
+      "ct": "2023-11-25T09:15:00"
+    },
+    "passage": {
+      "title": "Education Expo",
+      "desc": "Exploring new teaching methodologies",
+      "date": "2022-06-15T14:30:00",
+      "ct": "2022-06-10T09:20:45",
+      "location": "Exhibition Center",
+      "attendees": [
+        "Jessica",
+        "Olivia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did my mother tell me about her new book club?",
+      "ct": "2022-07-20T19:15:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Literary Circle",
+      "body": "Joining a new book club starting this month. They're reading 'The Midnight Library'.",
+      "ct": "2022-07-15T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the thing I had planned for the weekend after my visit to the lake?",
+      "ct": "2023-08-15T14:15:00"
+    },
+    "passage": {
+      "title": "Lake Cleanup Day",
+      "desc": "Volunteering for environmental conservation",
+      "date": "2023-08-10T09:00:00",
+      "ct": "2023-08-05T10:15:00",
+      "location": "Crystal Lake",
+      "attendees": [
+        "Ella",
+        "Frank"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Pa mention about his new plumbing project?",
+      "ct": "2021-03-15T14:30:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Home Improvement",
+      "body": "Just installed a new water heater. Should save us some money on utilities.",
+      "ct": "2021-03-10T18:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did the Community Center announce about their summer programs?",
+      "ct": "2025-07-15T14:45:00"
+    },
+    "passage": {
+      "from": "Community Center",
+      "relation": "organizer",
+      "group": "Summer Programs",
+      "body": "Registration open for summer workshops and camps.",
+      "ct": "2025-07-10T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Dr. Rodriguez suggest a therapy technique recently?",
+      "ct": "2022-04-20T14:45:00"
+    },
+    "passage": {
+      "from": "Dr. Rodriguez",
+      "relation": "therapist",
+      "group": "Health Contacts",
+      "body": "Exploring new relaxation techniques in our next session.",
+      "ct": "2022-04-18T15:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Elena remind me about our wine tasting night this month?",
+      "ct": "2021-05-10T19:30:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Wine Enthusiasts",
+      "body": "Our monthly wine tasting night is this Friday.",
+      "ct": "2021-05-08T18:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Rosalia tell me about her latest tech project?",
+      "ct": "2023-08-25T16:30:00"
+    },
+    "passage": {
+      "from": "Rosalia",
+      "relation": "neighbor",
+      "group": "Tech Innovators",
+      "body": "Working on a new app to streamline software updates.",
+      "ct": "2023-08-23T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Lulu tell me about her new job role?",
+      "ct": "2022-09-20T14:30:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Career Progression",
+      "body": "Promoted to head of curriculum development.",
+      "ct": "2022-09-18T15:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What's the name of the group I joined last fall?",
+      "ct": "2022-11-20T19:48:17"
+    },
+    "passage": {
+      "title": "Autumn Hikes",
+      "desc": "Monthly hiking trips to explore local trails",
+      "date": "2021-10-15T09:00:00",
+      "ct": "2021-10-01T10:10:25",
+      "location": "Trailhead Park",
+      "attendees": [
+        "Tom",
+        "Emily"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a special event at the community center this summer?",
+      "ct": "2023-09-01T14:33:11"
+    },
+    "passage": {
+      "title": "Summer Social Event",
+      "desc": "Community picnic and games for families",
+      "date": "2023-08-15T10:00:00",
+      "ct": "2023-07-30T09:20:45",
+      "location": "Community Center",
+      "attendees": [
+        "Maria",
+        "David"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan a trip to the yoga studio last week?",
+      "ct": "2019-09-25T14:15:00"
+    },
+    "passage": {
+      "title": "Yoga Retreat",
+      "desc": "Meditation and stretching sessions",
+      "date": "2024-09-17T10:00:00",
+      "ct": "2019-09-10T14:15:00",
+      "location": "Zen Studio",
+      "attendees": [
+        "Mia",
+        "Nathan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Champ mention his plans for the summer break?",
+      "ct": "2023-06-05T17:00:00"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Student Life",
+      "body": "Planning to intern at a psychology clinic.",
+      "ct": "2023-06-03T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I add to my contacts for the wine-making workshop last year?",
+      "ct": "2025-07-25T17:02:21"
+    },
+    "passage": {
+      "name": "Julian Torres",
+      "relation": "workshop participant",
+      "group": "Viticulture Enthusiasts",
+      "email": "juliantorres@viticulture.org",
+      "ct": "2024-07-28T13:45:03"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the thing that Pa invited me to do next summer?",
+      "ct": "2023-11-25T09:15:00"
+    },
+    "passage": {
+      "title": "Home Improvement Project",
+      "desc": "Renovating the backyard shed",
+      "date": "2024-06-15T14:30:00",
+      "ct": "2023-11-20T09:20:45",
+      "location": "Home",
+      "attendees": [
+        "James",
+        "Chris"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I have a book discussion with before my meeting with Elena last week?",
+      "ct": "2020-09-15T14:30:00"
+    },
+    "passage": {
+      "title": "Literature Circle Meeting",
+      "desc": "Exploring themes in contemporary fiction",
+      "date": "2024-09-02T14:00:00",
+      "ct": "2020-09-10T14:30:00",
+      "location": "The Quiet Library",
+      "attendees": [
+        "Samantha",
+        "Lucy"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Elenita mention a new therapy session schedule?",
+      "ct": "2025-01-15T11:00:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Therapy Sessions",
+      "body": "Our sessions are now bi-weekly, starting January 20th.",
+      "ct": "2025-01-13T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the workshop I signed up for this autumn?",
+      "ct": "2022-10-15T14:30:00"
+    },
+    "passage": {
+      "title": "Autumn Wellness Retreat",
+      "desc": "Holistic health practices and mindfulness sessions",
+      "date": "2022-10-20T09:00:00",
+      "ct": "2022-10-10T10:15:00",
+      "location": "Wellness Sanctuary",
+      "attendees": [
+        "Ava",
+        "Charlie"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was at the party at the end of last month?",
+      "ct": "2025-02-10T11:00:30"
+    },
+    "passage": {
+      "title": "Weekend Hangout",
+      "desc": "Celebrating Martha's Promotion",
+      "date": "2025-01-30T20:10:00",
+      "ct": "2025-01-04T21:23:08",
+      "location": "Martha's",
+      "attendees": [
+        "Martha Lewis",
+        "Layla Taylor",
+        "Ginnie Cawthon",
+        "Dave Lowell",
+        "Ross Thompson"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I join a new club this spring?",
+      "ct": "2025-05-25T14:15:00"
+    },
+    "passage": {
+      "title": "Spring Gardening Club",
+      "desc": "Monthly meetings to share gardening tips",
+      "date": "2025-03-20T14:00:00",
+      "ct": "2025-03-15T16:45:00",
+      "location": "Green Thumb Garden",
+      "attendees": [
+        "Anna",
+        "Benjamin"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I attended with Elenita two weeks ago?",
+      "ct": "2020-10-10T14:30:00"
+    },
+    "passage": {
+      "title": "Support Group Session",
+      "desc": "Providing emotional support to fellow social workers",
+      "date": "2020-09-27T18:00:00",
+      "ct": "2020-09-25T11:30:00",
+      "location": "Community Center",
+      "attendees": [
+        "Victoria",
+        "William"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I sign up for a knitting workshop with my mom this spring?",
+      "ct": "2022-03-05T14:15:00"
+    },
+    "passage": {
+      "title": "Knit Together",
+      "desc": "Workshop focusing on new knitting techniques",
+      "date": "2022-03-20T14:00:00",
+      "ct": "2022-02-03T14:15:00",
+      "location": "Threadweavers Studio",
+      "attendees": [
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I attended with my best friend at the end of last month?",
+      "ct": "2025-01-10T11:00:30"
+    },
+    "passage": {
+      "title": "Art Show Opening",
+      "desc": "Attending the opening of a new exhibition with Elena",
+      "date": "2024-12-28T19:00:00",
+      "ct": "2024-12-20T12:30:08",
+      "location": "Gallery of Visions",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Claudia ever remind me to send the forms by this Thursday?",
+      "ct": "2023-07-12T14:35:15"
+    },
+    "passage": {
+      "from": "Claudia",
+      "relation": "work colleague",
+      "group": "Project Team",
+      "body": "Don't forget to submit the forms by the end of this week. It's crucial for our project timeline.",
+      "ct": "2023-07-10T19:45:30"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person that I gave my number to at the music festival in July?",
+      "ct": "2025-08-10T18:23:00"
+    },
+    "passage": {
+      "from": "Melody Makers Collective",
+      "relation": "festival organizer",
+      "group": "Music Enthusiasts",
+      "body": "It was great to see you this month at the Summer Solstice Festival!",
+      "ct": "2025-07-20T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I go to the lake with my family last year?",
+      "ct": "2023-07-20T18:23:00"
+    },
+    "passage": {
+      "title": "Family Retreat",
+      "desc": "A day spent enjoying the outdoors with family",
+      "date": "2022-07-15T10:00:00",
+      "ct": "2022-07-10T15:20:00",
+      "location": "Crystal Lake",
+      "attendees": [
+        "Juan",
+        "Sofia",
+        "Adrian",
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I meet up with Champ for a study session?",
+      "ct": "2022-09-15T18:29:20"
+    },
+    "passage": {
+      "title": "Study Night",
+      "desc": "Collaborative study session with Adrian",
+      "date": "2022-09-10T19:00:00",
+      "ct": "2022-09-05T13:30:25",
+      "location": "Library of Learning",
+      "attendees": [
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan to join Elena for a walk in the park last week?",
+      "ct": "2019-07-10T19:12:20"
+    },
+    "passage": {
+      "title": "Outdoor Adventure",
+      "desc": "Walking and talking with Elena",
+      "date": "2024-07-01T18:00:00",
+      "ct": "2019-06-13T19:12:20",
+      "location": "Greenhaven Park",
+      "attendees": [
+        "Elena"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan to join Claudia for a community outreach event this week?",
+      "ct": "2020-10-15T14:10:00"
+    },
+    "passage": {
+      "title": "Community Outreach",
+      "desc": "Volunteering at the local community center",
+      "date": "2024-10-16T14:00:00",
+      "ct": "2020-09-16T14:10:00",
+      "location": "Community Center",
+      "attendees": [
+        "Claudia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I meet for my collaborative project last week?",
+      "ct": "2025-09-25T14:15:00"
+    },
+    "passage": {
+      "from": "Elsa",
+      "relation": "colleague",
+      "group": "Creative Workshop",
+      "body": "Let's finalize our project proposal this week. I'll send over the draft soon.",
+      "ct": "2025-09-18T16:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan to meet my mom for a book discussion last week?",
+      "ct": "2023-09-15T17:25:00"
+    },
+    "passage": {
+      "title": "Literary Luncheon",
+      "desc": "Discussing current reads with Sofia",
+      "date": "2023-09-10T12:30:00",
+      "ct": "2023-09-05T11:45:00",
+      "location": "Library of Learning",
+      "attendees": [
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I receive a message about my cafe coupons?",
+      "ct": "2025-10-15T14:45:00"
+    },
+    "passage": {
+      "from": "Beanstalk Brewery",
+      "relation": "customer",
+      "group": "Coffee Places",
+      "body": "This is a reminder that your latte coupon is expected to expire by the end of the year.",
+      "ct": "2025-09-18T15:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I attended with my sister last fall?",
+      "ct": "2025-03-05T14:45:00"
+    },
+    "passage": {
+      "title": "Autumn Festival",
+      "desc": "Participating in the annual autumn festival",
+      "date": "2024-10-15T16:00:00",
+      "ct": "2024-10-05T15:20:00",
+      "location": "Harvest Fairgrounds",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my mom text me about the party with my brother last Tuesday?",
+      "ct": "2019-10-18T16:25:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "Can't wait to see you both at the reunion this weekend!",
+      "ct": "2019-10-14T18:10:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place where I had my first pottery class last year?",
+      "ct": "2025-09-25T16:23:45"
+    },
+    "passage": {
+      "from": "MudWorks Studio",
+      "relation": "student",
+      "group": "Craftsmanship Collective",
+      "body": "Your first pottery lesson is scheduled for October 5th at 7 PM. Looking forward to helping you shape your first masterpiece!",
+      "ct": "2024-09-24T15:45:30"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was at the dinner with my dad last weekend?",
+      "ct": "2023-08-10T18:45:00"
+    },
+    "passage": {
+      "title": "Sunday Dinner",
+      "desc": "A relaxed evening gathering with family members.",
+      "date": "2023-08-06T19:00:00",
+      "ct": "2023-08-05T12:00:00",
+      "location": "Home",
+      "attendees": [
+        "Juan",
+        "Sofia",
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I text about the winemaking supplies last month?",
+      "ct": "2022-12-10T18:15:00"
+    },
+    "passage": {
+      "from": "Rosalia",
+      "relation": "neighbor",
+      "group": "Tech Contacts",
+      "body": "Found some great deals on winemaking supplies online.",
+      "ct": "2022-11-25T11:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I remind Mom about her reading group this Wednesday?",
+      "ct": "2021-11-20T19:45:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "Don't forget the reading group meets on Wednesdays at 3 PM.",
+      "ct": "2021-11-18T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I mentioned to Elena for our next meetup?",
+      "ct": "2023-07-15T14:45:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Social Workers' Circle",
+      "body": "The Artisan Café sounds perfect for our next catch-up!",
+      "ct": "2023-07-13T11:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I attended with my mother last year?",
+      "ct": "2025-02-10T14:00:00"
+    },
+    "passage": {
+      "title": "Educational Conference",
+      "desc": "Attending a conference on innovative teaching methods.",
+      "date": "2024-02-20T09:00:00",
+      "ct": "2024-02-15T12:15:00",
+      "location": "Convention Center",
+      "attendees": [
+        "Sofia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I text Rosalia about the tech meetup this evening?",
+      "ct": "2022-06-15T18:45:00"
+    },
+    "passage": {
+      "from": "Rosalia",
+      "relation": "neighbor",
+      "group": "Tech Contacts",
+      "body": "The tech meetup starts at 7 PM this evening.",
+      "ct": "2022-06-13T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I attend with Rosalia last month?",
+      "ct": "2025-04-10T12:00:00"
+    },
+    "passage": {
+      "title": "Tech Trends Seminar",
+      "desc": "Seminar discussing the latest advancements in technology.",
+      "date": "2025-03-15T10:00:00",
+      "ct": "2025-03-10T14:20:00",
+      "location": "Tech Innovation Hub",
+      "attendees": [
+        "Rosalia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the yoga studio I mentioned to Claudia for our next session?",
+      "ct": "2023-04-15T17:30:00"
+    },
+    "passage": {
+      "from": "Claudia",
+      "relation": "co-worker",
+      "group": "Community Center Staff",
+      "body": "The Lotus Flow Yoga Studio is perfect for our next session.",
+      "ct": "2023-04-13T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I mention my plans to Pa for the plumbing supplies this weekend?",
+      "ct": "2023-11-18T15:45:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Family Contacts",
+      "body": "We’ll need to pick up the plumbing supplies this Saturday.",
+      "ct": "2023-11-18T13:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I text Lulu about the farmers' market this Saturday?",
+      "ct": "2022-05-15T16:45:00"
+    },
+    "passage": {
+      "from": "Luz",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "Can’t wait to see you at the farmers' market this Saturday!",
+      "ct": "2022-05-13T12:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the park I mentioned to Elena for our picnic this weekend?",
+      "ct": "2023-03-20T14:45:00"
+    },
+    "passage": {
+      "from": "Elena",
+      "relation": "best friend",
+      "group": "Social Workers' Circle",
+      "body": "The Riverside Park is ideal for our picnic this weekend.",
+      "ct": "2023-03-18T12:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I join the Tai Chi group near the lake?",
+      "ct": "2021-09-15T14:30:00"
+    },
+    "passage": {
+      "title": "Weekly Tai Chi Practice",
+      "desc": "Joining a serene morning session at the Lakeside Park.",
+      "date": "2021-09-17T08:00:00",
+      "ct": "2021-09-10T16:45:00",
+      "location": "Lakeside Park",
+      "attendees": [
+        "Emily",
+        "David"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan a trip to the lakes with my son?",
+      "ct": "2023-07-20T17:30:00"
+    },
+    "passage": {
+      "title": "Lake Adventure",
+      "desc": "A weekend getaway exploring the scenic lakes.",
+      "date": "2023-07-14T08:00:00",
+      "ct": "2023-07-10T14:30:00",
+      "location": "Mountain Lakes",
+      "attendees": [
+        "Adrian"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I attended with Luz last fall?",
+      "ct": "2020-11-15T11:30:00"
+    },
+    "passage": {
+      "title": "Educational Workshop",
+      "desc": "Interactive session on innovative teaching methods",
+      "date": "2019-10-15T09:00:00",
+      "ct": "2019-10-10T11:00:00",
+      "location": "Innovative Learning Hub",
+      "attendees": [
+        "Luz"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my mom mention the picnic at the park after our yoga session last weekend?",
+      "ct": "2023-04-18T11:55:00"
+    },
+    "passage": {
+      "from": "Sofia",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "After yoga, let's head to the park for a picnic.",
+      "ct": "2023-04-15T09:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was at the barbecue with Champ last week?",
+      "ct": "2025-09-25T14:15:00"
+    },
+    "passage": {
+      "title": "BBQ Bash",
+      "desc": "A fun-filled day of grilling and games",
+      "date": "2025-09-18T12:00:00",
+      "ct": "2025-09-14T10:30:00",
+      "location": "Community Park",
+      "attendees": [
+        "Adrian",
+        "Morgan",
+        "Taylor"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was I supposed to meet Paat the community center 2 weeks ago?",
+      "ct": "2023-10-08T16:45:00"
+    },
+    "passage": {
+      "title": "Home Improvement Meetup",
+      "desc": "Discussing DIY projects and sharing tips",
+      "date": "2023-09-25T14:30:00",
+      "ct": "2023-09-20T12:15:00",
+      "location": "Community Center",
+      "attendees": [
+        "Juan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What event am I attending with Claudia this week?",
+      "ct": "2023-12-18T14:30:00"
+    },
+    "passage": {
+      "title": "Client Case Review",
+      "desc": "Meeting to discuss progress and strategies",
+      "date": "2023-12-19T14:00:00",
+      "ct": "2023-12-16T10:15:00",
+      "location": "Community Center",
+      "attendees": [
+        "Claudia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who told me about the pottery workshop I signed up for last week?",
+      "ct": "2022-08-12T16:30:00"
+    },
+    "passage": {
+      "from": "Maggie",
+      "relation": "colleague",
+      "group": "Craft Enthusiasts",
+      "body": "Just registered for the pottery workshop starting next Monday. Should be fun!",
+      "ct": "2022-07-19T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was at the reunion with my father last year?",
+      "ct": "2025-07-25T14:30:02"
+    },
+    "passage": {
+      "title": "Family Reunion",
+      "desc": "A gathering to celebrate and reconnect",
+      "date": "2024-08-01T16:00:00",
+      "ct": "2024-07-28T14:30:02",
+      "location": "Grand Hotel",
+      "attendees": [
+        "Juan",
+        "Maria",
+        "Carlos"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I talk to my cousin about the family reunion last year?",
+      "ct": "2023-11-03T14:30:00"
+    },
+    "passage": {
+      "from": "Maria",
+      "relation": "cousin",
+      "group": "Family Contacts",
+      "body": "The family reunion is next month. Hope to see you there!",
+      "ct": "2022-11-05T10:10:25"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the thing that Adrian mentioned he wanted to do this summer?",
+      "ct": "2023-07-15T16:10:00"
+    },
+    "passage": {
+      "title": "Summer Fun",
+      "desc": "Exciting plans for a beach vacation with family and friends.",
+      "date": "2023-07-20T14:00:00",
+      "ct": "2023-07-10T13:15:00",
+      "location": "Sunset Beach",
+      "attendees": [
+        "Adrian",
+        "Emilia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last go to the farmers market with my mom?",
+      "ct": "2023-11-15T10:20:00"
+    },
+    "passage": {
+      "title": "Farmers Market Day",
+      "desc": "Weekly visit to the local farmers market for fresh produce and artisan goods.",
+      "date": "2023-11-10T10:00:00",
+      "ct": "2023-11-08T11:00:00",
+      "location": "Farmer's Market",
+      "attendees": [
+        "Sofia",
+        "Emilia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When during the last few months was my last knitting session with Claudia?",
+      "ct": "2023-09-25T17:45:00"
+    },
+    "passage": {
+      "title": "Knitting Circle",
+      "desc": "Monthly gathering for knitting enthusiasts to share patterns and creations.",
+      "date": "2023-09-10T16:00:00",
+      "ct": "2023-09-08T12:30:00",
+      "location": "Crafts & Community",
+      "attendees": [
+        "Claudia",
+        "Emilia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the thing that Luz mentioned she wanted to do last spring?",
+      "ct": "2025-07-25T14:15:00"
+    },
+    "passage": {
+      "title": "Spring Break Trip",
+      "desc": "Planned getaway to the mountains for some relaxation and adventure.",
+      "date": "2024-05-15T10:00:00",
+      "ct": "2024-05-10T14:20:00",
+      "location": "Mountain Vista Resort",
+      "attendees": [
+        "Luz",
+        "Emilia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I book dinner with my dad at his favorite spot?",
+      "ct": "2023-03-25T16:45:00"
+    },
+    "passage": {
+      "title": "Father's Night Out",
+      "desc": "A special evening at the Olive Grove, celebrating family traditions.",
+      "date": "2023-03-20T19:00:00",
+      "ct": "2023-03-18T14:30:00",
+      "location": "Olive Grove, Los Angeles",
+      "attendees": [
+        "Juan",
+        "Emilia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I discussed my son's college applications with last year?",
+      "ct": "2025-02-10T11:00:30"
+    },
+    "passage": {
+      "from": "Adrian",
+      "relation": "son",
+      "group": "Higher Education",
+      "body": "Just submitted my college application. Thanks for all your help, Champ!",
+      "ct": "2024-02-15T17:45:23"
+    }
+  },
+  {
+    "query": {
+      "txt": "When during the last few months was my last hike with the usual group?",
+      "ct": "2021-12-18T17:30:00"
+    },
+    "passage": {
+      "title": "Nature Adventure",
+      "desc": "Exploring scenic trails and enjoying the outdoors with friends.",
+      "date": "2021-11-28T09:30:00",
+      "ct": "2021-11-20T12:45:00",
+      "location": "Silver Peak Trail",
+      "attendees": [
+        "Luz",
+        "Adrian",
+        "Elena",
+        "Emilia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I talk to my dad about the plumbing issue at Pa's house last week?",
+      "ct": "2023-10-15T18:45:00"
+    },
+    "passage": {
+      "from": "Juan",
+      "relation": "father",
+      "group": "Home Improvement",
+      "body": "Fixed the leaky pipe at the house this weekend. Everything seems to be working fine now.",
+      "ct": "2023-10-08T19:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last go to the lake with Elena?",
+      "ct": "2021-08-25T15:10:00"
+    },
+    "passage": {
+      "title": "Lake Day",
+      "desc": "Relaxing afternoon spent swimming and enjoying the scenery.",
+      "date": "2021-08-20T14:00:00",
+      "ct": "2021-08-18T11:25:00",
+      "location": "Crystal Lake",
+      "attendees": [
+        "Elena",
+        "Emilia"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my honey remind me about the dinner reservation this Saturday?",
+      "ct": "2019-11-08T20:05:00"
+    },
+    "passage": {
+      "from": "Martin",
+      "relation": "husband",
+      "group": "Close Contacts",
+      "body": "Looking forward to our romantic meal on December 22nd.",
+      "ct": "2019-11-05T15:10:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the chef I added to my contacts last week?",
+      "ct": "2018-07-20T10:30:00"
+    },
+    "passage": {
+      "name": "Lucas",
+      "relation": "culinary instructor",
+      "group": "Cooking Classes",
+      "email": "lucas@example.com",
+      "ct": "2018-06-26T10:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I put the pottery workshop that's happening this week with Elena in my calendar?",
+      "ct": "2022-09-10T11:25:00"
+    },
+    "passage": {
+      "title": "Ceramic Creations",
+      "desc": "Hands-on pottery making session with a focus on artistic expression.",
+      "date": "2022-09-09T14:00:00",
+      "ct": "2022-09-03T10:15:00",
+      "location": "Artisan Pottery Studio",
+      "attendees": [
+        "Elena",
+        "Emilia"
+      ]
+    }
+  }
+]

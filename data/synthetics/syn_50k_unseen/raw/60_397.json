@@ -1,0 +1,5760 @@
+[
+  {
+    "query": {
+      "txt": "What event did Sash invite me to this autumn?",
+      "ct": "2025-09-25T11:00:00"
+    },
+    "passage": {
+      "title": "Fashion Show",
+      "desc": "Modeling latest designs on the runway",
+      "date": "2025-09-20T19:00:00",
+      "ct": "2025-09-15T12:45:00",
+      "location": "Runway Studios",
+      "attendees": [
+        "Sasha"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my mother text me about the camping trip last weekend?",
+      "ct": "2021-06-14T18:45:00"
+    },
+    "passage": {
+      "from": "Scarlet",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "Remember to bring a tent and warm clothing for the campout this weekend.",
+      "ct": "2021-06-12T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my honey text me about the surprise dinner this Friday?",
+      "ct": "2022-10-07T19:23:00"
+    },
+    "passage": {
+      "from": "Ryan",
+      "relation": "boyfriend",
+      "group": "Close Contacts",
+      "body": "I booked reservations at La Bella Vista for our special night this Friday.",
+      "ct": "2022-10-05T12:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did my uncle invite me to 3–4 months ago?",
+      "ct": "2025-02-10T19:15:00"
+    },
+    "passage": {
+      "title": "Family Reunion",
+      "desc": "Annual gathering with extended family",
+      "date": "2024-10-20T12:00:00",
+      "ct": "2024-10-15T10:30:00",
+      "location": "Grand Hall",
+      "attendees": [
+        "Uncle Tom"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was I supposed to join the yoga retreat this weekend?",
+      "ct": "2022-05-14T16:20:00"
+    },
+    "passage": {
+      "title": "Yoga Retreat",
+      "desc": "A weekend of mindfulness and meditation",
+      "date": "2022-05-15T09:00:00",
+      "ct": "2022-04-29T10:15:00",
+      "location": "Mountain Zen Center",
+      "attendees": [
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my mother text me about the family gathering this weekend?",
+      "ct": "2023-11-15T19:15:20"
+    },
+    "passage": {
+      "from": "Scarlet",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "The family reunion is scheduled for November 18th at 2 PM.",
+      "ct": "2023-11-10T22:45:12"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I met at the local cafe 2 years ago?",
+      "ct": "2024-10-15T15:30:00"
+    },
+    "passage": {
+      "title": "Cafe Encounter",
+      "desc": "Engaging in a deep conversation about art",
+      "date": "2022-10-15T16:00:00",
+      "ct": "2022-10-10T14:45:00",
+      "location": "Brew Haven",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I met at the yoga studio last week?",
+      "ct": "2022-09-25T17:45:00"
+    },
+    "passage": {
+      "name": "Zoe",
+      "relation": "yoga practitioner",
+      "group": "Yoga Enthusiasts",
+      "email": "zoe@yogaenthusiasts.org",
+      "ct": "2022-09-18T15:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the thing that Sash invited me to right after the fashion show last month?",
+      "ct": "2025-05-10T10:45:00"
+    },
+    "passage": {
+      "title": "Post-Show Dinner",
+      "desc": "Celebrating the success of the fashion show",
+      "date": "2025-04-20T19:30:00",
+      "ct": "2025-04-15T17:15:00",
+      "location": "The Gourmet Bistro",
+      "attendees": [
+        "Sasha"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I meet with Big Guy at the beach this summer?",
+      "ct": "2024-08-10T14:30:00"
+    },
+    "passage": {
+      "title": "Beach Day",
+      "desc": "Relaxing on the beach with friends",
+      "date": "2024-07-15T10:00:00",
+      "ct": "2024-07-08T14:15:00",
+      "location": "Ocean Shores Beach",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I attend the indie film festival this spring?",
+      "ct": "2023-05-20T14:30:00"
+    },
+    "passage": {
+      "title": "Film Festival",
+      "desc": "Screening of independent films",
+      "date": "2023-05-15T18:00:00",
+      "ct": "2023-05-10T12:00:00",
+      "location": "Cinema Paradiso",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I talk to Jakie about our next photo shoot between last Tuesday and next Sunday?",
+      "ct": "2023-08-20T15:30:00"
+    },
+    "passage": {
+      "from": "Jake",
+      "relation": "best friend",
+      "group": "Photography Buddies",
+      "body": "Let's finalize the details for the photo shoot next Saturday.",
+      "ct": "2023-08-17T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the yoga instructor I added to my contacts right after the workshop last Tuesday?",
+      "ct": "2025-03-22T10:45:00"
+    },
+    "passage": {
+      "name": "Amina",
+      "relation": "yoga instructor",
+      "group": "Yoga Practitioners",
+      "email": "amina@yogapractitioners.org",
+      "ct": "2025-03-15T18:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my dad text me about the weekend plans last Friday?",
+      "ct": "2021-09-13T14:35:15"
+    },
+    "passage": {
+      "from": "David Moore",
+      "relation": "father",
+      "group": "Family Contacts",
+      "body": "Are you free to join us for a barbecue this Saturday?",
+      "ct": "2021-09-10T18:45:30"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Dr. Smith text me about the makeup tutorial event last spring?",
+      "ct": "2025-05-25T16:45:04"
+    },
+    "passage": {
+      "from": "Dr. Smith",
+      "relation": "mentor",
+      "group": "Beauty Bloggers' Network",
+      "body": "Our makeup tutorial session is scheduled for April 15th at 6 PM.",
+      "ct": "2025-04-10T15:45:30"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who is my mother's friend who I added to my contacts during the last couple of months?",
+      "ct": "2023-10-05T14:30:00"
+    },
+    "passage": {
+      "name": "Olivia",
+      "relation": "mom's friend",
+      "group": "Mom's Circle",
+      "email": "olivia@example.com",
+      "ct": "2023-09-10T12:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Am I meeting Dr. Smith for a makeup workshop next Wednesday?",
+      "ct": "2022-10-20T17:15:00"
+    },
+    "passage": {
+      "title": "Makeup Masterclass",
+      "desc": "Advanced techniques in makeup application",
+      "date": "2022-10-26T14:00:00",
+      "ct": "2022-10-18T12:30:00",
+      "location": "Artisan Studio",
+      "attendees": [
+        "Dr. Smith"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Morgan text me about the skincare routine this week?",
+      "ct": "2022-11-15T09:25:34"
+    },
+    "passage": {
+      "from": "Morgan",
+      "relation": "neighbor",
+      "group": "Skin Care Community",
+      "body": "Our next routine update meeting is on the 18th at 4 PM.",
+      "ct": "2022-11-12T09:25:34"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I put the coffee thing that's happening this week with Coach in my calendar?",
+      "ct": "2024-06-18T13:20:00"
+    },
+    "passage": {
+      "title": "Coffee Meetup",
+      "desc": "Discussing career goals over coffee",
+      "date": "2024-06-20T10:30:00",
+      "ct": "2024-06-15T14:45:00",
+      "location": "Java Junction",
+      "attendees": [
+        "Coach"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to meet Jakie for the photoshoot?",
+      "ct": "2021-09-20T12:45:00"
+    },
+    "passage": {
+      "title": "Photo Session",
+      "desc": "Capturing stunning images at sunset",
+      "date": "2021-09-15T17:00:00",
+      "ct": "2021-09-10T15:30:00",
+      "location": "Sunset Vista Park",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who is my sister's friend I added to my contacts around this time last year?",
+      "ct": "2025-08-10T14:30:00"
+    },
+    "passage": {
+      "name": "Sophie",
+      "relation": "friend",
+      "group": "Dana's Friends",
+      "email": "sophie@example.org",
+      "ct": "2024-08-05T13:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the photographer I met at the expo 2 years ago?",
+      "ct": "2025-07-10T12:00:00"
+    },
+    "passage": {
+      "name": "Ian",
+      "relation": "photographer",
+      "group": "Artists' Guild",
+      "email": "ian@artistsguild.com",
+      "ct": "2023-07-10T11:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Sasha text me about the fashion event last night?",
+      "ct": "2023-03-20T22:45:00"
+    },
+    "passage": {
+      "from": "Sasha",
+      "relation": "friend",
+      "group": "Fashion Influencers",
+      "body": "Don't forget to wear your best outfit for the runway show tonight.",
+      "ct": "2023-03-19T19:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the makeup artist who helped me with my latest tutorial 2 weeks ago?",
+      "ct": "2023-11-20T18:00:00"
+    },
+    "passage": {
+      "name": "Veronica",
+      "relation": "makeup artist",
+      "group": "Beauty Experts",
+      "email": "veronica@beautyexperts.com",
+      "ct": "2023-11-11T16:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the thing that Cupcake reminded me about last fall?",
+      "ct": "2023-11-15T18:00:00"
+    },
+    "passage": {
+      "title": "Seasonal Event",
+      "desc": "Attending the annual Harvest Festival",
+      "date": "2022-10-25T14:00:00",
+      "ct": "2022-10-20T11:30:00",
+      "location": "Pumpkin Patch",
+      "attendees": [
+        "Dana"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the thing that Izzy invited me to last summer?",
+      "ct": "2023-11-25T09:15:00"
+    },
+    "passage": {
+      "title": "Summer Symposium",
+      "desc": "Annual symposium on environmental studies",
+      "date": "2022-06-15T14:30:00",
+      "ct": "2022-06-10T09:20:45",
+      "location": "Convention Center",
+      "attendees": [
+        "Isabella"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the contact information of the person who taught me about natural skincare ingredients?",
+      "ct": "2021-12-15T11:00:00"
+    },
+    "passage": {
+      "name": "Leila",
+      "relation": "skincare expert",
+      "group": "Natural Skincare Alliance",
+      "email": "leila@naturalalliance.com",
+      "ct": "2021-11-20T10:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Cupcake text me about the sisterly bonding event happening next month?",
+      "ct": "2024-10-04T12:00:00"
+    },
+    "passage": {
+      "from": "Dana",
+      "relation": "sister",
+      "group": "Siblings' Circle",
+      "body": "We're planning a fun day out at the botanical gardens next month.",
+      "ct": "2024-10-02T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Lauren text me about the makeup collaboration last month?",
+      "ct": "2025-09-10T17:52:15"
+    },
+    "passage": {
+      "from": "Lauren",
+      "relation": "colleague",
+      "group": "Makeup Artists' Guild",
+      "body": "We finalized the color palette for the upcoming makeup line.",
+      "ct": "2025-08-25T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I meet for a skincare routine chat this Tuesday?",
+      "ct": "2024-11-12T18:00:00"
+    },
+    "passage": {
+      "title": "Beauty Consultation",
+      "desc": "Exploring new skincare trends",
+      "date": "2024-11-12T10:00:00",
+      "ct": "2024-11-08T14:15:00",
+      "location": "Radiant Skin Clinic",
+      "attendees": [
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I text Cupcake about the film festival this summer?",
+      "ct": "2024-07-15T21:18:34"
+    },
+    "passage": {
+      "from": "Dana",
+      "relation": "sister",
+      "group": "Media Collaborators",
+      "body": "Are you excited for the indie film showcase next month?",
+      "ct": "2024-06-20T11:45:23"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last go to the rooftop with the usual group?",
+      "ct": "2023-07-15T19:45:00"
+    },
+    "passage": {
+      "title": "Summer Getaway",
+      "desc": "Evening gathering with friends",
+      "date": "2023-07-10T18:00:00",
+      "ct": "2023-07-05T16:30:00",
+      "location": "Skyline Terrace",
+      "attendees": [
+        "Jake",
+        "Sasha",
+        "Dana"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the esthetician I added to my contacts after the salon visit last month?",
+      "ct": "2023-10-15T19:00:00"
+    },
+    "passage": {
+      "name": "Melanie",
+      "relation": "esthetician",
+      "group": "Salon Professionals",
+      "email": "melanie@salonprofessionals.com",
+      "ct": "2023-09-20T17:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my cousin text me about the reunion this weekend?",
+      "ct": "2024-07-20T14:45:00"
+    },
+    "passage": {
+      "from": "Hannah",
+      "relation": "cousin",
+      "group": "Family Contacts",
+      "body": "The reunion is planned for this Saturday at 3 PM.",
+      "ct": "2024-07-20T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the person from the makeup convention last fall to my contacts?",
+      "ct": "2023-11-18T17:15:00"
+    },
+    "passage": {
+      "name": "Emma",
+      "relation": "cosmetics expert",
+      "group": "Makeup Conventions",
+      "email": "emma.cosmetics@example.com",
+      "ct": "2022-11-15T14:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan a dinner with my cousin at the end of last month?",
+      "ct": "2023-06-05T18:25:00"
+    },
+    "passage": {
+      "title": "Family Night Out",
+      "desc": "Spending quality time with family over dinner",
+      "date": "2023-05-30T19:30:00",
+      "ct": "2023-05-25T15:45:00",
+      "location": "The Rustic Table",
+      "attendees": [
+        "Hannah"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last visit the museum with my mother?",
+      "ct": "2022-11-20T15:30:00"
+    },
+    "passage": {
+      "title": "Art Museum Tour",
+      "desc": "Exploring contemporary art exhibits",
+      "date": "2022-11-15T13:00:00",
+      "ct": "2022-11-10T12:15:00",
+      "location": "Contemporary Art Museum",
+      "attendees": [
+        "Scarlet"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the yoga instructor from the studio I visited last spring to my contacts?",
+      "ct": "2025-04-20T11:25:00"
+    },
+    "passage": {
+      "name": "Sophia",
+      "relation": "yoga instructor",
+      "group": "Yoga Studios",
+      "email": "sophia.yoga@example.com",
+      "ct": "2024-04-15T13:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I attended with Lauren a couple months back?",
+      "ct": "2024-02-10T17:15:00"
+    },
+    "passage": {
+      "title": "Artistic Collaboration",
+      "desc": "Collaborative art session with friends and colleagues",
+      "date": "2023-12-15T18:00:00",
+      "ct": "2023-12-10T14:45:00",
+      "location": "Canvas Collective",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I text about the makeup competition last month?",
+      "ct": "2025-04-10T18:00:00"
+    },
+    "passage": {
+      "from": "Dr. Smith",
+      "relation": "mentor",
+      "group": "Makeup Artistry Network",
+      "body": "Good luck with the makeup competition finals this Saturday.",
+      "ct": "2025-03-25T17:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last visit the rooftop with the usual gang?",
+      "ct": "2024-08-10T15:45:00"
+    },
+    "passage": {
+      "title": "Evening Rooftop Hangout",
+      "desc": "Relaxing evening with friends enjoying the view",
+      "date": "2024-07-25T19:00:00",
+      "ct": "2024-07-20T14:15:00",
+      "location": "Skyline Terrace",
+      "attendees": [
+        "Jake",
+        "Lauren",
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I text about the modeling gig last week?",
+      "ct": "2025-06-20T11:05:00"
+    },
+    "passage": {
+      "from": "Modeling Agency",
+      "relation": "client",
+      "group": "Modeling Opportunities",
+      "body": "Your casting call for the new campaign is this Wednesday at 2 PM.",
+      "ct": "2025-06-15T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I attend the skincare seminar with Lauren?",
+      "ct": "2022-05-10T13:15:00"
+    },
+    "passage": {
+      "title": "Natural Skincare Workshop",
+      "desc": "Exploring natural ingredients for skincare",
+      "date": "2022-05-15T14:00:00",
+      "ct": "2022-05-05T12:30:00",
+      "location": "Pure Skin Spa",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When was the last time I went to the beach with Cupcake?",
+      "ct": "2023-07-25T10:20:00"
+    },
+    "passage": {
+      "title": "Beach Day",
+      "desc": "Fun day at the beach with family",
+      "date": "2023-07-20T10:00:00",
+      "ct": "2023-07-15T11:45:00",
+      "location": "Sunset Beach",
+      "attendees": [
+        "Dana"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last attend the photography workshop with Jakie?",
+      "ct": "2023-03-10T11:15:00"
+    },
+    "passage": {
+      "title": "Photography Techniques Seminar",
+      "desc": "Learning advanced photography techniques",
+      "date": "2023-03-05T15:00:00",
+      "ct": "2023-02-28T14:45:00",
+      "location": "Shutter Studio",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan a dinner with Big Guy for this weekend?",
+      "ct": "2024-09-15T16:00:00"
+    },
+    "passage": {
+      "title": "Date Night Dinner",
+      "desc": "Special evening out with significant other",
+      "date": "2024-09-15T19:00:00",
+      "ct": "2024-09-05T17:30:00",
+      "location": "Romantic Bistro",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Dr. Smith remind me about the makeup workshop 2 weeks ago?",
+      "ct": "2023-06-10T17:45:00"
+    },
+    "passage": {
+      "from": "Dr. Smith",
+      "relation": "mentor",
+      "group": "Makeup Artistry Network",
+      "body": "The advanced makeup techniques workshop starts next Tuesday. See you there!",
+      "ct": "2023-06-03T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the email address of the makeup artist I met at the expo 3 months ago?",
+      "ct": "2024-09-15T18:30:00"
+    },
+    "passage": {
+      "name": "Ava",
+      "relation": "makeup artist",
+      "group": "Beauty Expo Contacts",
+      "email": "ava.makeup@example.com",
+      "ct": "2024-06-20T17:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I attended with Sash right after the film festival?",
+      "ct": "2025-03-15T17:00:00"
+    },
+    "passage": {
+      "title": "Fashion Showcase",
+      "desc": "Exhibiting latest fashion trends and designs",
+      "date": "2025-03-10T18:00:00",
+      "ct": "2025-03-05T16:45:00",
+      "location": "Runway Gallery",
+      "attendees": [
+        "Sasha"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the contact information of the photographer I met at Jake's wedding last month?",
+      "ct": "2023-12-10T19:45:00"
+    },
+    "passage": {
+      "name": "James",
+      "relation": "photographer",
+      "group": "Wedding Photographers",
+      "email": "james.photography@example.com",
+      "ct": "2023-11-25T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Big Guy text me about the photo shoot this Saturday?",
+      "ct": "2023-09-15T18:30:00"
+    },
+    "passage": {
+      "from": "Ryan",
+      "relation": "boyfriend",
+      "group": "Close Contacts",
+      "body": "Let's meet at the park for our photo shoot at 10 AM this Saturday.",
+      "ct": "2023-09-14T19:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When was the last time I attended the photography workshop?",
+      "ct": "2021-12-01T10:45:00"
+    },
+    "passage": {
+      "title": "Photo Skills Workshop",
+      "desc": "Enhancing photography skills with professional tips",
+      "date": "2021-11-27T14:00:00",
+      "ct": "2021-11-20T16:30:00",
+      "location": "Light & Lens Studio",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I met at the film screening in February?",
+      "ct": "2025-02-25T16:30:00"
+    },
+    "passage": {
+      "name": "Benjamin",
+      "relation": "film director",
+      "group": "Independent Filmmakers",
+      "email": "benjamin.film@example.com",
+      "ct": "2025-02-15T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I met at the yoga retreat in 2019?",
+      "ct": "2023-08-12T14:30:00"
+    },
+    "passage": {
+      "name": "Lily",
+      "relation": "yoga instructor",
+      "group": "Yoga Retreats",
+      "email": "lily.yoga@example.com",
+      "ct": "2019-08-10T18:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Lauren remind me about the beauty blog meeting this weekend?",
+      "ct": "2024-11-02T14:10:00"
+    },
+    "passage": {
+      "from": "Lauren",
+      "relation": "colleague",
+      "group": "Beauty Bloggers' Network",
+      "body": "The monthly beauty bloggers' meetup is this Saturday at 10 AM.",
+      "ct": "2024-11-02T11:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my mom text me about the dinner plans last night?",
+      "ct": "2022-10-15T20:45:00"
+    },
+    "passage": {
+      "from": "Scarlet",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "Remember, we're having the family gathering at Luigi's Italian Kitchen tonight at 7 PM.",
+      "ct": "2022-10-14T21:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I meet for a makeup tutorial next week?",
+      "ct": "2025-04-05T12:30:00"
+    },
+    "passage": {
+      "title": "Beauty Secrets Seminar",
+      "desc": "Exploring new makeup techniques and products",
+      "date": "2025-04-12T10:00:00",
+      "ct": "2025-04-02T11:15:00",
+      "location": "Blush & Glow Studio",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I text about the makeup class last spring?",
+      "ct": "2024-09-20T15:05:00"
+    },
+    "passage": {
+      "from": "Lauren",
+      "relation": "colleague",
+      "group": "Beauty Crew",
+      "body": "Remember, the makeup class at the Cosmetics Academy starts next Tuesday.",
+      "ct": "2024-03-15T10:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I book the trip to the mountains with Dad?",
+      "ct": "2022-09-15T14:30:00"
+    },
+    "passage": {
+      "title": "Mountain Retreat",
+      "desc": "Weekend getaway to enjoy nature and fresh air",
+      "date": "2022-09-25T09:00:00",
+      "ct": "2022-09-10T11:30:00",
+      "location": "Mountainside Lodge",
+      "attendees": [
+        "David"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan the yoga retreat with Morgan?",
+      "ct": "2022-07-20T19:45:00"
+    },
+    "passage": {
+      "title": "Yoga Retreat",
+      "desc": "Relaxing weekend focused on wellness and meditation",
+      "date": "2022-07-25T08:00:00",
+      "ct": "2022-07-15T17:30:00",
+      "location": "Zen Sanctuary",
+      "attendees": [
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Jake remind me about the photo shoot this weekend?",
+      "ct": "2023-09-09T16:20:00"
+    },
+    "passage": {
+      "from": "Jake",
+      "relation": "best friend",
+      "group": "Photography Buddies",
+      "body": "Don't forget our photoshoot at the botanical gardens this Saturday at 10 AM.",
+      "ct": "2023-09-08T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I schedule a meeting with my mother at the end of January?",
+      "ct": "2025-02-05T14:45:00"
+    },
+    "passage": {
+      "title": "Family Catch-Up",
+      "desc": "Spending quality time with mom to discuss recent happenings.",
+      "date": "2025-01-31T15:00:00",
+      "ct": "2025-01-25T11:30:00",
+      "location": "Mom's",
+      "attendees": [
+        "Scarlet"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I go to the beach with Jakie last summer?",
+      "ct": "2025-08-20T10:30:00"
+    },
+    "passage": {
+      "title": "Summer Beach Trip",
+      "desc": "Relaxing by the sea with best friend.",
+      "date": "2024-07-15T10:00:00",
+      "ct": "2024-07-10T12:15:00",
+      "location": "Sunset Beach",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was at the event at the end of last month?",
+      "ct": "2025-01-15T16:45:00"
+    },
+    "passage": {
+      "title": "Holiday Gathering",
+      "desc": "Celebrating the holidays with family and friends.",
+      "date": "2024-12-30T18:00:00",
+      "ct": "2024-12-25T14:20:00",
+      "location": "Grandparents' House",
+      "attendees": [
+        "Uncle Tom",
+        "Aunt Lisa",
+        "Hannah"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I book the dinner with Cupcake at her favorite place 2 weeks ago?",
+      "ct": "2023-09-25T12:15:00"
+    },
+    "passage": {
+      "title": "Sibling Dinner Outing",
+      "desc": "Enjoying a meal at a cozy bistro with Dana.",
+      "date": "2023-09-13T20:00:00",
+      "ct": "2023-08-15T15:30:00",
+      "location": "The Cozy Corner",
+      "attendees": [
+        "Dana"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I meet my cousin for that art exhibit opening?",
+      "ct": "2023-05-18T14:30:00"
+    },
+    "passage": {
+      "title": "Opening Night Art Show",
+      "desc": "Joining an exhibition featuring emerging artists.",
+      "date": "2023-05-10T19:00:00",
+      "ct": "2023-05-05T10:15:00",
+      "location": "Artisan Gallery",
+      "attendees": [
+        "Hannah"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I messaged about the makeup convention last year?",
+      "ct": "2023-09-15T11:15:00"
+    },
+    "passage": {
+      "from": "Lauren",
+      "relation": "colleague",
+      "group": "Beauty Bloggers' Network",
+      "body": "Can't wait to catch up at the makeup convention next month!",
+      "ct": "2022-09-20T17:25:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I text Jakie about the photo shoot this spring?",
+      "ct": "2023-06-15T12:30:00"
+    },
+    "passage": {
+      "from": "Jake",
+      "relation": "best friend",
+      "group": "Photography Friends",
+      "body": "Our photo shoot at the botanical gardens is scheduled for March!",
+      "ct": "2023-02-28T11:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event am I attending with my mentor next week?",
+      "ct": "2025-09-20T11:30:00"
+    },
+    "passage": {
+      "title": "Professional Development Seminar",
+      "desc": "Attending a seminar on advanced makeup techniques.",
+      "date": "2025-09-27T14:00:00",
+      "ct": "2025-09-18T12:15:00",
+      "location": "Studio 42",
+      "attendees": [
+        "Dr. Smith"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I met at the film festival after the awards ceremony?",
+      "ct": "2025-02-15T14:00:00"
+    },
+    "passage": {
+      "name": "Elena Torres",
+      "relation": "film director",
+      "group": "Silver Screen Society",
+      "email": "elena.torres@silverscreensociety.com",
+      "ct": "2025-02-10T12:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I attended the film festival with Sash last year?",
+      "ct": "2025-04-10T19:00:00"
+    },
+    "passage": {
+      "title": "Indie Film Festival",
+      "desc": "Enjoying a day of independent films with fashion influencer.",
+      "date": "2024-04-15T14:00:00",
+      "ct": "2024-04-10T10:15:00",
+      "location": "Film Fete",
+      "attendees": [
+        "Sasha"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I meet for the photo shoot with Jakie last week?",
+      "ct": "2025-10-25T17:00:00"
+    },
+    "passage": {
+      "title": "Fashion Shoot",
+      "desc": "Collaborating with photographer on a new photo series.",
+      "date": "2025-10-18T14:00:00",
+      "ct": "2025-10-15T12:45:00",
+      "location": "Sunlight Studios",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I message about the book club meeting next week?",
+      "ct": "2023-11-02T17:15:00"
+    },
+    "passage": {
+      "from": "Georgia Public Library",
+      "relation": "library",
+      "group": "Literature Contacts",
+      "body": "The next book club meeting is on the 12th at 7 PM.",
+      "ct": "2023-10-04T17:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I met at the natural skincare expo 3 years ago?",
+      "ct": "2023-10-20T09:00:00"
+    },
+    "passage": {
+      "name": "Taylor James",
+      "relation": "natural skincare consultant",
+      "group": "Pure Elements",
+      "email": "taylor.james@pureelements.com",
+      "ct": "2020-10-20T08:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I join the yoga class with Morgan at the studio?",
+      "ct": "2024-07-15T12:00:00"
+    },
+    "passage": {
+      "title": "Yoga Practice",
+      "desc": "Joining a yoga session with neighbor at the local studio.",
+      "date": "2024-07-10T10:00:00",
+      "ct": "2024-07-08T14:30:00",
+      "location": "Serene Studio",
+      "attendees": [
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the person from the natural skincare workshop to my contacts 2 years ago?",
+      "ct": "2023-09-10T11:00:00"
+    },
+    "passage": {
+      "name": "Samantha Lee",
+      "relation": "skincare expert",
+      "group": "Green Glow Skincare",
+      "email": "samantha.lee@greenglowskincare.com",
+      "ct": "2021-09-10T10:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I message my sister about the movie night this weekend?",
+      "ct": "2023-11-17T20:00:00"
+    },
+    "passage": {
+      "from": "Dana",
+      "relation": "sister",
+      "group": "Movie Buffs",
+      "body": "Let's watch a thriller movie at the cinema this Saturday!",
+      "ct": "2023-11-16T19:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I go to the makeup studio with Lauren for the photoshoot?",
+      "ct": "2024-11-10T14:45:00"
+    },
+    "passage": {
+      "title": "Photoshoot Session",
+      "desc": "Capturing images for a new makeup collection.",
+      "date": "2024-11-05T16:00:00",
+      "ct": "2024-11-03T10:30:00",
+      "location": "Light & Shadow Studios",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the contact information of the person who helped me with my makeup tutorial video last month?",
+      "ct": "2024-06-15T15:00:00"
+    },
+    "passage": {
+      "name": "Mia Thompson",
+      "relation": "video editor",
+      "group": "VidPro Studio",
+      "email": "mia.thompson@vidprostudio.com",
+      "ct": "2024-05-25T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I go to the makeup convention with Lauren last month?",
+      "ct": "2023-12-10T15:20:00"
+    },
+    "passage": {
+      "title": "Makeup Artist Meetup",
+      "desc": "Collaborating with colleagues on the latest makeup trends.",
+      "date": "2023-11-15T10:00:00",
+      "ct": "2023-11-10T16:45:00",
+      "location": "Cosmetics Convention Hall",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I plan to meet at the convention center next month?",
+      "ct": "2023-10-10T17:30:00"
+    },
+    "passage": {
+      "title": "Beauty Expo",
+      "desc": "Attending a major beauty expo showcasing the latest trends.",
+      "date": "2023-11-15T09:00:00",
+      "ct": "2023-10-05T16:45:00",
+      "location": "Convention Center",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who is the person I met at the beauty expo 2 weeks ago?",
+      "ct": "2023-12-05T16:45:00"
+    },
+    "passage": {
+      "name": "Olivia Carter",
+      "relation": "beauty blogger",
+      "group": "Beauty Influencers Network",
+      "email": "olivia.carter@beautyinfluencers.org",
+      "ct": "2023-11-22T18:25:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was at the film festival I attended with Sash last year?",
+      "ct": "2023-12-15T10:10:00"
+    },
+    "passage": {
+      "title": "Film Festival",
+      "desc": "Screening of independent films and panel discussions",
+      "date": "2022-11-15T14:00:00",
+      "ct": "2022-11-01T16:00:00",
+      "location": "Independent Film Society",
+      "attendees": [
+        "Sasha"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I discussed yoga with after the movie last Tuesday?",
+      "ct": "2024-09-15T16:23:45"
+    },
+    "passage": {
+      "from": "Morgan",
+      "relation": "neighbor",
+      "group": "Yoga Friends",
+      "body": "After the film, we talked about starting a new yoga routine together.",
+      "ct": "2024-09-10T18:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my mother text me about the surprise visit last night?",
+      "ct": "2023-07-12T14:35:15"
+    },
+    "passage": {
+      "from": "Scarlet",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "I'll be over to drop off some homemade cookies later this evening.",
+      "ct": "2023-07-11T20:02:17"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I have a makeup tutorial session with Lauren two weeks ago?",
+      "ct": "2024-06-25T14:45:00"
+    },
+    "passage": {
+      "title": "Makeup Masterclass",
+      "desc": "Teaching advanced makeup techniques",
+      "date": "2024-06-10T18:00:00",
+      "ct": "2024-06-08T12:15:00",
+      "location": "Beauty Innovators Hub",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I meet for coffee at the local café after the photo shoot last week?",
+      "ct": "2024-05-15T11:00:00"
+    },
+    "passage": {
+      "title": "Coffee Catch-Up",
+      "desc": "Discussing photography projects and creative ideas",
+      "date": "2024-05-08T14:00:00",
+      "ct": "2024-05-05T12:00:00",
+      "location": "Bean Bliss Café",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Am I scheduled to join the Beauty Bloggers' Network meeting next month?",
+      "ct": "2025-03-15T15:00:00"
+    },
+    "passage": {
+      "title": "Monthly Networking",
+      "desc": "Sharing makeup tips and discussing industry trends",
+      "date": "2025-04-15T18:00:00",
+      "ct": "2025-03-10T13:00:00",
+      "location": "Creative Circle Conference Room",
+      "attendees": [
+        "Jada"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Am I supposed to meet Cupcake for brunch this weekend?",
+      "ct": "2024-03-09T17:15:00"
+    },
+    "passage": {
+      "title": "Family Brunch",
+      "desc": "Relaxing brunch with family",
+      "date": "2024-03-10T12:00:00",
+      "ct": "2024-03-05T10:45:00",
+      "location": "The Cozy Corner",
+      "attendees": [
+        "Dana"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a makeup convention I attended last summer?",
+      "ct": "2023-10-15T11:20:00"
+    },
+    "passage": {
+      "title": "Beauty Expo",
+      "desc": "Exploring the latest in cosmetics and skincare",
+      "date": "2022-07-15T09:00:00",
+      "ct": "2022-07-01T14:30:00",
+      "location": "Los Angeles Convention Center",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I meet at the rooftop bar after the concert last night?",
+      "ct": "2023-08-10T22:00:00"
+    },
+    "passage": {
+      "title": "Post-Concert Meetup",
+      "desc": "Enjoying drinks and music with friends",
+      "date": "2023-08-09T21:00:00",
+      "ct": "2023-08-08T16:30:00",
+      "location": "Skyline Rooftop Bar",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the photographer from the beach shoot this summer?",
+      "ct": "2025-09-20T10:20:45"
+    },
+    "passage": {
+      "name": "Maxwell Tate",
+      "relation": "photojournalist",
+      "group": "Photojournalists Guild",
+      "email": "maxwell.tate@photojournalistsguild.org",
+      "ct": "2025-08-15T17:15:05"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who is the person I added to my contacts after the film screening at the end of last year?",
+      "ct": "2023-11-15T18:45:00"
+    },
+    "passage": {
+      "name": "Mason Cole",
+      "relation": "filmmaker",
+      "group": "Independent Filmmakers Alliance",
+      "email": "mason.cole@filmmakersalliance.org",
+      "ct": "2022-12-20T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I schedule a meeting with Jakie next Tuesday?",
+      "ct": "2022-04-10T14:30:00"
+    },
+    "passage": {
+      "title": "Photo Shoot Planning",
+      "desc": "Discussing the upcoming photo shoot at sunset",
+      "date": "2022-04-12T16:00:00",
+      "ct": "2022-04-08T11:45:00",
+      "location": "Sunset Studios",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last go to the yoga studio with Morgan?",
+      "ct": "2021-09-20T18:30:00"
+    },
+    "passage": {
+      "title": "Yoga Retreat",
+      "desc": "A day of relaxation and meditation",
+      "date": "2021-09-15T10:00:00",
+      "ct": "2021-09-10T12:00:00",
+      "location": "Zen Haven Yoga Studio",
+      "attendees": [
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the person who recommended the skincare products I tried 2 years ago?",
+      "ct": "2023-07-15T14:45:00"
+    },
+    "passage": {
+      "name": "Chloe Reeves",
+      "relation": "skincare consultant",
+      "group": "Natural Skincare Solutions",
+      "email": "chloe.reeves@skincuresolutions.com",
+      "ct": "2021-07-25T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my cousin remind me about the family reunion this fall?",
+      "ct": "2023-10-20T18:45:00"
+    },
+    "passage": {
+      "from": "Hannah",
+      "relation": "cousin",
+      "group": "Family Contacts",
+      "body": "Don't forget the family gathering at Grandma's on October 28th!",
+      "ct": "2023-10-15T15:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I book a trip to the beach with my cousin last month?",
+      "ct": "2023-11-25T14:30:00"
+    },
+    "passage": {
+      "title": "Beach Getaway",
+      "desc": "A week of sun and sand",
+      "date": "2023-10-15T09:00:00",
+      "ct": "2023-10-01T10:00:00",
+      "location": "Oceanfront Resort",
+      "attendees": [
+        "Hannah"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who is the person I added to my contacts after the yoga retreat last fall?",
+      "ct": "2023-11-08T15:40:00"
+    },
+    "passage": {
+      "name": "Elena Ramirez",
+      "relation": "yoga teacher",
+      "group": "Yoga Retreat Community",
+      "email": "elena.ramirez@yogaretreatcommunity.org",
+      "ct": "2022-10-29T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the email address of the person who helped me with my yoga routine 3 months ago?",
+      "ct": "2023-08-18T14:45:00"
+    },
+    "passage": {
+      "name": "Ava Bennett",
+      "relation": "yoga instructor",
+      "group": "Yoga Sanctuary",
+      "email": "ava.bennett@yogasanctuary.com",
+      "ct": "2023-05-15T11:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I receive a message this month about the yoga retreat?",
+      "ct": "2023-12-19T12:15:00"
+    },
+    "passage": {
+      "from": "Yoga Sanctuary",
+      "relation": "participant",
+      "group": "Wellness Retreats",
+      "body": "Your reservation for the December retreat is confirmed.",
+      "ct": "2023-12-03T11:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my aunt remind me about taking place next month?",
+      "ct": "2023-10-19T12:00:00"
+    },
+    "passage": {
+      "from": "Aunt Lisa",
+      "relation": "aunt",
+      "group": "Family Contacts",
+      "body": "Don't forget the annual family gathering at the end of November.",
+      "ct": "2023-10-09T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to meet Sasha for a fashion photoshoot next spring?",
+      "ct": "2025-01-15T11:45:00"
+    },
+    "passage": {
+      "title": "Fashion Photoshoot",
+      "desc": "Capturing new looks with Sash",
+      "date": "2025-04-15T13:00:00",
+      "ct": "2025-01-10T14:30:00",
+      "location": "Chic Shots Studio",
+      "attendees": [
+        "Sasha"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I attended with Morgan at the yoga studio 2 weeks ago?",
+      "ct": "2023-07-25T16:20:00"
+    },
+    "passage": {
+      "title": "Yoga Retreat",
+      "desc": "Practicing mindfulness with neighbor",
+      "date": "2023-07-15T09:00:00",
+      "ct": "2023-07-10T10:15:00",
+      "location": "Mountain Top Yoga",
+      "attendees": [
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to meet Ryan at the model showcase last summer?",
+      "ct": "2025-07-10T19:20:00"
+    },
+    "passage": {
+      "title": "Model Showcase",
+      "desc": "Viewing new collections with Big Guy",
+      "date": "2024-07-15T18:00:00",
+      "ct": "2024-07-10T12:00:00",
+      "location": "Fashion Forward Gallery",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I was supposed to attend with Dana last week?",
+      "ct": "2022-11-20T18:45:00"
+    },
+    "passage": {
+      "title": "Media Strategy Meetup",
+      "desc": "Discussing content creation strategies with Cupcake",
+      "date": "2022-11-12T10:00:00",
+      "ct": "2022-10-28T15:00:00",
+      "location": "Media Hub",
+      "attendees": [
+        "Dana"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I meet Morgan for yoga practice at the studio 3 weeks ago?",
+      "ct": "2023-09-05T16:25:00"
+    },
+    "passage": {
+      "title": "Yoga Session",
+      "desc": "Attending a session with neighborhood esthetician",
+      "date": "2023-08-16T09:30:00",
+      "ct": "2023-07-17T11:15:00",
+      "location": "Zen Garden Studio",
+      "attendees": [
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my mother text me after the big day last week?",
+      "ct": "2023-09-15T14:45:00"
+    },
+    "passage": {
+      "from": "Scarlet",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "I hope you enjoyed the family reunion. Remember to rest up!",
+      "ct": "2023-09-10T18:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the thing I attended with my mentor 2 years ago?",
+      "ct": "2023-10-15T14:30:00"
+    },
+    "passage": {
+      "title": "Makeup Techniques Workshop",
+      "desc": "Learning advanced techniques with renowned artist",
+      "date": "2021-10-18T15:00:00",
+      "ct": "2021-10-10T14:00:00",
+      "location": "Artisanal Beauty Academy",
+      "attendees": [
+        "Dr. Smith"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I meet Ryan for our date night at the restaurant last weekend?",
+      "ct": "2025-02-20T18:45:00"
+    },
+    "passage": {
+      "title": "Romantic Dinner",
+      "desc": "Enjoying a special evening with partner",
+      "date": "2025-02-15T19:00:00",
+      "ct": "2025-02-10T14:30:00",
+      "location": "The Gourmet Table",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the email of the person who runs the indie film club?",
+      "ct": "2021-11-03T16:45:00"
+    },
+    "passage": {
+      "name": "Elliot",
+      "relation": "film club organizer",
+      "group": "Film Enthusiasts",
+      "email": "elliotfilms@example.com",
+      "ct": "2021-10-29T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I text Roomie about dinner plans this weekend?",
+      "ct": "2023-09-10T14:45:00"
+    },
+    "passage": {
+      "from": "Roomie",
+      "relation": "roommate",
+      "group": "Housemates",
+      "body": "Are we still on for dinner at the local diner this Saturday?",
+      "ct": "2023-08-22T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I text my boyfriend about the thing I went to last week?",
+      "ct": "2025-08-10T18:23:00"
+    },
+    "passage": {
+      "from": "Ryan",
+      "relation": "boyfriend",
+      "group": "Close Contacts",
+      "body": "Just got back from the beach. Did you have fun at your workshop?",
+      "ct": "2025-07-30T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was I supposed to meet my mother at the beach this weekend?",
+      "ct": "2024-08-25T12:15:00"
+    },
+    "passage": {
+      "title": "Beach Day",
+      "desc": "Relaxing at the shore with Mom",
+      "date": "2024-08-25T14:00:00",
+      "ct": "2024-08-20T13:30:00",
+      "location": "Oceanfront Beach",
+      "attendees": [
+        "Scarlet"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I join Lauren for the makeup tutorial at the expo?",
+      "ct": "2022-03-20T17:45:00"
+    },
+    "passage": {
+      "title": "Beauty Expo Tutorial",
+      "desc": "Demonstrating makeup techniques with colleague",
+      "date": "2022-03-25T10:00:00",
+      "ct": "2022-03-15T13:00:00",
+      "location": "Expo Center",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the place where I met my cousin for coffee last summer?",
+      "ct": "2025-07-15T12:30:00"
+    },
+    "passage": {
+      "name": "The Cozy Corner",
+      "relation": "favorite coffee spot",
+      "group": "Family Hangouts",
+      "email": "thecozycorner@example.com",
+      "ct": "2024-07-25T16:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to meet Dana for the media strategy session next month?",
+      "ct": "2025-03-15T11:45:00"
+    },
+    "passage": {
+      "title": "Strategy Session",
+      "desc": "Discussing content plans with Cupcake",
+      "date": "2025-04-10T14:00:00",
+      "ct": "2025-03-10T10:30:00",
+      "location": "Content Creation Hub",
+      "attendees": [
+        "Dana"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I attended with Jake at the photo shoot last summer?",
+      "ct": "2024-08-10T14:30:00"
+    },
+    "passage": {
+      "title": "Photo Shoot",
+      "desc": "Capturing stunning images with Jakie",
+      "date": "2023-08-15T13:00:00",
+      "ct": "2023-08-08T11:00:00",
+      "location": "Sunset Studios",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Sash tell me about the fashion show last week?",
+      "ct": "2025-08-10T18:23:00"
+    },
+    "passage": {
+      "from": "Sasha",
+      "relation": "friend",
+      "group": "Fashionistas",
+      "body": "The latest collection is stunning! Can't wait for the runway show.",
+      "ct": "2025-07-28T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I meet my mentor for the professional session last week?",
+      "ct": "2023-11-10T19:15:00"
+    },
+    "passage": {
+      "title": "Professional Development Session",
+      "desc": "Enhancing skills with mentor",
+      "date": "2023-11-05T14:00:00",
+      "ct": "2023-11-01T12:30:00",
+      "location": "Beauty Innovation Lab",
+      "attendees": [
+        "Dr. Smith"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I met at the makeup convention this spring?",
+      "ct": "2025-05-25T16:45:04"
+    },
+    "passage": {
+      "from": "Makeup Artists Guild",
+      "relation": "member",
+      "group": "Beauty Professionals",
+      "body": "Excited to see you at the Spring Convention next month!",
+      "ct": "2025-04-24T15:45:30"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Morgan tell me about the skin care routine last month?",
+      "ct": "2023-11-15T14:45:00"
+    },
+    "passage": {
+      "from": "Morgan",
+      "relation": "neighbor",
+      "group": "Health & Wellness",
+      "body": "Your new skin care routine is looking great! Keep it up.",
+      "ct": "2023-10-15T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I text Cupcake about the makeup studio opening next month?",
+      "ct": "2023-11-15T14:45:00"
+    },
+    "passage": {
+      "from": "Dana",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "Can't wait to check out the new makeup studio next month!",
+      "ct": "2023-11-05T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I attended with Sasha at the fashion show last month?",
+      "ct": "2024-10-15T14:30:00"
+    },
+    "passage": {
+      "title": "Fashion Show Debut",
+      "desc": "Walking the runway with influencer",
+      "date": "2024-09-15T18:00:00",
+      "ct": "2024-09-10T12:45:00",
+      "location": "Runway Revolution",
+      "attendees": [
+        "Sasha"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I book a yoga retreat in the mountains last year?",
+      "ct": "2023-04-15T16:20:00"
+    },
+    "passage": {
+      "title": "Mountain Escape",
+      "desc": "A week-long retreat focusing on meditation and fitness.",
+      "date": "2022-04-20T08:00:00",
+      "ct": "2022-03-10T10:15:00",
+      "location": "Mountain Zen Resort",
+      "attendees": [
+        "Yoga Instructor Sarah"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I text Lauren about the beauty tutorial this Thursday?",
+      "ct": "2023-11-03T14:45:00"
+    },
+    "passage": {
+      "from": "Lauren",
+      "relation": "colleague",
+      "group": "Beauty Bloggers' Network",
+      "body": "Let's finalize the makeup routine for the video shoot on Thursday at 5 PM.",
+      "ct": "2023-10-29T16:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I had my first yoga session last spring?",
+      "ct": "2025-09-25T16:23:45"
+    },
+    "passage": {
+      "from": "Lotus Garden Yoga",
+      "relation": "customer",
+      "group": "Health Contacts",
+      "body": "Your first lesson is on April 26th at 7 PM.",
+      "ct": "2024-04-24T15:45:30"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I attended with Ryan last winter?",
+      "ct": "2024-04-15T18:00:00"
+    },
+    "passage": {
+      "title": "Winter Wonderland",
+      "desc": "Enjoying ice skating and holiday lights with loved ones.",
+      "date": "2023-12-20T16:00:00",
+      "ct": "2023-11-25T14:30:00",
+      "location": "Snowflake Plaza",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my cousin give me her contact info after we caught up at the reunion last year?",
+      "ct": "2024-06-15T19:00:00"
+    },
+    "passage": {
+      "name": "Hannah Davis",
+      "relation": "cousin",
+      "group": "Family Contacts",
+      "email": "hannah@example.com",
+      "ct": "2023-06-25T12:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What time did I say I'd call Sunshine about the papers 2 years ago?",
+      "ct": "2025-11-08T15:40:00"
+    },
+    "passage": {
+      "from": "Sunshine",
+      "relation": "friend",
+      "group": "Study Buddies",
+      "body": "Can you review the documents before noon on the 15th?",
+      "ct": "2023-11-10T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I talk to Jazzy about the birthday plan last night?",
+      "ct": "2023-11-08T14:45:00"
+    },
+    "passage": {
+      "from": "Jazzy",
+      "relation": "friend",
+      "group": "Birthday Planners",
+      "body": "Let's finalize the party details tonight at 8 PM.",
+      "ct": "2023-11-07T19:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did I text to my best friend about the weekend plans last week?",
+      "ct": "2023-06-20T12:30:00"
+    },
+    "passage": {
+      "from": "Jake",
+      "relation": "best friend",
+      "group": "Close Contacts",
+      "body": "Let's plan a fun weekend away, how about next Saturday?",
+      "ct": "2023-06-15T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my mother give me her contact info after she moved last summer?",
+      "ct": "2024-02-05T17:30:00"
+    },
+    "passage": {
+      "name": "Scarlet Moore",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "email": "scarlet.moore@example.com",
+      "ct": "2023-08-10T09:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I added to my contacts after the photography workshop 3 weeks ago?",
+      "ct": "2023-07-10T16:00:00"
+    },
+    "passage": {
+      "name": "Jordan Carter",
+      "relation": "photography student",
+      "group": "Photography Enthusiasts",
+      "email": "jordancarter@example.com",
+      "ct": "2023-06-20T15:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I join the yoga studio for a special class next week?",
+      "ct": "2025-01-15T14:30:00"
+    },
+    "passage": {
+      "title": "Yoga Retreat",
+      "desc": "A day of intensive yoga sessions and wellness workshops.",
+      "date": "2025-01-22T08:00:00",
+      "ct": "2025-01-10T11:15:00",
+      "location": "Om Oasis Yoga Studio",
+      "attendees": [
+        "Yoga Master Raj"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Cupcake tell me about her latest project?",
+      "ct": "2021-05-20T17:15:00"
+    },
+    "passage": {
+      "from": "Dana",
+      "relation": "sister",
+      "group": "Media Contacts",
+      "body": "Just finished editing the new documentary, can't wait to show it to everyone!",
+      "ct": "2021-05-15T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I meet for my makeup workshop next week?",
+      "ct": "2025-03-01T14:45:00"
+    },
+    "passage": {
+      "title": "Beauty Skills Workshop",
+      "desc": "Exploring advanced makeup techniques with industry professionals.",
+      "date": "2025-03-08T10:00:00",
+      "ct": "2025-02-25T17:30:00",
+      "location": "Makeover Studio",
+      "attendees": [
+        "Dr. Smith"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I text my mother about the thing with Freckles and Big Guy?",
+      "ct": "2023-07-17T14:35:15"
+    },
+    "passage": {
+      "from": "Scarlet",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "How's Freckles doing? And what about Big Guy?",
+      "ct": "2023-07-15T10:45:30"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event am I attending with Dana this weekend?",
+      "ct": "2022-10-28T18:00:00"
+    },
+    "passage": {
+      "title": "Film Festival",
+      "desc": "Screening of independent films followed by a Q&A session.",
+      "date": "2022-10-29T14:00:00",
+      "ct": "2022-10-25T12:15:00",
+      "location": "Cinema Showcase",
+      "attendees": [
+        "Dana"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I met at the party around this time last year?",
+      "ct": "2025-10-15T14:45:00"
+    },
+    "passage": {
+      "from": "Melody Makers Collective",
+      "relation": "festival organizer",
+      "group": "Music Enthusiasts",
+      "body": "It was great to see you this month at the Summer Solstice Festival!",
+      "ct": "2025-07-20T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan a trip to the beach with my dad last spring?",
+      "ct": "2022-09-15T14:30:00"
+    },
+    "passage": {
+      "title": "Beachside Adventure",
+      "desc": "Relaxing day at the shore with family.",
+      "date": "2022-03-20T10:00:00",
+      "ct": "2022-02-25T15:45:00",
+      "location": "Seaside Cove",
+      "attendees": [
+        "Dad"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the gym I added to my contacts last spring?",
+      "ct": "2023-09-10T12:15:00"
+    },
+    "passage": {
+      "name": "Peak Fitness Gym",
+      "relation": "member",
+      "group": "Health Clubs",
+      "email": "peakfitness@example.com",
+      "ct": "2022-05-20T11:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I added to my contacts for the pottery workshop?",
+      "ct": "2021-09-15T14:45:00"
+    },
+    "passage": {
+      "name": "Clay Creations Studio",
+      "relation": "pottery student",
+      "group": "Artistic Pursuits",
+      "email": "claycreationsstudio@example.com",
+      "ct": "2021-09-10T10:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I'm visiting with Sash next month?",
+      "ct": "2024-11-05T14:10:00"
+    },
+    "passage": {
+      "from": "Sasha",
+      "relation": "friend",
+      "group": "Fashion Influencers",
+      "body": "Planning a get-together at the Artisan Market next month, let's catch up!",
+      "ct": "2024-10-25T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the thing I attended with my cousin last fall?",
+      "ct": "2024-11-10T10:45:00"
+    },
+    "passage": {
+      "title": "Autumn Harvest Festival",
+      "desc": "Joining local farmers for a celebration of seasonal produce.",
+      "date": "2023-10-15T10:00:00",
+      "ct": "2023-09-25T14:30:00",
+      "location": "Sunflower Fields",
+      "attendees": [
+        "Hannah"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I attend with Morgan last month?",
+      "ct": "2025-07-25T17:15:00"
+    },
+    "passage": {
+      "title": "Skin Care Expo",
+      "desc": "Discovering new products and treatments in the skincare world.",
+      "date": "2025-06-20T14:00:00",
+      "ct": "2025-06-05T18:30:00",
+      "location": "Spa Convergence",
+      "attendees": [
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my mentor tell me about the makeup seminar last spring?",
+      "ct": "2025-09-25T16:23:45"
+    },
+    "passage": {
+      "from": "Dr. Smith",
+      "relation": "mentor",
+      "group": "Makeup Artists' Guild",
+      "body": "Our next seminar is on April 26th at 7 PM.",
+      "ct": "2024-04-24T15:45:30"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my mom invite me to her birthday party this year?",
+      "ct": "2023-11-25T09:15:00"
+    },
+    "passage": {
+      "title": "Family Gathering",
+      "desc": "Celebrating Mom's 50th birthday with a special dinner.",
+      "date": "2023-11-20T19:00:00",
+      "ct": "2023-10-15T14:30:00",
+      "location": "The Grand Pavilion",
+      "attendees": [
+        "Aunt Lisa",
+        "Uncle Tom",
+        "Hannah"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I meet for my creative session this weekend?",
+      "ct": "2025-02-25T10:30:00"
+    },
+    "passage": {
+      "title": "Artistic Collaboration",
+      "desc": "Working on a collaborative project with fellow artists.",
+      "date": "2025-03-01T14:00:00",
+      "ct": "2025-02-24T18:30:00",
+      "location": "The Creative Space",
+      "attendees": [
+        "Artist Jane"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Cupcake remind me about the media strategy meeting taking place next month?",
+      "ct": "2023-12-09T16:30:00"
+    },
+    "passage": {
+      "from": "Dana",
+      "relation": "sister",
+      "group": "Media Contacts",
+      "body": "The strategy meeting is set for January 10th at 10 AM.",
+      "ct": "2023-12-05T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the thing that Dana invited me to this summer?",
+      "ct": "2025-08-25T14:30:00"
+    },
+    "passage": {
+      "title": "Summer Media Mixer",
+      "desc": "Networking and sharing insights in the media industry",
+      "date": "2025-08-10T14:00:00",
+      "ct": "2025-08-05T10:30:00",
+      "location": "Media Hub Conference Room",
+      "attendees": [
+        "Dana Moore",
+        "Emma Green"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I get a message about my yoga session this week?",
+      "ct": "2025-07-20T14:15:00"
+    },
+    "passage": {
+      "from": "Lotus Garden Yoga",
+      "relation": "customer",
+      "group": "Health Contacts",
+      "body": "Your weekly session is booked for July 22nd at 6 PM.",
+      "ct": "2025-07-18T15:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event is coming up with Sasha next weekend?",
+      "ct": "2025-06-10T12:00:00"
+    },
+    "passage": {
+      "title": "Fashion Show",
+      "desc": "Walking the runway and showcasing new collections",
+      "date": "2025-06-21T18:00:00",
+      "ct": "2025-05-22T14:30:00",
+      "location": "Runway Stage",
+      "attendees": [
+        "Sasha Parker",
+        "Taylor Hawkins"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I join the makeup challenge hosted by Dr. Smith?",
+      "ct": "2023-07-10T18:00:00"
+    },
+    "passage": {
+      "title": "Makeover Marathon",
+      "desc": "A week-long event focusing on innovative makeup techniques",
+      "date": "2023-07-05T09:00:00",
+      "ct": "2023-06-25T14:30:00",
+      "location": "Studio of Cosmetics",
+      "attendees": [
+        "Dr. Smith",
+        "Olivia Brown",
+        "Michael Lissen"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a gathering with the OGs at the beach last week?",
+      "ct": "2024-07-25T16:45:00"
+    },
+    "passage": {
+      "title": "Beach Bash",
+      "desc": "Enjoying the sun and sand with friends",
+      "date": "2024-07-19T10:00:00",
+      "ct": "2024-07-15T12:00:00",
+      "location": "Ocean View Beach",
+      "attendees": [
+        "David Brown",
+        "Emily Wilson"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the makeup artist I added to my contacts 2 weeks ago?",
+      "ct": "2025-05-25T14:00:00"
+    },
+    "passage": {
+      "name": "Arianna",
+      "relation": "makeup artist",
+      "group": "Beauty Collaborators",
+      "email": "arianna.makeup@example.com",
+      "ct": "2025-05-11T18:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my cousin remind me about the costume party last month?",
+      "ct": "2023-02-15T19:45:00"
+    },
+    "passage": {
+      "from": "Hannah",
+      "relation": "cousin",
+      "group": "Family Contacts",
+      "body": "Remember, the Masquerade Ball is this Saturday. Don't forget your mask!",
+      "ct": "2023-01-24T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan a makeup shoot with Ryan next month?",
+      "ct": "2025-08-10T09:00:00"
+    },
+    "passage": {
+      "title": "Photoshoot Collaboration",
+      "desc": "Creating stunning beauty looks for a fashion magazine",
+      "date": "2025-09-15T10:00:00",
+      "ct": "2025-07-26T09:00:00",
+      "location": "Luxury Photo Studio",
+      "attendees": [
+        "Ryan Turner",
+        "Victoria Lee"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What event is coming up with Lauren this weekend?",
+      "ct": "2025-05-25T10:30:00"
+    },
+    "passage": {
+      "title": "Beauty Expo",
+      "desc": "Exhibiting latest skincare products and makeup trends",
+      "date": "2025-05-25T10:00:00",
+      "ct": "2025-05-17T11:30:00",
+      "location": "Cosmetics Convention Center",
+      "attendees": [
+        "Lauren White",
+        "Jessica Black"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Lauren send me a reminder about the beauty tutorial last week?",
+      "ct": "2023-08-25T18:30:00"
+    },
+    "passage": {
+      "from": "Lauren",
+      "relation": "colleague",
+      "group": "Professional Contacts",
+      "body": "The tutorial session is scheduled for August 28th at 5 PM.",
+      "ct": "2023-08-20T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a get-together with Morgan after my yoga class last Tuesday?",
+      "ct": "2024-03-25T17:45:00"
+    },
+    "passage": {
+      "title": "Post-Yoga Meet-Up",
+      "desc": "Relaxing and sharing wellness tips",
+      "date": "2024-03-19T18:30:00",
+      "ct": "2024-03-15T14:45:00",
+      "location": "Lotus Lounge",
+      "attendees": [
+        "Morgan Thompson",
+        "Sophia Davis"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a reminder about the yoga retreat this summer?",
+      "ct": "2025-07-20T14:15:00"
+    },
+    "passage": {
+      "from": "Mountain Peak Retreat",
+      "relation": "participant",
+      "group": "Health Contacts",
+      "body": "The summer retreat is scheduled for July 25th.",
+      "ct": "2025-07-18T15:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I get a message about the coffee meet-up next spring?",
+      "ct": "2024-01-10T18:23:00"
+    },
+    "passage": {
+      "from": "Java Junction",
+      "relation": "customer",
+      "group": "Coffee Places",
+      "body": "Spring Coffee Meet-Up registration is now open!",
+      "ct": "2023-12-25T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my dad remind me about the family dinner this weekend?",
+      "ct": "2022-03-18T16:45:00"
+    },
+    "passage": {
+      "from": "David",
+      "relation": "father",
+      "group": "Family Contacts",
+      "body": "Don't forget our Sunday dinner at the Italian Villa.",
+      "ct": "2022-03-15T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I visit the rooftop with Jakie right after that movie?",
+      "ct": "2023-06-20T18:00:00"
+    },
+    "passage": {
+      "title": "Evening Rooftop Party",
+      "desc": "Watching the sunset and chatting about the latest movies",
+      "date": "2023-06-20T19:30:00",
+      "ct": "2023-06-18T15:00:00",
+      "location": "Skyline Terrace",
+      "attendees": [
+        "Jake Anderson"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a message about the indie film screening last week?",
+      "ct": "2025-06-15T14:45:00"
+    },
+    "passage": {
+      "from": "Film Festivals United",
+      "relation": "attendee",
+      "group": "Cultural Contacts",
+      "body": "The indie film screening is this Saturday at the Art House Cinema.",
+      "ct": "2025-06-04T11:45:23"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I attend a film festival with Sasha last autumn?",
+      "ct": "2023-02-10T11:00:00"
+    },
+    "passage": {
+      "title": "Independent Film Festival",
+      "desc": "Screening a variety of independent films",
+      "date": "2022-10-15T14:00:00",
+      "ct": "2022-10-05T16:30:00",
+      "location": "Art House Cinema",
+      "attendees": [
+        "Sasha Parker",
+        "Daniel White"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I attend a conference with Lauren last month?",
+      "ct": "2023-11-25T09:15:00"
+    },
+    "passage": {
+      "title": "Industry Insights",
+      "desc": "Exploring trends and sharing experiences in the beauty industry",
+      "date": "2023-10-15T14:30:00",
+      "ct": "2023-10-10T09:20:45",
+      "location": "Beauty Expo Center",
+      "attendees": [
+        "Lauren White",
+        "Rachel Johnson"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a gathering with the OGs at the Thai spot recently?",
+      "ct": "2022-09-15T14:30:00"
+    },
+    "passage": {
+      "title": "Family Dinner",
+      "desc": "Meeting up with old friends for some delicious food",
+      "date": "2022-09-10T19:00:00",
+      "ct": "2022-08-20T10:00:00",
+      "location": "Siam Spice Restaurant",
+      "attendees": [
+        "Alice Johnson",
+        "Benjamin Lee",
+        "Charlie Miller"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I meet my cousin for a coffee date next Wednesday?",
+      "ct": "2023-10-15T10:30:00"
+    },
+    "passage": {
+      "title": "Coffee Catch-Up",
+      "desc": "Discussing recent happenings over a cup of coffee",
+      "date": "2023-10-25T10:00:00",
+      "ct": "2023-10-10T14:00:00",
+      "location": "Java Junction",
+      "attendees": [
+        "Hannah"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I meet my mother for a catch-up last spring?",
+      "ct": "2023-09-15T16:30:00"
+    },
+    "passage": {
+      "title": "Mother-Daughter Day",
+      "desc": "Spending quality time together and enjoying brunch",
+      "date": "2023-04-15T11:00:00",
+      "ct": "2023-04-10T09:30:00",
+      "location": "Sunflower Café",
+      "attendees": [
+        "Scarlet"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan a trip with Jake to the mountains last week?",
+      "ct": "2024-09-20T12:00:00"
+    },
+    "passage": {
+      "title": "Mountain Retreat",
+      "desc": "Exploring nature and capturing stunning landscapes",
+      "date": "2024-09-13T08:00:00",
+      "ct": "2024-09-05T15:30:00",
+      "location": "Rocky Peaks National Park",
+      "attendees": [
+        "Jacob Wilson"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the contact information of the person who helped me with my makeup tutorials last year?",
+      "ct": "2023-09-25T16:45:00"
+    },
+    "passage": {
+      "name": "Isabel",
+      "relation": "makeup artist",
+      "group": "Makeup Masters",
+      "email": "isabel.makeup@example.com",
+      "ct": "2022-09-15T13:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a workshop with Morgan last week?",
+      "ct": "2024-04-20T14:45:00"
+    },
+    "passage": {
+      "title": "Skin Care Workshop",
+      "desc": "Learning about the latest in natural skincare ingredients",
+      "date": "2024-04-09T14:00:00",
+      "ct": "2024-04-03T11:30:00",
+      "location": "Wellness Center",
+      "attendees": [
+        "Morgan Thompson",
+        "Jordan Green"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the person who introduced me to yoga a couple of months back?",
+      "ct": "2025-05-20T12:45:00"
+    },
+    "passage": {
+      "name": "Lila",
+      "relation": "yoga instructor",
+      "group": "Yoga Enthusiasts",
+      "email": "lila.yoga@example.com",
+      "ct": "2025-03-15T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the conference I attended with Lauren a couple of months ago?",
+      "ct": "2023-10-15T16:45:00"
+    },
+    "passage": {
+      "title": "Beauty Expo",
+      "desc": "Presenting new makeup collections and networking with professionals",
+      "date": "2023-08-25T10:00:00",
+      "ct": "2023-08-10T14:30:00",
+      "location": "Grand Convention Center",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to meet Lauren for the beauty blogger meetup this fall?",
+      "ct": "2024-09-20T14:15:00"
+    },
+    "passage": {
+      "title": "Beauty Blogger Meetup",
+      "desc": "Networking and sharing tips with fellow bloggers",
+      "date": "2024-10-05T16:00:00",
+      "ct": "2024-09-02T14:15:00",
+      "location": "Blogger's Haven",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I talk to Cupcake about her new job last week?",
+      "ct": "2022-11-15T14:30:00"
+    },
+    "passage": {
+      "from": "Dana",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "Just got promoted to lead editor at the publishing house. Can't wait to celebrate this weekend!",
+      "ct": "2022-11-08T16:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I attend with Ryan a couple of days ago?",
+      "ct": "2025-07-20T12:00:00"
+    },
+    "passage": {
+      "title": "Fashion Showcase",
+      "desc": "Modeling outfits and discussing the latest trends",
+      "date": "2025-07-15T16:00:00",
+      "ct": "2025-07-10T13:45:00",
+      "location": "Runway Revue",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the workshop I attended with Morgan a couple of weeks ago?",
+      "ct": "2023-10-05T17:30:00"
+    },
+    "passage": {
+      "title": "Natural Skincare Seminar",
+      "desc": "Understanding the benefits of organic ingredients",
+      "date": "2023-09-27T14:00:00",
+      "ct": "2023-09-20T11:00:00",
+      "location": "Green Oasis Spa",
+      "attendees": [
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the contact of the person who recommended me the best indie film this summer?",
+      "ct": "2021-09-15T16:30:00"
+    },
+    "passage": {
+      "name": "Eli",
+      "relation": "film buff",
+      "group": "Independent Cinema Club",
+      "email": "eli@indiefilms.com",
+      "ct": "2021-08-25T13:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the email address of the person who gave me advice on starting a YouTube channel last month?",
+      "ct": "2025-08-15T19:20:00"
+    },
+    "passage": {
+      "name": "Chris",
+      "relation": "content creator",
+      "group": "Vloggers' Hub",
+      "email": "chris.vlogs@gmail.com",
+      "ct": "2025-07-20T15:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the workshop I signed up for this spring?",
+      "ct": "2025-04-15T10:20:00"
+    },
+    "passage": {
+      "title": "Skincare Workshop",
+      "desc": "Exploring natural ingredients and DIY skincare recipes",
+      "date": "2025-04-01T14:00:00",
+      "ct": "2025-03-20T16:30:00",
+      "location": "Herbalist's Corner",
+      "attendees": [
+        "Dr. Smith"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to meet my cousin for the makeup challenge?",
+      "ct": "2023-05-15T14:30:00"
+    },
+    "passage": {
+      "title": "Makeup Challenge",
+      "desc": "Testing out new products and techniques with a relative",
+      "date": "2023-05-18T16:00:00",
+      "ct": "2023-05-10T11:00:00",
+      "location": "Beauty Hub Studio",
+      "attendees": [
+        "Ava"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I talk to Cupcake about the media event this weekend?",
+      "ct": "2023-11-17T19:45:00"
+    },
+    "passage": {
+      "from": "Dana",
+      "relation": "sister",
+      "group": "Media Collaborators",
+      "body": "We're hosting a live stream event this Saturday. Let's brainstorm some ideas!",
+      "ct": "2023-11-15T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the person who helped me with my makeup skills to my contacts?",
+      "ct": "2023-09-15T14:30:00"
+    },
+    "passage": {
+      "name": "Dr. Smith",
+      "relation": "mentor",
+      "group": "Makeup Artists Guild",
+      "email": "drsmith@makeupartistsguild.com",
+      "ct": "2022-08-25T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I added to my contacts after attending the makeup workshop this spring?",
+      "ct": "2024-06-10T17:30:00"
+    },
+    "passage": {
+      "name": "Emily",
+      "relation": "workshop participant",
+      "group": "Makeup Workshop Alumni",
+      "email": "emily.workshops@gmail.com",
+      "ct": "2024-05-20T12:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the person who offered makeup tips during the beauty expo last fall?",
+      "ct": "2025-02-15T14:15:00"
+    },
+    "passage": {
+      "name": "Lauren",
+      "relation": "makeup artist",
+      "group": "Beauty Expo Contacts",
+      "email": "lauren.makeup@example.com",
+      "ct": "2024-11-10T10:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Ryan ever remind me about the fitness challenge?",
+      "ct": "2023-07-25T17:15:00"
+    },
+    "passage": {
+      "from": "Ryan",
+      "relation": "boyfriend",
+      "group": "Fitness Partners",
+      "body": "Remember, we start the 30-day fitness challenge next Monday!",
+      "ct": "2023-07-20T12:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Lauren tell me about her new product launch last month?",
+      "ct": "2023-09-15T18:45:00"
+    },
+    "passage": {
+      "from": "Lauren",
+      "relation": "colleague",
+      "group": "Makeup Artists",
+      "body": "My new foundation line just launched. Hope you'll give it a try!",
+      "ct": "2023-08-25T16:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Big Guy remind me about the modeling photoshoot this week?",
+      "ct": "2023-10-10T14:20:00"
+    },
+    "passage": {
+      "from": "Ryan",
+      "relation": "boyfriend",
+      "group": "Modeling Community",
+      "body": "The photoshoot is on Friday. Make sure to get enough rest!",
+      "ct": "2023-09-20T14:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was I reminded about the makeup workshop by my mentor this fall?",
+      "ct": "2024-10-10T15:20:00"
+    },
+    "passage": {
+      "from": "Dr. Smith",
+      "relation": "mentor",
+      "group": "Beauty Professionals",
+      "body": "The advanced makeup techniques workshop starts next month. Don't forget to register!",
+      "ct": "2024-09-15T11:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Lauren tell me about her latest skincare routine last month?",
+      "ct": "2023-08-20T10:15:00"
+    },
+    "passage": {
+      "from": "Lauren",
+      "relation": "colleague",
+      "group": "Makeup Artists",
+      "body": "Just tried a new serum that's giving my skin a radiant glow. You should try it too!",
+      "ct": "2023-07-25T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I attend with Lauren last week?",
+      "ct": "2025-03-20T16:30:00"
+    },
+    "passage": {
+      "title": "Skincare Workshop",
+      "desc": "Experimenting with natural ingredients and sharing tips",
+      "date": "2025-03-15T14:00:00",
+      "ct": "2025-03-10T12:45:00",
+      "location": "GreenLeaf Studios",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Morgan give me advice on the latest skincare trends last week?",
+      "ct": "2023-10-25T10:15:00"
+    },
+    "passage": {
+      "from": "Morgan",
+      "relation": "neighbor",
+      "group": "Wellness Community",
+      "body": "I just got back from a skincare expo. There were some amazing new products.",
+      "ct": "2023-10-18T11:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I attend the conference with my mentor last spring?",
+      "ct": "2024-11-05T14:10:00"
+    },
+    "passage": {
+      "title": "Beauty Trends Conference",
+      "desc": "Presenting makeup techniques and skincare innovations",
+      "date": "2023-04-20T09:00:00",
+      "ct": "2023-04-15T11:00:00",
+      "location": "Grand Convention Center",
+      "attendees": [
+        "Dr. Smith"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I meet Dana for a movie night last year?",
+      "ct": "2024-06-10T20:15:00"
+    },
+    "passage": {
+      "title": "Movie Night",
+      "desc": "Watching an indie film with sister",
+      "date": "2023-06-15T18:30:00",
+      "ct": "2023-06-10T14:45:00",
+      "location": "The Screening Room",
+      "attendees": [
+        "Dana"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Jakie tell me about the indie film we watched last night?",
+      "ct": "2023-11-10T21:15:00"
+    },
+    "passage": {
+      "from": "Jake",
+      "relation": "best friend",
+      "group": "Movie Lovers",
+      "body": "I loved the cinematography in 'The Silent Echoes'. It was truly captivating.",
+      "ct": "2023-11-09T22:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What time did I confirm the yoga session with my instructor last week?",
+      "ct": "2023-07-10T13:00:00"
+    },
+    "passage": {
+      "from": "Yoga Studio",
+      "relation": "client",
+      "group": "Health and Wellness",
+      "body": "Your yoga session is booked for 7 PM on July 12th.",
+      "ct": "2023-07-05T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my dad give me his contact info?",
+      "ct": "2023-11-08T15:40:00"
+    },
+    "passage": {
+      "name": "David",
+      "relation": "father",
+      "group": "Outdoor Adventures",
+      "email": "dmoore@example.com",
+      "ct": "2020-07-20T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last hang out with Jakie at the beach?",
+      "ct": "2023-07-25T14:30:00"
+    },
+    "passage": {
+      "title": "Beach Day",
+      "desc": "Relaxing and playing volleyball with friends",
+      "date": "2023-07-15T10:00:00",
+      "ct": "2023-07-10T12:30:00",
+      "location": "Sunset Beach",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did Jakie inform me about the photo shoot next month?",
+      "ct": "2024-03-10T11:00:00"
+    },
+    "passage": {
+      "from": "Jake",
+      "relation": "best friend",
+      "group": "Photography Crew",
+      "body": "The photo shoot is scheduled for April 15th. Are you available?",
+      "ct": "2024-03-05T10:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I visited with Ryan for our anniversary?",
+      "ct": "2022-12-15T11:25:00"
+    },
+    "passage": {
+      "title": "Anniversary Dinner",
+      "desc": "Enjoying a special evening at an upscale restaurant",
+      "date": "2022-12-10T19:00:00",
+      "ct": "2022-12-05T13:15:00",
+      "location": "La Bella Vista",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my cousin ever give me her contact info?",
+      "ct": "2021-05-25T16:45:04"
+    },
+    "passage": {
+      "name": "Ava",
+      "relation": "cousin",
+      "group": "Family Contacts",
+      "email": "ava@example.com",
+      "ct": "2019-05-20T11:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I go to the rooftop with my best friend last week?",
+      "ct": "2025-09-15T19:25:00"
+    },
+    "passage": {
+      "title": "Evening Gathering",
+      "desc": "Enjoying drinks and conversations under the stars",
+      "date": "2025-09-10T18:30:00",
+      "ct": "2025-09-05T14:45:00",
+      "location": "Skyline Rooftop",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Jakie say about the new camera equipment he bought last week?",
+      "ct": "2023-10-20T10:30:00"
+    },
+    "passage": {
+      "from": "Jake",
+      "relation": "best friend",
+      "group": "Photography Crew",
+      "body": "I just got a new DSLR. It's perfect for the upcoming photo shoots.",
+      "ct": "2023-10-15T13:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I book a yoga session for next month?",
+      "ct": "2025-08-01T15:45:00"
+    },
+    "passage": {
+      "title": "Yoga Retreat",
+      "desc": "Joining a retreat focusing on mindfulness and meditation",
+      "date": "2025-09-05T09:00:00",
+      "ct": "2025-07-23T15:45:00",
+      "location": "Mountain Zen Center",
+      "attendees": []
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I text Cupcake about the makeup convention last week?",
+      "ct": "2023-05-15T14:30:00"
+    },
+    "passage": {
+      "from": "Dana",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "Are you still planning to come to the makeup convention this weekend?",
+      "ct": "2023-05-10T16:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I add to my contacts for the upcoming makeup tutorial?",
+      "ct": "2025-02-07T18:02:10"
+    },
+    "passage": {
+      "name": "Beauty Maven",
+      "relation": "makeup artist",
+      "group": "Skincare & Makeup",
+      "email": "beautymaven@example.com",
+      "ct": "2025-01-25T15:45:30"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the person who helped me with my makeup routine last week?",
+      "ct": "2025-09-25T16:23:45"
+    },
+    "passage": {
+      "name": "Makeup Mentor",
+      "relation": "cosmetics consultant",
+      "group": "Beauty Experts",
+      "email": "makeupmentor@example.com",
+      "ct": "2025-09-18T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I visited with Sasha for a photoshoot last summer?",
+      "ct": "2025-10-05T10:30:00"
+    },
+    "passage": {
+      "title": "Photoshoot Location",
+      "desc": "Capturing stunning images in a picturesque garden",
+      "date": "2024-08-10T14:30:00",
+      "ct": "2024-08-05T13:00:00",
+      "location": "Flower Fields",
+      "attendees": [
+        "Sasha"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I go to the film festival with Morgan?",
+      "ct": "2023-09-10T18:45:00"
+    },
+    "passage": {
+      "title": "Film Festival",
+      "desc": "Watching independent films and networking with filmmakers",
+      "date": "2023-09-05T18:00:00",
+      "ct": "2023-09-01T15:20:00",
+      "location": "Artistic Cinema Festival",
+      "attendees": [
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add my cousin's boyfriend to my contacts around this time last year?",
+      "ct": "2024-07-10T15:30:00"
+    },
+    "passage": {
+      "name": "Max",
+      "relation": "Ava's boyfriend",
+      "group": "Family Friends",
+      "email": "max@example.com",
+      "ct": "2023-07-12T17:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a meetup with my sister this summer?",
+      "ct": "2024-08-15T14:45:00"
+    },
+    "passage": {
+      "title": "Summer Getaway",
+      "desc": "A weekend trip to the beach.",
+      "date": "2024-07-12T10:00:00",
+      "ct": "2024-07-05T12:00:00",
+      "location": "Beachside Resort",
+      "attendees": [
+        "Dana"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I get a message about the skincare routine I'm trying this week?",
+      "ct": "2023-08-15T14:45:00"
+    },
+    "passage": {
+      "from": "Pure Skin Solutions",
+      "relation": "client",
+      "group": "Wellness Brands",
+      "body": "Your custom skincare routine has been prepared, start your journey to healthier skin.",
+      "ct": "2023-08-14T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Am I meeting Morgan for a skincare consultation next week?",
+      "ct": "2023-12-15T14:00:00"
+    },
+    "passage": {
+      "title": "Esthetician Consultation",
+      "desc": "Getting personalized skincare advice.",
+      "date": "2023-12-22T10:00:00",
+      "ct": "2023-11-25T14:00:00",
+      "location": "Morgan's Spa",
+      "attendees": [
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a workshop with Lauren last week?",
+      "ct": "2024-09-28T10:15:00"
+    },
+    "passage": {
+      "title": "Skincare Workshop",
+      "desc": "Learning about the latest skincare products and techniques.",
+      "date": "2024-09-21T14:30:00",
+      "ct": "2024-09-15T12:00:00",
+      "location": "Skin Care Collective, Los Angeles",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I text my sister about the new makeup line she loves?",
+      "ct": "2022-05-20T14:35:15"
+    },
+    "passage": {
+      "from": "Dana",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "Can't wait to try out the new range of lipsticks from Luxe Cosmetics!",
+      "ct": "2022-05-10T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last visit the yoga studio with Big Guy?",
+      "ct": "2023-08-10T16:45:00"
+    },
+    "passage": {
+      "title": "Yoga Retreat",
+      "desc": "Relaxing and stretching with a partner.",
+      "date": "2023-07-25T09:30:00",
+      "ct": "2023-07-18T14:00:00",
+      "location": "Namaste Yoga Studio, Los Angeles",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I get a message from the studio about the new makeup product launch?",
+      "ct": "2023-03-15T14:45:00"
+    },
+    "passage": {
+      "from": "Radiant Beauty Studio",
+      "relation": "client",
+      "group": "Makeup Artistry",
+      "body": "Exciting news! Our new foundation range launches on March 20th, stay tuned!",
+      "ct": "2023-03-10T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Do I have a film festival coming up this weekend?",
+      "ct": "2024-09-25T09:30:00"
+    },
+    "passage": {
+      "title": "Indie Film Festival",
+      "desc": "Screening independent films from around the world.",
+      "date": "2024-09-28T18:00:00",
+      "ct": "2024-09-20T12:00:00",
+      "location": "Arthouse Cinema, Los Angeles",
+      "attendees": [
+        "Dana"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I attend a yoga session at the studio last Tuesday?",
+      "ct": "2024-11-02T14:15:00"
+    },
+    "passage": {
+      "title": "Yoga Flow Class",
+      "desc": "Strengthening and centering the body and mind.",
+      "date": "2024-10-29T09:30:00",
+      "ct": "2024-10-25T11:00:00",
+      "location": "Namaste Yoga Studio, Los Angeles",
+      "attendees": [
+        "Jada Moore"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a dinner with my mother this winter?",
+      "ct": "2024-03-05T17:15:00"
+    },
+    "passage": {
+      "title": "Winter Dinner",
+      "desc": "Enjoying a cozy meal together.",
+      "date": "2023-12-21T19:00:00",
+      "ct": "2023-12-15T10:30:00",
+      "location": "Mom's House",
+      "attendees": [
+        "Jada Moore",
+        "Scarlet"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I talk to my mom about the family gathering last month?",
+      "ct": "2025-08-10T18:23:00"
+    },
+    "passage": {
+      "from": "Scarlet",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "The reunion is set for August 15th, everyone's looking forward to it.",
+      "ct": "2025-07-20T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I participate in a makeup challenge with Lauren this month?",
+      "ct": "2024-06-20T12:45:00"
+    },
+    "passage": {
+      "title": "Monthly Makeup Challenge",
+      "desc": "Testing creativity with a themed challenge.",
+      "date": "2024-06-15T15:00:00",
+      "ct": "2024-06-05T14:30:00",
+      "location": "Creative Makeup Studio, Los Angeles",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did i receive a reminder about the photography workshop happening next month?",
+      "ct": "2025-05-16T10:30:01"
+    },
+    "passage": {
+      "from": "Snapshots Photography School",
+      "relation": "student",
+      "group": "Education Contacts",
+      "body": "The advanced photography workshop begins in June, registration is open now.",
+      "ct": "2025-05-05T10:30:01"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I exchange messages with Cupcake about the upcoming film festival?",
+      "ct": "2022-06-15T18:30:00"
+    },
+    "passage": {
+      "from": "Dana",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "The indie film festival starts next week, let's catch all the movies together!",
+      "ct": "2022-06-10T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the photographer who took my photos at the convention last month?",
+      "ct": "2025-06-25T12:00:00"
+    },
+    "passage": {
+      "name": "Blake",
+      "relation": "photographer",
+      "group": "Photo Artisans",
+      "email": "blake.photography@example.com",
+      "ct": "2025-05-30T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I join a makeup class at the studio this autumn?",
+      "ct": "2024-11-05T17:30:00"
+    },
+    "passage": {
+      "title": "Autumn Makeup Masterclass",
+      "desc": "Enhancing skills with professional makeup artists.",
+      "date": "2024-11-10T18:00:00",
+      "ct": "2024-10-25T14:00:00",
+      "location": "Makeover Studio, Los Angeles",
+      "attendees": [
+        "Jada Moore"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I organize a photo shoot with my mentor last month?",
+      "ct": "2023-11-20T15:30:00"
+    },
+    "passage": {
+      "title": "Professional Photo Session",
+      "desc": "Creating high-quality images for portfolio updates.",
+      "date": "2023-10-15T16:00:00",
+      "ct": "2023-10-01T10:00:00",
+      "location": "Studio 42, Los Angeles",
+      "attendees": [
+        "Dr. Smith"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a gathering with the usual group last week?",
+      "ct": "2024-10-15T18:00:00"
+    },
+    "passage": {
+      "title": "Weekly Meetup",
+      "desc": "Catch up with friends over drinks and conversation.",
+      "date": "2024-10-08T19:00:00",
+      "ct": "2024-10-05T12:00:00",
+      "location": "The Local Pub",
+      "attendees": [
+        "Jake",
+        "Ryan",
+        "Sasha"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Morgan send me advice about my skin issues last summer?",
+      "ct": "2023-09-25T16:23:45"
+    },
+    "passage": {
+      "from": "Morgan",
+      "relation": "neighbor",
+      "group": "Wellness Community",
+      "body": "Just wanted to share some tips on managing sensitive skin, hope they help!",
+      "ct": "2023-07-24T15:45:30"
+    }
+  },
+  {
+    "query": {
+      "txt": "Am I attending a networking event with Sasha next month?",
+      "ct": "2023-10-10T11:00:00"
+    },
+    "passage": {
+      "title": "Social Media Strategy Meetup",
+      "desc": "Discussing the latest trends in digital marketing.",
+      "date": "2023-11-15T14:00:00",
+      "ct": "2023-10-05T16:30:00",
+      "location": "The Digital Hub, Los Angeles",
+      "attendees": [
+        "Sasha"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Jakie send me a reminder about our joint photo project last month?",
+      "ct": "2023-08-18T11:00:00"
+    },
+    "passage": {
+      "from": "Jake",
+      "relation": "best friend",
+      "group": "Photo Projects",
+      "body": "Let's finalize the concept and schedule a meeting for the 20th.",
+      "ct": "2023-07-25T15:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I plan for next summer?",
+      "ct": "2024-03-20T10:45:00"
+    },
+    "passage": {
+      "title": "Summer Solstice Festival",
+      "desc": "Annual celebration of art, music, and culture",
+      "date": "2024-06-21T14:00:00",
+      "ct": "2024-03-18T12:30:00",
+      "location": "Sunflower Fields",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I plan to attend last fall?",
+      "ct": "2024-01-15T11:20:00"
+    },
+    "passage": {
+      "title": "Autumn Art Fair",
+      "desc": "Exhibition featuring local artists and craftspeople",
+      "date": "2023-10-20T14:00:00",
+      "ct": "2023-10-15T12:45:00",
+      "location": "Arts District",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the thing my mother reminded me about for next spring?",
+      "ct": "2025-02-15T10:30:00"
+    },
+    "passage": {
+      "title": "Spring Cleaning Challenge",
+      "desc": "Community initiative promoting eco-friendly cleaning practices",
+      "date": "2025-04-15T16:00:00",
+      "ct": "2025-02-10T15:20:00",
+      "location": "EcoHouse Community Center",
+      "attendees": [
+        "Scarlet"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I added to my calendar 2 weeks ago?",
+      "ct": "2024-10-25T12:30:00"
+    },
+    "passage": {
+      "title": "Beauty Blogger Meetup",
+      "desc": "Monthly gathering of influencers discussing industry trends",
+      "date": "2024-10-17T14:00:00",
+      "ct": "2024-09-28T09:45:00",
+      "location": "The Makeup Maven Studio",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to go to the beach with Big Guy?",
+      "ct": "2023-06-20T13:45:00"
+    },
+    "passage": {
+      "title": "Beach Day",
+      "desc": "Relaxing at the coast with sandcastle building and volleyball",
+      "date": "2023-06-23T10:00:00",
+      "ct": "2023-06-18T15:20:00",
+      "location": "Seaside Park",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to join the makeup workshop?",
+      "ct": "2023-09-12T14:45:00"
+    },
+    "passage": {
+      "title": "Makeover Magic",
+      "desc": "Interactive workshop on innovative makeup techniques",
+      "date": "2023-09-15T18:00:00",
+      "ct": "2023-09-10T12:20:00",
+      "location": "Artistry Academy",
+      "attendees": [
+        "Dr. Smith"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the email of the person who gave me skincare tips last month?",
+      "ct": "2023-08-20T09:25:00"
+    },
+    "passage": {
+      "name": "Leah",
+      "relation": "beauty consultant",
+      "group": "Skincare Experts",
+      "email": "leah@naturalbeautyhub.com",
+      "ct": "2023-07-25T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did my mentor suggest we meet up to discuss the latest makeup trends?",
+      "ct": "2022-11-01T09:30:00"
+    },
+    "passage": {
+      "from": "Dr. Smith",
+      "relation": "mentor",
+      "group": "Beauty Trends",
+      "body": "Let's touch base next month for an update on the current season's makeup looks.",
+      "ct": "2022-10-25T13:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to watch a film with Jakie?",
+      "ct": "2023-04-10T14:30:00"
+    },
+    "passage": {
+      "title": "Movie Night",
+      "desc": "Screening a classic indie film followed by discussion",
+      "date": "2023-04-12T19:00:00",
+      "ct": "2023-04-08T10:15:00",
+      "location": "The Art House Cinema",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the contact of the fitness coach I met at the gym 2 weeks ago?",
+      "ct": "2023-10-01T16:45:00"
+    },
+    "passage": {
+      "name": "Tom",
+      "relation": "fitness coach",
+      "group": "Gym Members",
+      "email": "tom@fitlifeacademy.com",
+      "ct": "2023-09-18T15:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Morgan remind me about the skin care consultation at her clinic this spring?",
+      "ct": "2025-05-25T14:15:00"
+    },
+    "passage": {
+      "from": "Morgan",
+      "relation": "neighbor",
+      "group": "Skin Care Consultations",
+      "body": "Our next appointment is scheduled for March 15th.",
+      "ct": "2025-05-18T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I planned for this week?",
+      "ct": "2025-07-15T12:45:00"
+    },
+    "passage": {
+      "title": "Wellness Retreat",
+      "desc": "Holistic health workshops and guided meditations",
+      "date": "2025-07-18T09:00:00",
+      "ct": "2025-07-14T11:30:00",
+      "location": "Healing Haven",
+      "attendees": [
+        "Scarlet"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I add to my calendar between last Wednesday and next Sunday?",
+      "ct": "2023-11-20T18:45:00"
+    },
+    "passage": {
+      "title": "Fashion Forward",
+      "desc": "Exhibition showcasing sustainable fashion trends",
+      "date": "2023-11-24T11:00:00",
+      "ct": "2023-11-18T14:30:00",
+      "location": "Green Gallery",
+      "attendees": [
+        "Sasha"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I plan for next autumn?",
+      "ct": "2024-07-25T15:30:00"
+    },
+    "passage": {
+      "title": "Autumn Harvest Festival",
+      "desc": "Celebration of local agriculture and artisanal products",
+      "date": "2024-10-15T10:00:00",
+      "ct": "2024-07-22T14:30:00",
+      "location": "Farmer's Market Square",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add a conference to my calendar after that party last Wednesday?",
+      "ct": "2025-05-25T16:45:04"
+    },
+    "passage": {
+      "title": "Digital Marketing Conference",
+      "desc": "Exploring latest digital marketing strategies and tools",
+      "date": "2025-05-28T10:00:00",
+      "ct": "2025-05-24T18:30:00",
+      "location": "TechHub Convention Center",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I tell Cupcake about my plans for next summer?",
+      "ct": "2023-07-12T16:30:00"
+    },
+    "passage": {
+      "from": "Dana",
+      "relation": "sister",
+      "group": "Close Contacts",
+      "body": "I'm excited about our summer plans, let's finalize everything soon!",
+      "ct": "2023-07-08T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I confirm my spot at the makeup convention?",
+      "ct": "2023-11-25T14:15:00"
+    },
+    "passage": {
+      "from": "Makeup Convention Organizers",
+      "relation": "participant",
+      "group": "Beauty Expo",
+      "body": "Your registration for the Makeup Convention on December 1st has been confirmed.",
+      "ct": "2023-11-20T16:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last talk to Sash about the fashion event?",
+      "ct": "2024-02-10T13:30:00"
+    },
+    "passage": {
+      "from": "Sasha",
+      "relation": "friend",
+      "group": "Fashion Influencers",
+      "body": "Let's coordinate our outfits for the fashion event next month, what do you think?",
+      "ct": "2024-02-05T17:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event am I attending with Mateo next Saturday?",
+      "ct": "2023-12-18T14:30:00"
+    },
+    "passage": {
+      "title": "Chess Tournament",
+      "desc": "Participating in a chess tournament with a teenager",
+      "date": "2023-12-23T14:00:00",
+      "ct": "2023-12-16T10:15:00",
+      "location": "City Chess Hall",
+      "attendees": [
+        "Mateo"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last text Lauren about our collaboration?",
+      "ct": "2024-04-05T13:20:00"
+    },
+    "passage": {
+      "from": "Lauren",
+      "relation": "colleague",
+      "group": "Beauty Collaborators",
+      "body": "Let's touch base on our next project, how about a meeting this week?",
+      "ct": "2024-03-30T18:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I added to my contacts after the film festival last fall?",
+      "ct": "2024-02-20T16:30:00"
+    },
+    "passage": {
+      "name": "Oliver",
+      "relation": "film critic",
+      "group": "Film Festival Attendees",
+      "email": "oliver@example.com",
+      "ct": "2023-10-20T17:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I attend the salsa dance thing that took place in NY?",
+      "ct": "2023-09-01T14:33:11"
+    },
+    "passage": {
+      "title": "Dance Competition",
+      "desc": "Competing in the Latin Dance Championships",
+      "date": "2023-09-05T18:00:00",
+      "ct": "2023-08-31T10:15:23",
+      "location": "Palace Ballroom, New York City",
+      "attendees": [
+        "Camila Jackson",
+        "Ana Rodriguez",
+        "Diego Sanchez"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last text Ryan about our modeling gig?",
+      "ct": "2023-07-15T16:00:00"
+    },
+    "passage": {
+      "from": "Ryan",
+      "relation": "boyfriend",
+      "group": "Modeling Careers",
+      "body": "Let's sync up on our modeling gig for next week, what's your availability?",
+      "ct": "2023-07-10T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to meet my dad for a movie night?",
+      "ct": "2022-03-10T14:45:00"
+    },
+    "passage": {
+      "from": "Theater Box Office",
+      "relation": "customer",
+      "group": "Movie Tickets",
+      "body": "Your ticket for the evening show at the Silver Screen Cinema on March 15th has been booked.",
+      "ct": "2022-03-05T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I meet for my collaborative project last week?",
+      "ct": "2025-09-25T14:15:00"
+    },
+    "passage": {
+      "title": "Creative Workshop",
+      "desc": "Working on a multimedia project with sound ecologists and visual artists.",
+      "date": "2025-09-15T10:30:00",
+      "ct": "2025-09-02T16:45:00",
+      "location": "The Echo Chamber Studio",
+      "attendees": [
+        "Elsa",
+        "Sam"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did anyone ever remind me for Lilo's thing on Friday?",
+      "ct": "2021-11-05T13:45:00"
+    },
+    "passage": {
+      "title": "Annual Art Exhibition",
+      "desc": "Attending the local art show featuring Lilo's work.",
+      "date": "2021-11-06T14:00:00",
+      "ct": "2021-10-30T12:15:00",
+      "location": "Artisan Gallery",
+      "attendees": [
+        "Lilo"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I got the contact from at the indie film night last fall?",
+      "ct": "2024-05-20T11:00:00"
+    },
+    "passage": {
+      "name": "Ella",
+      "relation": "film reviewer",
+      "group": "Film Critics",
+      "email": "ella@example.com",
+      "ct": "2023-11-15T13:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my boyfriend suggest for our date night this month?",
+      "ct": "2023-10-25T19:20:00"
+    },
+    "passage": {
+      "from": "Ryan",
+      "relation": "boyfriend",
+      "group": "Intimate Contacts",
+      "body": "How about we try that new Italian restaurant downtown this Friday?",
+      "ct": "2023-10-20T17:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I plan with Jake last week?",
+      "ct": "2024-11-10T19:30:00"
+    },
+    "passage": {
+      "title": "Photography Workshop",
+      "desc": "Attending a photography workshop with Jake.",
+      "date": "2024-10-31T10:00:00",
+      "ct": "2024-10-27T17:15:00",
+      "location": "Light & Lens Studio",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I plan with Dana a couple months back?",
+      "ct": "2024-11-05T18:00:00"
+    },
+    "passage": {
+      "title": "Media Strategy Session",
+      "desc": "Discussing content strategies with Dana.",
+      "date": "2024-08-25T16:00:00",
+      "ct": "2024-08-15T14:30:00",
+      "location": "Creative Hub",
+      "attendees": [
+        "Dana"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Sasha remind me about the fashion blog update this week?",
+      "ct": "2023-12-05T14:10:00"
+    },
+    "passage": {
+      "from": "Sasha",
+      "relation": "friend",
+      "group": "Fashion Influencers",
+      "body": "Don't forget to update your blog with the latest trends.",
+      "ct": "2023-11-12T14:10:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my mother remind me about the family gathering last fall?",
+      "ct": "2024-03-18T18:30:00"
+    },
+    "passage": {
+      "from": "Scarlet",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "Don't forget to bring your camera for the family reunion this weekend.",
+      "ct": "2023-11-15T16:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I plan with Ryan this weekend?",
+      "ct": "2023-11-23T14:20:00"
+    },
+    "passage": {
+      "title": "Fashion Show Rehearsal",
+      "desc": "Rehearsing for the upcoming fashion show with Ryan.",
+      "date": "2023-11-25T18:00:00",
+      "ct": "2023-11-18T11:30:00",
+      "location": "Runway Models Studio",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a reminder about the yoga session with my friend yesterday?",
+      "ct": "2023-06-03T11:15:00"
+    },
+    "passage": {
+      "from": "Yoga Sanctuary",
+      "relation": "yoga studio",
+      "group": "Health Contacts",
+      "body": "Your session with Sarah is scheduled for 9 AM tomorrow.",
+      "ct": "2023-06-02T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the yoga studio I added to my contacts last week?",
+      "ct": "2023-11-20T10:05:00"
+    },
+    "passage": {
+      "name": "Inner Balance Studio",
+      "relation": "yoga studio",
+      "group": "Wellness Places",
+      "email": "innerbalance@example.com",
+      "ct": "2023-11-13T12:35:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last go to the film festival with my friends?",
+      "ct": "2023-08-20T15:00:00"
+    },
+    "passage": {
+      "title": "Film Festival Screening",
+      "desc": "Watching independent films with friends",
+      "date": "2023-08-12T17:00:00",
+      "ct": "2023-08-08T13:30:00",
+      "location": "Indie Film Festival",
+      "attendees": [
+        "Jake",
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What event am I attending with Lauren next month?",
+      "ct": "2023-11-20T17:00:00"
+    },
+    "passage": {
+      "title": "Beauty Tutorial Workshop",
+      "desc": "Collaborating on a makeup tutorial video",
+      "date": "2023-12-15T10:00:00",
+      "ct": "2023-11-18T16:00:00",
+      "location": "The Art of Makeup Studio",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the makeup tutorialist I followed online?",
+      "ct": "2023-07-25T15:55:00"
+    },
+    "passage": {
+      "name": "Vivian Lee",
+      "relation": "beauty influencer",
+      "group": "Social Media Influencers",
+      "email": "vivianlee@example.com",
+      "ct": "2023-07-15T13:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last visit the makeup studio with Morgan?",
+      "ct": "2023-06-15T11:00:00"
+    },
+    "passage": {
+      "title": "Skincare Consultation",
+      "desc": "Getting a skincare routine check-up with Morgan",
+      "date": "2023-06-02T14:30:00",
+      "ct": "2023-06-01T12:15:00",
+      "location": "Radiant Skin Spa",
+      "attendees": [
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What event am I attending with my mother this weekend?",
+      "ct": "2022-11-11T14:15:00"
+    },
+    "passage": {
+      "title": "Art Gallery Opening",
+      "desc": "Exploring new art exhibits with my mother",
+      "date": "2022-11-12T18:00:00",
+      "ct": "2022-11-07T16:30:00",
+      "location": "The Artisan Gallery",
+      "attendees": [
+        "Scarlet"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the contact for the skincare brand I tried last year?",
+      "ct": "2022-03-20T11:30:00"
+    },
+    "passage": {
+      "name": "Pure Skin Co.",
+      "relation": "skincare brand",
+      "group": "Favorite Brands",
+      "email": "pureskinco@example.com",
+      "ct": "2021-03-10T15:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event am I attending with Ryan next Tuesday?",
+      "ct": "2023-10-10T13:20:00"
+    },
+    "passage": {
+      "title": "Fashion Show",
+      "desc": "Attending a runway show with Ryan",
+      "date": "2023-10-17T19:00:00",
+      "ct": "2023-10-08T14:45:00",
+      "location": "Harmony Fashion Week",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Jake give me his contact info?",
+      "ct": "2024-02-05T19:15:00"
+    },
+    "passage": {
+      "name": "Jake Sanders",
+      "relation": "best friend",
+      "group": "Close Contacts",
+      "email": "jakesanders@example.com",
+      "ct": "2020-01-20T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the contact for the makeup supply store near Mom's house?",
+      "ct": "2021-09-15T12:30:00"
+    },
+    "passage": {
+      "name": "Beauty Essentials",
+      "relation": "beauty supply store",
+      "group": "Local Shops",
+      "email": "beautyessentials@example.com",
+      "ct": "2021-09-10T14:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I book a reservation for my sister's birthday dinner next month?",
+      "ct": "2025-05-10T17:30:00"
+    },
+    "passage": {
+      "title": "Special Birthday Dinner",
+      "desc": "Celebrating Dana's birthday with family",
+      "date": "2025-06-15T19:00:00",
+      "ct": "2025-05-08T15:45:00",
+      "location": "The Grand Feast",
+      "attendees": [
+        "Dana"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I talk to about the makeup convention schedule?",
+      "ct": "2023-09-25T14:15:00"
+    },
+    "passage": {
+      "from": "Lauren",
+      "relation": "makeup artist colleague",
+      "group": "Beauty Expo Contacts",
+      "body": "Check the schedule for the makeup demonstrations on Friday.",
+      "ct": "2023-09-20T16:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the indie film I discussed with Dana last summer?",
+      "ct": "2025-08-10T14:25:00"
+    },
+    "passage": {
+      "name": "Silver Screen Cinema",
+      "relation": "film festival attendee",
+      "group": "Film Enthusiasts",
+      "email": "silverscreen@example.com",
+      "ct": "2024-06-18T16:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was the person I met at the photo shoot last Wednesday?",
+      "ct": "2025-09-15T09:45:00"
+    },
+    "passage": {
+      "name": "Olivia Martinez",
+      "relation": "photographer",
+      "group": "Photography Collaborations",
+      "email": "olivia.martinez@photography.com",
+      "ct": "2025-09-07T17:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was at the makeup workshop with me last fall?",
+      "ct": "2024-02-15T11:45:00"
+    },
+    "passage": {
+      "title": "Makeup Artist Workshop",
+      "desc": "Learning new techniques with industry experts",
+      "date": "2023-11-10T10:00:00",
+      "ct": "2023-11-07T16:15:00",
+      "location": "Beauty Expo Hall",
+      "attendees": [
+        "Lauren",
+        "Dr. Smith"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I schedule a meeting with my mentor last week?",
+      "ct": "2023-09-20T12:45:00"
+    },
+    "passage": {
+      "title": "Career Guidance Session",
+      "desc": "Discussing career goals and professional development plans",
+      "date": "2023-09-14T16:00:00",
+      "ct": "2023-09-10T14:30:00",
+      "location": "The Mentorship Hub",
+      "attendees": [
+        "Dr. Sarah Chen"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I attend the networking event with the usual crew next week?",
+      "ct": "2024-07-10T15:30:00"
+    },
+    "passage": {
+      "title": "Networking Night",
+      "desc": "Connecting with industry professionals and sharing business insights.",
+      "date": "2024-07-18T19:00:00",
+      "ct": "2024-07-08T17:30:23",
+      "location": "The Hub",
+      "attendees": [
+        "David Wilson",
+        "Emily Davis"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I talk to Jakie about the photoshoot next month?",
+      "ct": "2023-11-10T14:45:00"
+    },
+    "passage": {
+      "from": "Jake",
+      "relation": "best friend",
+      "group": "Photography Buddies",
+      "body": "Let's finalize the location for the outdoor shoot in December.",
+      "ct": "2023-11-05T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Lauren suggest about the new makeup palette?",
+      "ct": "2022-09-25T16:45:00"
+    },
+    "passage": {
+      "from": "Lauren",
+      "relation": "colleague",
+      "group": "Beauty Influencers",
+      "body": "Try the new autumn collection for a vibrant look.",
+      "ct": "2022-09-20T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the photographer I added to my contacts before the makeup convention this summer?",
+      "ct": "2025-08-20T14:45:00"
+    },
+    "passage": {
+      "name": "Jake",
+      "relation": "photography enthusiast",
+      "group": "Photo Enthusiasts",
+      "email": "jake.photography@example.com",
+      "ct": "2025-06-15T19:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I meet Ryan for a modeling photoshoot last month?",
+      "ct": "2024-06-15T18:20:00"
+    },
+    "passage": {
+      "title": "Photoshoot Collaboration",
+      "desc": "Creating stunning images and sharing modeling insights.",
+      "date": "2024-05-18T14:00:00",
+      "ct": "2024-05-10T17:15:23",
+      "location": "Studio 32",
+      "attendees": [
+        "Ryan Thompson"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I discuss the yoga retreat with Cupcake?",
+      "ct": "2023-02-15T18:30:00"
+    },
+    "passage": {
+      "from": "Dana",
+      "relation": "sister",
+      "group": "Family Contacts",
+      "body": "The Silent Meditation Retreat in March sounds perfect!",
+      "ct": "2023-02-10T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did I schedule with Dana for this week?",
+      "ct": "2022-11-07T14:15:00"
+    },
+    "passage": {
+      "title": "Content Strategy Session",
+      "desc": "Collaborating on new media projects and discussing content ideas.",
+      "date": "2022-11-09T14:30:00",
+      "ct": "2022-11-06T12:45:23",
+      "location": "Home Office",
+      "attendees": [
+        "Danielle Moore"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I talk to Jakie about the upcoming photoshoot last week?",
+      "ct": "2025-08-10T14:45:00"
+    },
+    "passage": {
+      "from": "Jake",
+      "relation": "best friend",
+      "group": "Photography Buddies",
+      "body": "The studio session is planned for August 15th, let's nail those shots!",
+      "ct": "2025-08-02T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Do I have plans with the usual group this weekend?",
+      "ct": "2023-09-02T16:45:00"
+    },
+    "passage": {
+      "title": "Weekend Get-Together",
+      "desc": "Meeting up for some fun and catching up with friends.",
+      "date": "2023-09-03T19:00:00",
+      "ct": "2023-08-25T18:15:00",
+      "location": "The Hideaway Lounge",
+      "attendees": [
+        "David Wilson",
+        "Emily Davis"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did my neighbor suggest the new spa treatment?",
+      "ct": "2023-05-20T11:15:00"
+    },
+    "passage": {
+      "from": "Morgan",
+      "relation": "neighbor",
+      "group": "Wellness Circle",
+      "body": "The latest facial treatment at Tranquil Spa is amazing!",
+      "ct": "2023-05-15T10:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I plan with Lauren for this week?",
+      "ct": "2023-10-05T13:00:00"
+    },
+    "passage": {
+      "title": "Beauty Tutorial Recording",
+      "desc": "Recording a video tutorial on new makeup techniques.",
+      "date": "2023-10-05T10:00:00",
+      "ct": "2023-10-04T15:45:23",
+      "location": "Makeup Studio 42",
+      "attendees": [
+        "Lauren Scott"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan a trip to visit my mother this summer?",
+      "ct": "2023-06-20T14:30:00"
+    },
+    "passage": {
+      "title": "Summer Visit",
+      "desc": "A week-long stay with family, focusing on quality time and relaxation.",
+      "date": "2022-07-05T09:00:00",
+      "ct": "2022-06-15T10:15:23",
+      "location": "Sunset Beach House",
+      "attendees": [
+        "Scarlet"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was I supposed to meet Jakie for a coffee after that movie last week?",
+      "ct": "2025-07-15T11:00:00"
+    },
+    "passage": {
+      "title": "Post-Movie Meet-Up",
+      "desc": "Discussing the latest indie film and sharing photography tips.",
+      "date": "2025-07-08T16:00:00",
+      "ct": "2025-07-05T14:30:23",
+      "location": "Bean & Brew Coffeehouse",
+      "attendees": [
+        "Jack Miller"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a dinner with my mother this Christmas?",
+      "ct": "2022-11-20T19:48:17"
+    },
+    "passage": {
+      "title": "Christmas Gathering",
+      "desc": "Family reunion over the holidays",
+      "date": "2022-12-25T09:00:00",
+      "ct": "2022-11-15T10:10:25",
+      "location": "Mom's",
+      "attendees": [
+        "Scarlet"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the person from the yoga retreat to my contacts?",
+      "ct": "2022-05-15T11:30:00"
+    },
+    "passage": {
+      "name": "Samantha Greene",
+      "relation": "yoga instructor",
+      "group": "Wellness Retreats",
+      "email": "samantha.green@serenityyoga.com",
+      "ct": "2022-05-01T09:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who is the person I met at the eco-friendly product fair last month?",
+      "ct": "2024-03-10T18:45:00"
+    },
+    "passage": {
+      "name": "Sophia Patel",
+      "relation": "sustainability advocate",
+      "group": "Green Living",
+      "email": "sophia.patel@greenplanet.com",
+      "ct": "2024-02-15T15:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a yoga session with Morgan last month?",
+      "ct": "2025-04-10T14:30:00"
+    },
+    "passage": {
+      "title": "Yoga Retreat",
+      "desc": "Spending a day of relaxation with Morgan",
+      "date": "2025-03-20T09:00:00",
+      "ct": "2025-03-15T11:15:00",
+      "location": "Mountain Top Yoga",
+      "attendees": [
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a dinner planned with Big Guy this month?",
+      "ct": "2023-05-15T17:45:00"
+    },
+    "passage": {
+      "title": "Romantic Dinner",
+      "desc": "Special night out with Ryan",
+      "date": "2023-05-20T19:00:00",
+      "ct": "2023-05-10T12:30:00",
+      "location": "Le Petit Paris",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I join a makeup tutorial with Lauren a couple of months back?",
+      "ct": "2023-10-10T10:15:00"
+    },
+    "passage": {
+      "title": "Skincare Routine Workshop",
+      "desc": "Learning new skincare techniques with Lauren",
+      "date": "2023-08-20T14:00:00",
+      "ct": "2023-08-15T17:45:00",
+      "location": "Beauty Lab",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the person from the fashion show to my contacts a few weeks ago?",
+      "ct": "2025-07-25T14:30:02"
+    },
+    "passage": {
+      "name": "Jordan Scott",
+      "relation": "fashion designer",
+      "group": "Fashionistas",
+      "email": "jordan.scott@stylehub.com",
+      "ct": "2025-06-30T17:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan to go to the beach with my sister?",
+      "ct": "2021-07-20T14:30:00"
+    },
+    "passage": {
+      "title": "Summer Beach Day",
+      "desc": "Relaxing at the coast with Dana",
+      "date": "2021-07-25T10:00:00",
+      "ct": "2021-07-18T16:45:00",
+      "location": "Sunset Beach",
+      "attendees": [
+        "Dana"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I send a message to Cupcake about the film festival this week?",
+      "ct": "2023-09-15T14:30:00"
+    },
+    "passage": {
+      "from": "Dana",
+      "relation": "sister",
+      "group": "Film Enthusiasts",
+      "body": "Can't wait for the film festival this week. Should be a lot of fun!",
+      "ct": "2023-09-12T10:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place where I attended the makeup expo last weekend?",
+      "ct": "2025-09-25T16:23:45"
+    },
+    "passage": {
+      "from": "Expo Organizer",
+      "relation": "exhibitor",
+      "group": "Beauty Expo",
+      "body": "Your booth at the recent makeup expo was a huge success. Thank you for participating!",
+      "ct": "2025-09-20T18:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I attend a makeup convention with my best friend last week?",
+      "ct": "2023-03-25T14:30:00"
+    },
+    "passage": {
+      "title": "Cosmetics Convention",
+      "desc": "Exploring the latest trends with Jake",
+      "date": "2023-03-18T12:00:00",
+      "ct": "2023-03-01T15:45:00",
+      "location": "Convention Center",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I send a message to about the makeup blog post last fall?",
+      "ct": "2025-04-10T14:30:00"
+    },
+    "passage": {
+      "from": "Jada",
+      "relation": "self",
+      "group": "Beauty Blogging",
+      "body": "Finished writing the new makeup blog post. Let me know what you think!",
+      "ct": "2024-10-25T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I book a session with Ryan at the gym last month?",
+      "ct": "2025-02-05T17:15:00"
+    },
+    "passage": {
+      "title": "Fitness Training",
+      "desc": "Scheduled a workout session with fitness coach at the downtown gym.",
+      "date": "2025-01-21T16:00:00",
+      "ct": "2024-12-30T14:30:00",
+      "location": "Urban Gym",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who was I supposed to meet for a makeup convention this weekend?",
+      "ct": "2023-11-12T19:45:00"
+    },
+    "passage": {
+      "title": "Beauty Convention",
+      "desc": "Meeting industry professionals and attending sessions on the latest makeup trends.",
+      "date": "2023-11-11T13:00:00",
+      "ct": "2023-10-27T15:20:00",
+      "location": "Los Angeles Convention Center",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I go to the beach with my cousin?",
+      "ct": "2022-08-15T11:30:00"
+    },
+    "passage": {
+      "title": "Beach Day",
+      "desc": "Relaxing and enjoying the sun with family at the coastal resort.",
+      "date": "2022-08-10T10:00:00",
+      "ct": "2022-07-30T15:00:00",
+      "location": "Coastal Resort",
+      "attendees": [
+        "Hannah"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the person who recommended the natural skincare line to my contacts last week?",
+      "ct": "2025-04-12T16:30:00"
+    },
+    "passage": {
+      "name": "Mia",
+      "relation": "skincare expert",
+      "group": "Natural Skincare Advocates",
+      "email": "mia.skincare@gmail.com",
+      "ct": "2025-04-05T13:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan a trip to the mountains with my mother last summer?",
+      "ct": "2025-10-15T10:20:00"
+    },
+    "passage": {
+      "title": "Mountain Getaway",
+      "desc": "Spending a week hiking and exploring the mountain trails.",
+      "date": "2024-08-10T08:00:00",
+      "ct": "2024-07-25T12:30:00",
+      "location": "Mountain Trails",
+      "attendees": [
+        "Scarlet"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I join with Dana last spring?",
+      "ct": "2025-09-18T15:00:00"
+    },
+    "passage": {
+      "title": "Spring Workshop",
+      "desc": "Participating in a workshop focused on inclusive makeup tutorials and skincare routines.",
+      "date": "2024-05-15T10:00:00",
+      "ct": "2024-04-30T11:15:00",
+      "location": "Beauty Expo Hall",
+      "attendees": [
+        "Dana"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the fashion event Sasha and I attended last year?",
+      "ct": "2023-11-10T14:30:00"
+    },
+    "passage": {
+      "title": "Fashion Week",
+      "desc": "Exploring new trends and designs at the runway show",
+      "date": "2022-10-15T19:00:00",
+      "ct": "2022-10-05T17:30:00",
+      "location": "Fashion Pavilion, downtown LA",
+      "attendees": [
+        "Sasha"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did Morgan and I meet for a skincare consultation?",
+      "ct": "2025-07-20T18:00:00"
+    },
+    "passage": {
+      "title": "Skin Consultation",
+      "desc": "Discussing natural skincare products and routines",
+      "date": "2025-07-10T15:00:00",
+      "ct": "2025-07-05T14:15:00",
+      "location": "Spa Sanctuary, Venice Beach",
+      "attendees": [
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the person who helped me with my car repairs to my contacts 3 months ago?",
+      "ct": "2023-08-10T11:00:00"
+    },
+    "passage": {
+      "name": "Mike",
+      "relation": "mechanic",
+      "group": "Auto Repairs",
+      "email": "mike@auto-repairs.com",
+      "ct": "2023-05-15T17:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I talk to my cousin about the new job opportunity?",
+      "ct": "2022-09-10T14:30:00"
+    },
+    "passage": {
+      "from": "Ava",
+      "relation": "cousin",
+      "group": "Family Contacts",
+      "body": "Just got a call from HR about the position. They want to set up an interview next week.",
+      "ct": "2022-09-08T11:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did I attend with Jake last fall?",
+      "ct": "2023-12-10T14:45:00"
+    },
+    "passage": {
+      "title": "Autumn Photo Shoot",
+      "desc": "Capturing seasonal photos at the botanical gardens",
+      "date": "2022-10-15T10:00:00",
+      "ct": "2022-10-05T13:30:00",
+      "location": "Botanical Gardens, Pasadena",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did Lauren and I collaborate on last month?",
+      "ct": "2023-10-05T16:45:00"
+    },
+    "passage": {
+      "title": "Beauty Tutorial Collaboration",
+      "desc": "Creating a new makeup tutorial video series",
+      "date": "2023-09-15T16:00:00",
+      "ct": "2023-09-05T12:00:00",
+      "location": "Makeup Studio, West Hollywood",
+      "attendees": [
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did the guy from the fitness studio give me his number last month?",
+      "ct": "2025-05-10T14:25:00"
+    },
+    "passage": {
+      "name": "Ben",
+      "relation": "fitness instructor",
+      "group": "Fitness Centers",
+      "email": "ben@fitnesscenter.com",
+      "ct": "2025-04-15T08:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I go to the yoga studio with Ryan?",
+      "ct": "2025-01-15T16:30:00"
+    },
+    "passage": {
+      "title": "Yoga Practice",
+      "desc": "Spending time at the studio for a calming session",
+      "date": "2024-12-20T18:00:00",
+      "ct": "2024-12-15T14:45:00",
+      "location": "Yoga Oasis, Santa Monica",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I confirm the yoga retreat plans with my neighbor a couple of weeks ago?",
+      "ct": "2023-10-05T13:15:00"
+    },
+    "passage": {
+      "from": "Morgan",
+      "relation": "neighbor",
+      "group": "Health Contacts",
+      "body": "Yoga retreat details are all set for this weekend.",
+      "ct": "2023-09-20T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did Ryan remind me about the modeling gig this winter?",
+      "ct": "2024-12-05T14:15:00"
+    },
+    "passage": {
+      "from": "Ryan",
+      "relation": "boyfriend",
+      "group": "Romantic Partners",
+      "body": "Don't forget your audition for the winter fashion show on December 15th.",
+      "ct": "2024-11-25T11:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who reminded me about the meeting with the photography collective last spring?",
+      "ct": "2025-09-10T10:25:00"
+    },
+    "passage": {
+      "from": "PhotoArt Collective",
+      "relation": "photography collective",
+      "group": "Creative Collaborations",
+      "body": "Reminder: Our meeting is scheduled for March 15th at 3 PM.",
+      "ct": "2024-03-10T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who told me about the new skincare line at the expo last month?",
+      "ct": "2025-07-15T13:30:00"
+    },
+    "passage": {
+      "from": "Expo Organizer",
+      "relation": "event organizer",
+      "group": "Trade Shows",
+      "body": "The new skincare line has received great reviews.",
+      "ct": "2025-06-20T11:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the place where I had my first pottery workshop last summer?",
+      "ct": "2025-08-15T10:15:00"
+    },
+    "passage": {
+      "name": "Crafty Creations Studio",
+      "relation": "student",
+      "group": "Handicraft Classes",
+      "email": "craftystudio@example.com",
+      "ct": "2024-07-10T17:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my mentor advise regarding my makeup skills during our last session?",
+      "ct": "2022-05-10T13:45:00"
+    },
+    "passage": {
+      "from": "Dr. Smith",
+      "relation": "mentor",
+      "group": "Makeup Artists",
+      "body": "Practice blending techniques for a flawless look.",
+      "ct": "2022-04-28T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I attended with Big Guy last week?",
+      "ct": "2023-12-15T19:45:00"
+    },
+    "passage": {
+      "title": "Winter Fashion Show",
+      "desc": "Seasonal collection showcase with designer outfits",
+      "date": "2023-12-10T19:00:00",
+      "ct": "2023-12-05T14:30:00",
+      "location": "Fashion Hall",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did my neighbor suggest for my skin concerns during our last conversation?",
+      "ct": "2025-05-20T16:45:00"
+    },
+    "passage": {
+      "from": "Morgan",
+      "relation": "neighbor",
+      "group": "Skin Care Advice",
+      "body": "Try the new facial mask from the spa. It's perfect for sensitive skin.",
+      "ct": "2025-05-10T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Dana suggest for my makeup kit last week?",
+      "ct": "2022-09-20T16:00:00"
+    },
+    "passage": {
+      "from": "Dana",
+      "relation": "sister",
+      "group": "Siblings",
+      "body": "Consider adding that new eyeshadow palette to your collection.",
+      "ct": "2022-09-12T15:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I add to my contacts for the upcoming furniture installation?",
+      "ct": "2024-01-20T10:20:45"
+    },
+    "passage": {
+      "name": "Dean",
+      "relation": "installer",
+      "group": "Home Improvement",
+      "email": "dean@movables.com",
+      "ct": "2024-01-18T18:15:05"
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the restaurant that Cupcake loves?",
+      "ct": "2022-05-10T12:30:00"
+    },
+    "passage": {
+      "name": "The Spice Kitchen",
+      "relation": "favorite restaurant",
+      "group": "Sister's Favorites",
+      "email": "thespicekitchen@example.com",
+      "ct": "2022-04-15T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I plan to go to the art gallery opening next month?",
+      "ct": "2024-10-05T14:30:00"
+    },
+    "passage": {
+      "title": "Gallery Opening",
+      "desc": "Exhibition of contemporary artworks",
+      "date": "2024-11-01T18:00:00",
+      "ct": "2024-09-06T14:30:00",
+      "location": "Artisan Gallery",
+      "attendees": [
+        "Dr. Smith"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event I attended with Big Guy last weekend?",
+      "ct": "2023-05-20T18:25:00"
+    },
+    "passage": {
+      "title": "Fashion Show",
+      "desc": "Stylish runway display featuring new collections",
+      "date": "2023-05-14T19:00:00",
+      "ct": "2023-05-06T12:30:00",
+      "location": "Chic Runway",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Jake recommend for my next photo shoot setup?",
+      "ct": "2023-07-15T18:30:00"
+    },
+    "passage": {
+      "from": "Jake",
+      "relation": "best friend",
+      "group": "Photography Buddies",
+      "body": "Invest in a new ring light for better lighting.",
+      "ct": "2023-07-05T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who told me about the makeup convention in the last couple of months?",
+      "ct": "2025-08-20T14:45:00"
+    },
+    "passage": {
+      "from": "The Beauty Bloggers' Network",
+      "relation": "community",
+      "group": "Beauty Influencers",
+      "body": "Registration is open for the annual makeup convention next month.",
+      "ct": "2025-07-25T12:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I talk to Lauren about the beauty routine she recommended last summer?",
+      "ct": "2023-11-15T10:15:00"
+    },
+    "passage": {
+      "from": "Lauren",
+      "relation": "colleague",
+      "group": "Beauty Tutorials",
+      "body": "I tried the new moisturizer, and it's fantastic!",
+      "ct": "2022-06-10T15:20:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the dinner I had with my mom last summer?",
+      "ct": "2023-12-15T17:30:00"
+    },
+    "passage": {
+      "title": "Mother-Daughter Dinner",
+      "desc": "Enjoying a delicious meal together",
+      "date": "2022-07-25T19:00:00",
+      "ct": "2022-07-20T12:00:00",
+      "location": "The Olive Grove",
+      "attendees": [
+        "Scarlet"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I receive a message from the Film Festival organizers about the upcoming event?",
+      "ct": "2024-03-15T18:00:00"
+    },
+    "passage": {
+      "from": "Film Festival",
+      "relation": "organizer",
+      "group": "Entertainment Events",
+      "body": "The annual Film Festival is set for March 25th at the Downtown Theater.",
+      "ct": "2024-03-10T15:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I get a message from the Yoga Collective about the retreat this summer?",
+      "ct": "2025-07-15T12:00:00"
+    },
+    "passage": {
+      "from": "Yoga Collective",
+      "relation": "organization",
+      "group": "Wellness Groups",
+      "body": "The summer retreat at Serenity Hills is from July 20th to 25th.",
+      "ct": "2025-07-10T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Cupcake tell me about her latest media project last week?",
+      "ct": "2024-06-20T14:45:00"
+    },
+    "passage": {
+      "from": "Dana",
+      "relation": "sister",
+      "group": "Media Contacts",
+      "body": "I've started working on a new documentary series, it's super exciting!",
+      "ct": "2024-06-15T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was there a get-together with the OGs this summer?",
+      "ct": "2023-08-25T11:00:00"
+    },
+    "passage": {
+      "title": "Summer BBQ",
+      "desc": "Relaxing evening with friends enjoying good food",
+      "date": "2023-08-15T18:00:00",
+      "ct": "2023-08-05T10:00:00",
+      "location": "Pineview Park",
+      "attendees": [
+        "Michael",
+        "Jessica",
+        "Laura"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Sasha say about the fashion event this weekend?",
+      "ct": "2024-09-21T14:30:00"
+    },
+    "passage": {
+      "from": "Sasha",
+      "relation": "friend",
+      "group": "Fashion Influencers",
+      "body": "Excited for the runway show at the Metropolitan Gallery this Saturday!",
+      "ct": "2024-09-20T18:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I plan a makeup convention with Jakie?",
+      "ct": "2023-09-10T14:45:00"
+    },
+    "passage": {
+      "title": "Makeup Convention",
+      "desc": "Attending booths and workshops showcasing new products",
+      "date": "2023-09-05T10:00:00",
+      "ct": "2023-08-25T12:00:00",
+      "location": "Cosmetics Expo",
+      "attendees": [
+        "Jake"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the person who taught me yoga last summer?",
+      "ct": "2022-11-15T12:45:00"
+    },
+    "passage": {
+      "name": "Morgan Lee",
+      "relation": "yoga instructor",
+      "group": "Wellness Guides",
+      "email": "morganlee@wellnesscenter.com",
+      "ct": "2021-08-05T10:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my aunt remind me about the camping trip last week?",
+      "ct": "2023-05-15T18:00:00"
+    },
+    "passage": {
+      "from": "Aunt Lisa",
+      "relation": "aunt",
+      "group": "Family Contacts",
+      "body": "The camping trip with the cousins is planned for this weekend at Pine Valley Reserve.",
+      "ct": "2023-05-10T15:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I get a message from Dad about the holiday plans last month?",
+      "ct": "2023-11-15T14:15:00"
+    },
+    "passage": {
+      "from": "David",
+      "relation": "father",
+      "group": "Family Contacts",
+      "body": "We're planning a family trip to the mountains for Thanksgiving.",
+      "ct": "2023-10-15T16:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did Morgan remind me about the skincare routine session next spring?",
+      "ct": "2025-02-10T16:45:00"
+    },
+    "passage": {
+      "from": "Morgan",
+      "relation": "neighbor",
+      "group": "Health Contacts",
+      "body": "The skincare routine session at the Natural Oasis Spa is on April 15th.",
+      "ct": "2025-02-05T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did i get a message from the photography club about the exhibition happening next month?",
+      "ct": "2023-08-14T12:00:00"
+    },
+    "passage": {
+      "from": "Photography Club",
+      "relation": "organization",
+      "group": "Artistic Groups",
+      "body": "The annual photography exhibition opens on September 15th at the Art Gallery.",
+      "ct": "2023-08-12T12:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I get a message from Roomie about our study plans this evening?",
+      "ct": "2024-10-15T17:30:00"
+    },
+    "passage": {
+      "from": "Charlie",
+      "relation": "roommate",
+      "group": "Study Buddies",
+      "body": "Let's meet at the library at 7 PM to prepare for the exam.",
+      "ct": "2024-10-14T19:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I meet Morgan for a coffee talk last week?",
+      "ct": "2023-07-29T12:30:00"
+    },
+    "passage": {
+      "title": "Coffee Catch-Up",
+      "desc": "Discussing skincare routines and industry trends",
+      "date": "2023-07-22T16:00:00",
+      "ct": "2023-07-15T10:00:00",
+      "location": "Bean & Brew",
+      "attendees": [
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the person who helped me with my camera settings to my contacts?",
+      "ct": "2022-12-10T14:30:00"
+    },
+    "passage": {
+      "name": "Benjamin King",
+      "relation": "photography tutor",
+      "group": "Photo Enthusiasts",
+      "email": "benking@photography.com",
+      "ct": "2022-11-25T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Am I attending the yoga retreat with my sister this weekend?",
+      "ct": "2023-09-22T16:00:00"
+    },
+    "passage": {
+      "title": "Yoga Retreat",
+      "desc": "Three-day intensive practice and meditation",
+      "date": "2023-09-23T08:00:00",
+      "ct": "2023-09-15T10:00:00",
+      "location": "Mountain Serenity",
+      "attendees": [
+        "Dana"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I hear from Coach about the fitness challenge next month?",
+      "ct": "2023-09-15T14:45:00"
+    },
+    "passage": {
+      "from": "Fitness Fusion",
+      "relation": "trainer",
+      "group": "Health Clubs",
+      "body": "The Fitness Challenge starts on October 1st. Are you ready to take on the leaderboard?",
+      "ct": "2023-09-10T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my mother send me a message about the family gathering this summer?",
+      "ct": "2025-07-15T10:30:00"
+    },
+    "passage": {
+      "from": "Scarlet",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "Just a reminder that the family reunion is scheduled for August 20th at the lake house.",
+      "ct": "2025-07-05T09:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the event Sasha invited me to last winter?",
+      "ct": "2024-02-15T17:45:00"
+    },
+    "passage": {
+      "title": "Fashion Week Preview",
+      "desc": "Exclusive showcase of upcoming collections",
+      "date": "2023-12-10T14:00:00",
+      "ct": "2023-11-25T12:00:00",
+      "location": "Designers' Den",
+      "attendees": [
+        "Sasha"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I watch an indie film with Big Guy?",
+      "ct": "2025-03-15T19:45:00"
+    },
+    "passage": {
+      "title": "Film Festival Screening",
+      "desc": "Attending a special screening of an independent film",
+      "date": "2025-03-10T19:30:00",
+      "ct": "2025-02-28T14:00:00",
+      "location": "Cinema Paradiso",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What is the name of the person who recommended me the latest skincare products?",
+      "ct": "2023-05-20T17:45:00"
+    },
+    "passage": {
+      "name": "Lily Chen",
+      "relation": "beauty consultant",
+      "group": "Skincare Enthusiasts",
+      "email": "lilychen@skincareblog.com",
+      "ct": "2023-05-10T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I get a message from the Music Society about the concert this weekend?",
+      "ct": "2025-05-10T16:45:00"
+    },
+    "passage": {
+      "from": "Music Society",
+      "relation": "organization",
+      "group": "Music Enthusiasts",
+      "body": "Don't miss the concert at Harmony Hall this Saturday!",
+      "ct": "2025-04-13T16:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who is the person I met at the makeup expo last fall?",
+      "ct": "2023-03-15T15:45:00"
+    },
+    "passage": {
+      "name": "Sophie Turner",
+      "relation": "cosmetics entrepreneur",
+      "group": "Beauty Entrepreneurs",
+      "email": "sophieturner@cosmetics.com",
+      "ct": "2022-10-20T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Was I supposed to meet my mom for dinner this weekend?",
+      "ct": "2023-11-25T20:30:00"
+    },
+    "passage": {
+      "title": "Family Dinner",
+      "desc": "Weekly gathering with my mother at her favorite restaurant.",
+      "date": "2023-11-26T18:30:00",
+      "ct": "2023-11-20T17:00:00",
+      "location": "Mom's Favorite Bistro",
+      "attendees": [
+        "Scarlet"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my neighbor recommend a facial treatment for my upcoming event?",
+      "ct": "2023-08-01T15:45:00"
+    },
+    "passage": {
+      "from": "Morgan",
+      "relation": "neighbor",
+      "group": "Esthetician Recommendations",
+      "body": "I'd suggest the hydrating facial for your big day. It'll leave your skin glowing!",
+      "ct": "2023-07-25T12:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my mentor inform me about the makeup techniques workshop last year?",
+      "ct": "2023-12-01T18:45:00"
+    },
+    "passage": {
+      "from": "Dr. Smith",
+      "relation": "mentor",
+      "group": "Professional Development",
+      "body": "The advanced makeup techniques workshop is scheduled for January. See you there!",
+      "ct": "2022-12-25T15:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the person who helped me with my yoga practice a couple of months ago?",
+      "ct": "2025-05-10T16:30:00"
+    },
+    "passage": {
+      "name": "Priya",
+      "relation": "yoga instructor",
+      "group": "Wellness Teachers",
+      "email": "priya@yogaflex.com",
+      "ct": "2025-03-15T11:00:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place where I went hiking with my sister last month?",
+      "ct": "2023-10-05T11:45:00"
+    },
+    "passage": {
+      "title": "Outdoor Adventure",
+      "desc": "Hiking through scenic trails with Dana.",
+      "date": "2023-09-15T09:00:00",
+      "ct": "2023-09-05T14:00:00",
+      "location": "Mountain Vista Trail",
+      "attendees": [
+        "Dana"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did my neighbor recommend a skincare product for dry skin?",
+      "ct": "2023-05-01T14:15:00"
+    },
+    "passage": {
+      "from": "Morgan",
+      "relation": "neighbor",
+      "group": "Skin Health",
+      "body": "Try this new moisturizer for dry skin. It's been a game-changer!",
+      "ct": "2023-04-25T12:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Sasha tell me about her latest fashion blog post?",
+      "ct": "2025-01-15T17:30:00"
+    },
+    "passage": {
+      "from": "Sasha",
+      "relation": "friend",
+      "group": "Fashion Influencers",
+      "body": "Check out my latest blog post on sustainable fashion. Let me know what you think!",
+      "ct": "2025-01-10T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Lauren tell me about the skincare routine she shared last month?",
+      "ct": "2022-05-15T09:10:00"
+    },
+    "passage": {
+      "from": "Lauren",
+      "relation": "colleague",
+      "group": "Skincare Tips",
+      "body": "Just tried the new serum, it's amazing! You should give it a shot.",
+      "ct": "2022-04-25T16:25:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I schedule a meeting with Big Guy this week?",
+      "ct": "2023-08-25T14:30:00"
+    },
+    "passage": {
+      "title": "Date Night",
+      "desc": "Spending quality time with Big Guy at a cozy café.",
+      "date": "2023-08-27T19:00:00",
+      "ct": "2023-08-20T16:00:00",
+      "location": "The Cozy Corner",
+      "attendees": [
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I add the person who recommended me a new indie film last year?",
+      "ct": "2023-11-10T18:45:00"
+    },
+    "passage": {
+      "name": "David",
+      "relation": "movie buff",
+      "group": "Cinema Lovers",
+      "email": "david@filmforum.com",
+      "ct": "2022-11-15T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I book a session with my yoga instructor this week?",
+      "ct": "2023-12-05T17:15:00"
+    },
+    "passage": {
+      "title": "Yoga Retreat",
+      "desc": "Private yoga session focusing on stress relief and mindfulness.",
+      "date": "2023-12-08T10:30:00",
+      "ct": "2023-12-03T09:30:00",
+      "location": "Inner Peace Studio",
+      "attendees": [
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the yoga studio I visited with Morgan last week?",
+      "ct": "2023-12-05T14:30:00"
+    },
+    "passage": {
+      "title": "Yoga Practice",
+      "desc": "Session focused on flexibility and balance.",
+      "date": "2023-11-28T10:00:00",
+      "ct": "2023-11-20T15:00:00",
+      "location": "Inner Balance Studio",
+      "attendees": [
+        "Morgan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What did Lauren tell me about her recent makeup tutorial?",
+      "ct": "2022-09-15T11:00:00"
+    },
+    "passage": {
+      "from": "Lauren",
+      "relation": "colleague",
+      "group": "Makeup Tutorials",
+      "body": "Just posted a new tutorial on Instagram. Give it a watch and let me know what you think!",
+      "ct": "2022-09-10T13:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the makeup brand I discussed with Dr. Smith last year?",
+      "ct": "2025-03-15T13:00:00"
+    },
+    "passage": {
+      "from": "Dr. Smith",
+      "relation": "mentor",
+      "group": "Makeup Artists",
+      "body": "We should try the new line from Luxe Cosmetics at the next studio session.",
+      "ct": "2024-03-10T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I visited with my neighbor last spring?",
+      "ct": "2025-09-25T16:23:45"
+    },
+    "passage": {
+      "title": "Spring Cleanup",
+      "desc": "Organizing a neighborhood cleanup day.",
+      "date": "2024-04-26T14:00:00",
+      "ct": "2024-04-15T13:45:30",
+      "location": "Community Park",
+      "attendees": [
+        "Morgan Turner"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I attend the conference with my mother?",
+      "ct": "2022-05-25T14:45:00"
+    },
+    "passage": {
+      "title": "Parental Education Conference",
+      "desc": "Discussing educational strategies and resources for parents.",
+      "date": "2022-06-05T09:00:00",
+      "ct": "2022-05-20T10:15:00",
+      "location": "Education Center",
+      "attendees": [
+        "Mrs. Moore"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I tell my mom about the surprise for Cupcake's birthday this weekend?",
+      "ct": "2022-07-15T18:00:00"
+    },
+    "passage": {
+      "from": "Scarlet",
+      "relation": "mother",
+      "group": "Family Contacts",
+      "body": "I heard you're planning a special day for Dana. She'll love it!",
+      "ct": "2022-07-12T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I visited with Big Guy last summer?",
+      "ct": "2023-11-25T11:45:00"
+    },
+    "passage": {
+      "title": "Summer Getaway",
+      "desc": "Relaxing vacation at a picturesque lakeside resort.",
+      "date": "2022-07-10T10:00:00",
+      "ct": "2022-06-25T14:20:00",
+      "location": "Blue Lake Resort",
+      "attendees": [
+        "Ryan Johnson"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I discuss the upcoming convention with Jake a couple of months ago?",
+      "ct": "2023-10-05T17:45:00"
+    },
+    "passage": {
+      "from": "Jake",
+      "relation": "best friend",
+      "group": "Photography Buddies",
+      "body": "The convention is coming up in two months, let's start planning.",
+      "ct": "2023-08-01T16:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event am I attending with my sister Cupcake next month?",
+      "ct": "2023-10-15T18:45:00"
+    },
+    "passage": {
+      "title": "Beauty Expo",
+      "desc": "Exploring the latest trends in makeup and skincare at the annual expo.",
+      "date": "2023-11-15T10:00:00",
+      "ct": "2023-10-05T14:30:00",
+      "location": "Los Angeles Convention Center",
+      "attendees": [
+        "Dana Moore"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I remind Sasha about the fashion tips she shared last summer?",
+      "ct": "2023-09-05T11:00:00"
+    },
+    "passage": {
+      "from": "Sasha",
+      "relation": "friend",
+      "group": "Fashion Influencers",
+      "body": "Remember those tips for summer looks? They're still relevant!",
+      "ct": "2023-06-20T13:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I visited with Sash last weekend?",
+      "ct": "2023-04-15T16:20:00"
+    },
+    "passage": {
+      "title": "Fashion Show",
+      "desc": "Attending a runway show featuring the latest collections.",
+      "date": "2023-04-08T19:00:00",
+      "ct": "2023-04-03T11:00:00",
+      "location": "Fashion Palace",
+      "attendees": [
+        "Sasha Parker",
+        "Lily Mavens"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I save the contact for the indie filmmaker I met at the festival last year?",
+      "ct": "2023-10-15T18:45:00"
+    },
+    "passage": {
+      "name": "Independent Filmmaker",
+      "relation": "film director",
+      "group": "Indie Film Festivals",
+      "email": "filmmaker@indiefestivals.com",
+      "ct": "2022-09-22T14:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I confirm plans with Lauren for the beauty expo?",
+      "ct": "2025-07-15T09:25:34"
+    },
+    "passage": {
+      "from": "Lauren",
+      "relation": "colleague",
+      "group": "Beauty Expo Team",
+      "body": "We're all set for the expo on the 20th. See you there!",
+      "ct": "2025-07-10T10:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I plan to meet at the makeup studio on the last day of May?",
+      "ct": "2023-06-05T18:15:00"
+    },
+    "passage": {
+      "title": "Makeup Artist Collaboration",
+      "desc": "Collaborative session with renowned makeup artists",
+      "date": "2023-05-31T14:00:00",
+      "ct": "2023-05-25T12:30:00",
+      "location": "Artisan Palette Studio",
+      "attendees": [
+        "Dr. Smith",
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I last speak to Dana about her new project?",
+      "ct": "2023-11-10T17:15:00"
+    },
+    "passage": {
+      "from": "Dana",
+      "relation": "sister",
+      "group": "Media Contacts",
+      "body": "I'm excited about the launch of our new project next month. We need to coordinate our schedules.",
+      "ct": "2023-11-05T14:45:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the date of the dinner I had with my cousin at that fancy restaurant?",
+      "ct": "2023-08-20T19:45:00"
+    },
+    "passage": {
+      "from": "Aunt Lisa",
+      "relation": "relative",
+      "group": "Family Contacts",
+      "body": "Your cousin and I booked a table for you at Le Gourmet on the 25th at 6 PM. Don't forget!",
+      "ct": "2023-08-15T10:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "Who is the person from the yoga retreat I attended last summer?",
+      "ct": "2023-09-10T17:52:15"
+    },
+    "passage": {
+      "name": "Yoga Retreat Leader",
+      "relation": "yoga instructor",
+      "group": "Wellness Retreats",
+      "email": "leader@yogaretreat.com",
+      "ct": "2022-08-20T12:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What event did Cupcake remind me about a couple of months back?",
+      "ct": "2023-11-05T09:25:00"
+    },
+    "passage": {
+      "title": "Family Reunion",
+      "desc": "Planning a gathering to celebrate Thanksgiving",
+      "date": "2023-09-15T18:00:00",
+      "ct": "2023-09-01T11:15:00",
+      "location": "Grandparents' House",
+      "attendees": [
+        "Dana",
+        "Ryan"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Who did I plan to meet at the yoga studio between last Wednesday and next Sunday?",
+      "ct": "2023-09-20T17:30:00"
+    },
+    "passage": {
+      "title": "Yoga Retreat",
+      "desc": "Joining a retreat focused on relaxation and mindfulness",
+      "date": "2023-09-15T14:00:00",
+      "ct": "2023-09-10T10:45:00",
+      "location": "Zen Sanctuary",
+      "attendees": [
+        "Jake",
+        "Sasha"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the yoga instructor I met at the studio?",
+      "ct": "2021-09-10T17:52:15"
+    },
+    "passage": {
+      "name": "Yoga Guru",
+      "relation": "yoga instructor",
+      "group": "Wellness Contacts",
+      "email": "yogaguru@example.com",
+      "ct": "2021-08-20T12:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "When did I meet with my mother for her birthday?",
+      "ct": "2022-10-05T15:45:00"
+    },
+    "passage": {
+      "from": "Scarlet",
+      "relation": "parent",
+      "group": "Family Contacts",
+      "body": "Looking forward to celebrating my birthday with you on the 10th at 7 PM. Let's make it a special day!",
+      "ct": "2022-09-25T14:30:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the date of the dinner I had with my dad at his favorite restaurant?",
+      "ct": "2023-12-05T18:20:00"
+    },
+    "passage": {
+      "from": "David",
+      "relation": "parent",
+      "group": "Family Contacts",
+      "body": "I've made a reservation at The Golden Plate for us on the 10th at 7 PM. Hope you can make it.",
+      "ct": "2023-12-01T16:15:00"
+    }
+  },
+  {
+    "query": {
+      "txt": "What was the name of the place I attended for the skincare routine workshop this summer?",
+      "ct": "2023-09-10T14:45:00"
+    },
+    "passage": {
+      "title": "Skincare Routine Workshop",
+      "desc": "Learning about effective skincare regimens",
+      "date": "2023-08-15T10:00:00",
+      "ct": "2023-08-05T12:00:00",
+      "location": "Pure Glow Spa",
+      "attendees": [
+        "Morgan",
+        "Lauren"
+      ]
+    }
+  },
+  {
+    "query": {
+      "txt": "Did I save the contact for the esthetician who recommended the facial treatment?",
+      "ct": "2022-07-25T10:30:00"
+    },
+    "passage": {
+      "name": "Skin Care Specialist",
+      "relation": "esthetician",
+      "group": "Beauty Experts",
+      "email": "specialist@skincarespecialist.com",
+      "ct": "2022-07-18T16:45:00"
+    }
+  }
+]
